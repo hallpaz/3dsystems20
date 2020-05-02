@@ -1,0 +1,4 @@
+.DS_STore
+__pycache__/*
+venv/*
+.ipynb_checkpoints/*
