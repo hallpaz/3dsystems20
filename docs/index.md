@@ -7,4 +7,25 @@ The objective of this assignment is to get familiarized with tha AI graphics pla
 
 ### Creating primitives with PyTorch3D
 
-PyTorch3D was designed to work with 3D meshes. 
+PyTorch3D was designed to work with 3D meshes. Because of that, I started trying to understand how to operate with [the Mesh data structure of the library](https://pytorch3d.org/docs/batching). While running the tutorials, I discovered that the library has one module called "utils" where there are functions to generate a sphere and a torus mesh as primitives. I seemed to me that writing my own functions to generate other primitive forms could be a good exercise to undestand the PyTorch3D meshes. Besides that, it's a work that could be submitted as contribution to the library as it's open source.
+
+First, inspired by the availability of primitives in [Blender](https://docs.blender.org/manual/en/latest/modeling/meshes/primitives.html) and [Unity](https://docs.unity3d.com/Manual/PrimitiveObjects.html), I created a cube and a cylinder, basic shapes that were missing. The shapes were added in a manner fully compatible with the library.
+
+>> code here
+
+>> image here
+
+After these well sucessed attempts, I wrote a function to generate meshes of surfaces of revolution. With this function, we would be able to generate many different meshes only varying the function that describes the generatrix curve. It's important to observe that all surfaces were closed with a triangulated planar structure to keep the shapes homeomorphic to the sphere.
+
+>> code here
+
+>> many images here
+
+### Deforming Shapes
+
+After creating new synthetic meshes compatilble with Pytorch3D, I decided to explore the tutorial [Deform a source mesh to form a target mesh using 3D loss functions](https://pytorch3d.org/tutorials/deform_source_mesh_to_target_mesh#Deform-a-source-mesh-to-form-a-target-mesh-using-3D-loss-functions). The main goal was to undestand the applicability of the library in the optimization of a mesh geometry using loss functions and backpropagation. Let's evaluate the impact of each type of loss function applied to the problem and verify some limitations of the method.
+
+
+
+
+
