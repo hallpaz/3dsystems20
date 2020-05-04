@@ -28,6 +28,8 @@ After these well sucessed attempts, I wrote a function to generate meshes of sur
 
 After creating new synthetic meshes compatilble with Pytorch3D, I decided to explore the tutorial [Deform a source mesh to form a target mesh using 3D loss functions](https://pytorch3d.org/tutorials/deform_source_mesh_to_target_mesh#Deform-a-source-mesh-to-form-a-target-mesh-using-3D-loss-functions). The main goal was to undestand the applicability of the library in the optimization of a mesh geometry using loss functions and backpropagation. Let's evaluate the impact of each type of loss function applied to the problem and verify some limitations of the method.
 
+The source code can be found in [this link](https://github.com/hallpaz/3dsystems20/blob/master/deform_source_mesh_to_target_mesh.ipynb).
+
 
 
 
