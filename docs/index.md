@@ -1,8 +1,11 @@
 # 3D Graphics Systems Course - IMPA 2020
 
+#### Professor Luiz Velhor
+#### Hallison Paz, 1st year PhD student
+
 ## Assignment 1 - Exploring PyTorch3D library
 
-The objective of this assignment is to get familiarized with tha AI graphics platform [Pytorch3D](https://pytorch3d.org/). To achieve this, I read though the available [documentation](https://pytorch3d.org/docs/why_pytorch3d) and [tutorials](https://pytorch3d.org/tutorials/0) and started doing some experiments focused on 3D modeling topic.
+The objective of this assignment is to get familiarized with tha AI graphics platform [Pytorch3D](https://pytorch3d.org/). To achieve this, I read though the available [documentation](https://pytorch3d.org/docs/why_pytorch3d) and [tutorials](https://pytorch3d.org/tutorials) and started doing some experiments focused on 3D modeling topic.
 
 
 ### Creating primitives with PyTorch3D
@@ -13,7 +16,7 @@ First, inspired by the availability of primitives in [Blender](https://docs.blen
 
 >> code here
 
->> image here
+![Image of Cube mesh subdivided 4 times](img/cube-lv4.gif)
 
 After these well sucessed attempts, I wrote a function to generate meshes of surfaces of revolution. With this function, we would be able to generate many different meshes only varying the function that describes the generatrix curve. It's important to observe that all surfaces were closed with a triangulated planar structure to keep the shapes homeomorphic to the sphere.
 

@@ -14,9 +14,9 @@ def locate_mesh(name:str):
 # verts, faces = cylinder_mesh.get_mesh_verts_faces(0)
 # save_obj(locate_mesh('cylinder-2-4.obj'), verts, faces)
 
-# cube_mesh = models.cube()
-# verts, faces = cube_mesh.get_mesh_verts_faces(0)
-# save_obj(locate_mesh('cube.obj'), verts, faces)
+cube_mesh = models.cube(4)
+verts, faces = cube_mesh.get_mesh_verts_faces(0)
+save_obj(locate_mesh('cube-lv4.obj'), verts, faces)
 
 
 def line(u):
@@ -24,6 +24,6 @@ def line(u):
 
 def vase(u):
     return 2 + math.cos(u)
-rev_mesh = models.surface_of_revolution(vase, height=4)
-verts, faces = rev_mesh.get_mesh_verts_faces(0)
-save_obj(locate_mesh('vase.obj'), verts, faces)
+# rev_mesh = models.surface_of_revolution(vase, height=4)
+# verts, faces = rev_mesh.get_mesh_verts_faces(0)
+# save_obj(locate_mesh('vase.obj'), verts, faces)

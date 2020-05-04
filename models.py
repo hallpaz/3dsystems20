@@ -4,6 +4,7 @@ from typing import Iterator, Optional, Tuple
 
 import torch
 from pytorch3d.structures.meshes import Meshes
+from pytorch3d.ops.subdivide_meshes import SubdivideMeshes
 
 
 # Make an iterator over the adjacent pairs: (-1, 0), (0, 1), ..., (N - 2, N - 1)
@@ -183,6 +184,13 @@ def cube(level=0, device = None):
     if level == 0:
         verts = torch.tensor(_cube_verts0, dtype=torch.float32, device=device)
         faces = torch.tensor(_cube_faces0, dtype=torch.int64, device=device)
+    else:
+        mesh = cube(level - 1, device)
+        subdivide = SubdivideMeshes()
+        mesh = subdivide(mesh)
+        verts = mesh.verts_list()[0]
+        faces = mesh.faces_list()[0]
+    return Meshes(verts=[verts], faces=[faces])
 
     return Meshes(verts=[verts], faces=[faces])
 
