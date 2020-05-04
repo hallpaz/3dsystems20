@@ -190,8 +190,7 @@ def cube(level=0, device = None):
         mesh = subdivide(mesh)
         verts = mesh.verts_list()[0]
         faces = mesh.faces_list()[0]
-    return Meshes(verts=[verts], faces=[faces])
-
+        
     return Meshes(verts=[verts], faces=[faces])
 
 def surface_of_revolution(generatrix, sides = 20, rings = 10, height = 1, device = None):
