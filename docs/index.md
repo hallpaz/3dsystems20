@@ -59,13 +59,13 @@ Experiments on situations (1) and (2) are written in [non_smooth_experiments not
 
 Experiments on situations (3) and (4) are written in [fairly_smooth_experiments notebook](https://github.com/hallpaz/3dsystems20/blob/master/fairly_smooth_experiments.ipynb)). In this case, I just created some solid of revolution, arranged them into pairs and tried to deform one into another. I didn't test all possible combinations as it would take a long time (I used my own cpu); besides that, all meshes had a reasonable resolution (around 5000 vertices) and I used all loss functions with the same weights proposed in the example code.
 
-I found the results in these case were very poor, even worse than what I expected. First, I experimented with 1600 iterations, then I tried with 2400 iterations as I thought the missing normalization step could have impacted the performance. With more iterations, the results got a little better, but there were still very bad artifacts such as self intersecting polygons and a high imbalance in vertices concentration. In many cases we can see regions
+I found the results in these case were very poor, even worse than what I expected. First, I experimented with 1600 iterations, then I tried with 2400 iterations as I thought the missing normalization step could have impacted the performance. With more iterations, the results got a little better, but there were still very bad artifacts such as self intersecting polygons and a high imbalance in vertices concentration. In many cases we can see some highly refined regions on the mesh while another region contains few vertices.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzOTAxMzI5LC01NDI0ODYzMTEsLTEzOD
-E1NzA0MzEsMTQyNjQ1NjY5LC0xNjA1MTYxMTQ4LC0xOTM4NTMw
-Mzk4LDExOTI2MDU3MTVdfQ==
+eyJoaXN0b3J5IjpbLTE0MzQ0MTA2MzQsLTU0MjQ4NjMxMSwtMT
+M4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUxNjExNDgsLTE5Mzg1
+MzAzOTgsMTE5MjYwNTcxNV19
 -->
