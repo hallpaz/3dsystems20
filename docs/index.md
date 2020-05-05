@@ -29,9 +29,7 @@ After these well succeeded attempts, I wrote a function to generate meshes of su
 
 * (x, y, z) =  (ucos(v), usin(v), f(u))
 * 0 <= u <= 1;  0 <= v < PI
-* **f** is a real function that defines the generatrix
-
- - <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+* **f** is a real function that defines the generatrix curve
 
 * [Source Code](https://github.com/hallpaz/3dsystems20/blob/master/extensions_utils/cylinder.py) for the revolution surface.
 
@@ -79,9 +77,9 @@ Deforming a paraboloid into a hiperboloid (modified with a peak)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTkyNDkyOCw5MjcwMTEyODQsLTEyOD
-Q5OTAzMzQsMTc0MTQzMTgwNSwtMTE3NDIzOTUzMSwtMTQzNDQx
-MDYzNCwtNTQyNDg2MzExLC0xMzgxNTcwNDMxLDE0MjY0NTY2OS
-wtMTYwNTE2MTE0OCwtMTkzODUzMDM5OCwxMTkyNjA1NzE1XX0=
+eyJoaXN0b3J5IjpbLTEyNTExOTkwNTMsOTI3MDExMjg0LC0xMj
+g0OTkwMzM0LDE3NDE0MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0
+MTA2MzQsLTU0MjQ4NjMxMSwtMTM4MTU3MDQzMSwxNDI2NDU2Nj
+ksLTE2MDUxNjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 
 -->
