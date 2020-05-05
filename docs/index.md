@@ -75,15 +75,17 @@ I found the results in these case were very poor, even worse than what I expecte
 Deforming cone into sphere
 
 
+paraboloid-hiperboloid.jpeg
 
+Deforming a para
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjQwNTQ0NywxNzQxNDMxODA1LC0xMT
-c0MjM5NTMxLC0xNDM0NDEwNjM0LC01NDI0ODYzMTEsLTEzODE1
-NzA0MzEsMTQyNjQ1NjY5LC0xNjA1MTYxMTQ4LC0xOTM4NTMwMz
-k4LDExOTI2MDU3MTVdfQ==
+eyJoaXN0b3J5IjpbLTEyODQ5OTAzMzQsMTc0MTQzMTgwNSwtMT
+E3NDIzOTUzMSwtMTQzNDQxMDYzNCwtNTQyNDg2MzExLC0xMzgx
+NTcwNDMxLDE0MjY0NTY2OSwtMTYwNTE2MTE0OCwtMTkzODUzMD
+M5OCwxMTkyNjA1NzE1XX0=
 -->
