@@ -27,9 +27,11 @@ Cube mesh subdivided 4 times.
 ####  Solids of revolution
 After these well succeeded attempts, I wrote a function to generate meshes of surfaces of revolution. With this function, we would be able to generate many different meshes only varying the function that describes the generatrix curve. I added a parameter to indicate whether or not the mesh should be closed, with **True** as the default value; in this case, I implemented a naive approach, just connecting  the boundary vertices to a single point on the bottom or the top of the surface. The surfaces were computed as a revolution over the Z axis, using the following parametrization:
 
-u [0, 1]
+* f: R -> R
+* (ucos(v), usin(v), f(u))
+* u [0, 1]
 v [0, 2pi)
-(ucos(v), usin(v), f(u)) where f is the generatrix
+ where f is the generatrix
 
  - <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
@@ -79,9 +81,9 @@ Deforming a paraboloid into a hiperboloid (modified with a peak)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTA5OTE5Miw5MjcwMTEyODQsLTEyOD
-Q5OTAzMzQsMTc0MTQzMTgwNSwtMTE3NDIzOTUzMSwtMTQzNDQx
-MDYzNCwtNTQyNDg2MzExLC0xMzgxNTcwNDMxLDE0MjY0NTY2OS
-wtMTYwNTE2MTE0OCwtMTkzODUzMDM5OCwxMTkyNjA1NzE1XX0=
+eyJoaXN0b3J5IjpbMzIyOTY5NzQ5LDkyNzAxMTI4NCwtMTI4ND
+k5MDMzNCwxNzQxNDMxODA1LC0xMTc0MjM5NTMxLC0xNDM0NDEw
+NjM0LC01NDI0ODYzMTEsLTEzODE1NzA0MzEsMTQyNjQ1NjY5LC
+0xNjA1MTYxMTQ4LC0xOTM4NTMwMzk4LDExOTI2MDU3MTVdfQ==
 
 -->
