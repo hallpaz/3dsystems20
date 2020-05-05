@@ -72,12 +72,12 @@ I found the results in these case were very poor, even worse than what I expecte
 ![Deforming cone into sphere](img/paraboloid-hiperboloid.jpeg)
 **Deforming a paraboloid into a hiperboloid (modified with a peak)**
 
-While reflecting about these results, I decided to use the same mesh of the example code to check if my version of the code had any bug. I used the same ico-sphere 
+While reflecting about these results, I decided to use the same mesh of the example code to check if my version of the code had any bug. I used the same ico-sphere as the source mesh and I ran the experiment both with and without the normalization step. With the normalization step, I got the same 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzYwNjE0OTAsLTEyNTExOTkwNTMsOT
+eyJoaXN0b3J5IjpbLTExNDE4ODU0NjYsLTEyNTExOTkwNTMsOT
 I3MDExMjg0LC0xMjg0OTkwMzM0LDE3NDE0MzE4MDUsLTExNzQy
 Mzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4NjMxMSwtMTM4MTU3MD
 QzMSwxNDI2NDU2NjksLTE2MDUxNjExNDgsLTE5Mzg1MzAzOTgs
