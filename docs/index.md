@@ -73,15 +73,20 @@ I found the results in these case were very poor, even worse than what I expecte
 ![Deforming cone into sphere](img/paraboloid-hiperboloid.jpeg)
 **Deforming a paraboloid into a hiperboloid (modified with a peak)**
 
-While reflecting about these results, I decided to use the same mesh of the example code to check if my version of the code had any bug. I used the same ico-sphere as the source mesh and I ran the experiment both with and without the normalization step. With the normalization step, I got the same good result of the example code, but without the normalization step, there were some parts of the mesh where we can see the same kind of artifacts I noticed in the previous experiments. In the example notebook there is a comment stating that normalization affects only speed of convergence.
+While reflecting about these results, I decided to use the same mesh of the example code to check if my version of the code had any bug. I used the same ico-sphere as the source mesh and I ran the experiment both with and without the normalization step. With the normalization step, I got the same good result of the example code, but without the normalization step, there were some parts of the mesh where we can see the same kind of artifacts I noticed in the previous experiments. 
+
+![Comparing dolphin mesh optimization with and without normalization](img/dolphin-normalization.jpeg) 
+
+
+In the example notebook there is a comment stating that normalization affects only speed of convergence.
 
 > "Note that normalizing the target mesh, speeds up the optimization but is not necessary!"
 
 I wonder if this is really true for any case. If this is really true, it seems that the impact on speed is huge, since we added 400 iterations (20% more) and still we did not converge to a good solution. I think it's an issue that needs more investigation in a future work. For now, it seems that these exercises provided the necessary effort to get familiarized with the platform.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAxNzI2OTEsLTEyNTExOTkwNTMsOT
-I3MDExMjg0LC0xMjg0OTkwMzM0LDE3NDE0MzE4MDUsLTExNzQy
-Mzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4NjMxMSwtMTM4MTU3MD
-QzMSwxNDI2NDU2NjksLTE2MDUxNjExNDgsLTE5Mzg1MzAzOTgs
-MTE5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbLTE0NjU4MjgzMTksLTE5NTAxNzI2OTEsLT
+EyNTExOTkwNTMsOTI3MDExMjg0LC0xMjg0OTkwMzM0LDE3NDE0
+MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4Nj
+MxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUxNjExNDgs
+LTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 -->
