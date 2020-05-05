@@ -35,7 +35,8 @@ v [0, 2pi)
 
 * [Source Code](https://github.com/hallpaz/3dsystems20/blob/master/extensions_utils/cylinder.py) for the revolution surface.
 
->> many images here
+![Some shapes of revolution](img/rev_shapes.gif)
+Some meshes of revolution. Check all samples on "data/meshes" .
 
 ### Deforming Shapes
 
@@ -57,6 +58,6 @@ You can find the [source notebook here]([https://github.com/hallpaz/3dsystems20/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDUxNjExNDgsLTE5Mzg1MzAzOTgsMT
-E5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbMjEyNDcwNzUxOSwtMTYwNTE2MTE0OCwtMT
+kzODUzMDM5OCwxMTkyNjA1NzE1XX0=
 -->
