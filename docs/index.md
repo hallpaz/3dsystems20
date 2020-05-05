@@ -76,12 +76,12 @@ While reflecting about these results, I decided to use the same mesh of the exam
 
 > # Note that normalizing the target mesh, speeds up the optimization but is not necessary!
 
-If this is really true, it seem
+If this is really true, it seems that the impact on speed is huge, since we added 400 iterations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzUwODQ0NiwtMTI1MTE5OTA1Myw5Mj
-cwMTEyODQsLTEyODQ5OTAzMzQsMTc0MTQzMTgwNSwtMTE3NDIz
-OTUzMSwtMTQzNDQxMDYzNCwtNTQyNDg2MzExLC0xMzgxNTcwND
-MxLDE0MjY0NTY2OSwtMTYwNTE2MTE0OCwtMTkzODUzMDM5OCwx
-MTkyNjA1NzE1XX0=
+eyJoaXN0b3J5IjpbLTEzODIyNTAzMzgsLTEyNTExOTkwNTMsOT
+I3MDExMjg0LC0xMjg0OTkwMzM0LDE3NDE0MzE4MDUsLTExNzQy
+Mzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4NjMxMSwtMTM4MTU3MD
+QzMSwxNDI2NDU2NjksLTE2MDUxNjExNDgsLTE5Mzg1MzAzOTgs
+MTE5MjYwNTcxNV19
 -->
