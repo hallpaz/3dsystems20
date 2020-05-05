@@ -72,12 +72,15 @@ I found the results in these case were very poor, even worse than what I expecte
 ![Deforming cone into sphere](img/paraboloid-hiperboloid.jpeg)
 **Deforming a paraboloid into a hiperboloid (modified with a peak)**
 
+### Conclusion
+The PyTorch3D mesh data structure 
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzOTQ0MDYwLC0xMjUxMTk5MDUzLDkyNz
+eyJoaXN0b3J5IjpbMzEwMDM3NTE5LC0xMjUxMTk5MDUzLDkyNz
 AxMTI4NCwtMTI4NDk5MDMzNCwxNzQxNDMxODA1LC0xMTc0MjM5
 NTMxLC0xNDM0NDEwNjM0LC01NDI0ODYzMTEsLTEzODE1NzA0Mz
 EsMTQyNjQ1NjY5LC0xNjA1MTYxMTQ4LC0xOTM4NTMwMzk4LDEx
