@@ -55,17 +55,17 @@ The example code deforms a refined ico-sphere into a dolphin mesh using the cham
 
 
 #### Experiments with the cube
-Experiments on situations (1) and (2) are written in [this notebook](https://github.com/hallpaz/3dsystems20/blob/master/non_smooth_experiments.ipynb)) and check all the experiments.
+Experiments on situations (1) and (2) are written in [non_smooth_experiments notebook](https://github.com/hallpaz/3dsystems20/blob/master/non_smooth_experiments.ipynb)). 
 
 #### Experiments with surfaces of revolution
 
-Experiments on situations (3) and (4) are written in [this notebook ](https://github.com/hallpaz/3dsystems20/blob/master/fairly_smooth_experiments.ipynb)). and check all the experiments.
+Experiments on situations (3) and (4) are written in [fairly_smooth_experiments notebook](https://github.com/hallpaz/3dsystems20/blob/master/fairly_smooth_experiments.ipynb)). In this case, I just created some solid of revolution
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTEzNTA0MCwxNDI2NDU2NjksLTE2MD
+eyJoaXN0b3J5IjpbMTA3MzAyMTM0NywxNDI2NDU2NjksLTE2MD
 UxNjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 -->
