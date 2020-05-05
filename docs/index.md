@@ -76,10 +76,9 @@ While reflecting about these results, I decided to use the same mesh of the exam
 
 > # Note that normalizing the target mesh, speeds up the optimization but is not necessary!
 
-I wonder if this is really true for any case. If this is really true, it seems that the impact on speed is huge, since we added 400 iterations (20% more) and still we did not converge to a good solution. I think it's an issue that needs more investigation in a future work. For now, The objective of this assignment is to get familiarized with the AI Graphics platform
-
+I wonder if this is really true for any case. If this is really true, it seems that the impact on speed is huge, since we added 400 iterations (20% more) and still we did not converge to a good solution. I think it's an issue that needs more investigation in a future work. For now, it seems that these exercises provided the necessary effort to get familiarized with the platform.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODY4MjA2NSwtMTI1MTE5OTA1Myw5Mj
+eyJoaXN0b3J5IjpbMTgwODk3NjMyMiwtMTI1MTE5OTA1Myw5Mj
 cwMTEyODQsLTEyODQ5OTAzMzQsMTc0MTQzMTgwNSwtMTE3NDIz
 OTUzMSwtMTQzNDQxMDYzNCwtNTQyNDg2MzExLC0xMzgxNTcwND
 MxLDE0MjY0NTY2OSwtMTYwNTE2MTE0OCwtMTkzODUzMDM5OCwx
