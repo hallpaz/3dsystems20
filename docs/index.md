@@ -17,15 +17,12 @@ PyTorch3D was designed to work with 3D meshes. Because of that, I started trying
 First, inspired by the availability of primitives in [Blender](https://docs.blender.org/manual/en/latest/modeling/meshes/primitives.html) and [Unity](https://docs.unity3d.com/Manual/PrimitiveObjects.html), I created a cube and a cylinder, basic shapes that were missing in PyTorch3D. The shapes were added in a manner fully compatible with the library.
 
 * [Source Code](https://github.com/hallpaz/3dsystems20/blob/master/extensions_utils/cube.py) for the cube.
-
-* Cube mesh subdivided 4 times.
 ![Image of Cube mesh subdivided 4 times](img/cube-lv4.gif)
-
+Cube mesh subdivided 4 times.
 
 * [Source Code](https://github.com/hallpaz/3dsystems20/blob/master/extensions_utils/cylinder.py) for the cylinder.
-
-* Cube mesh subdivided 4 times.
-![Image of Cube mesh subdivided 4 times](img/cube-lv4.gif)
+![Image of Cylinder mesh](img/cylinder.gif)
+* Cylinder mesh.
 
 ####  Solids of revolution
 After these well succeeded attempts, I wrote a function to generate meshes of surfaces of revolution. With this function, we would be able to generate many different meshes only varying the function that describes the generatrix curve. I added a parameter to indicate whether or not the mesh should be closed, with **True** as the default value; in this case, I implemented a naive approach, just connecting  the boundary vertices to a single point on the bottom or the top of the surface. The surfaces were computed as a revolution over the Z axis, using the following parametrization:
@@ -83,8 +80,9 @@ Deforming a paraboloid into a hiperboloid (modified with a peak)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3MDExMjg0LC0xMjg0OTkwMzM0LDE3ND
-E0MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4
-NjMxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUxNjExND
-gsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbMjAyNjg2Mzc4Miw5MjcwMTEyODQsLTEyOD
+Q5OTAzMzQsMTc0MTQzMTgwNSwtMTE3NDIzOTUzMSwtMTQzNDQx
+MDYzNCwtNTQyNDg2MzExLC0xMzgxNTcwNDMxLDE0MjY0NTY2OS
+wtMTYwNTE2MTE0OCwtMTkzODUzMDM5OCwxMTkyNjA1NzE1XX0=
+
 -->
