@@ -76,15 +76,15 @@ Deforming cone into sphere
 
 ![Deforming cone into sphere](img/paraboloid-hiperboloid.jpeg)
 
-Deforming a paraboloid into a hiperboloid (modified with a peak
+Deforming a paraboloid into a hiperboloid (modified with a peak)
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjA0ODczMywtMTI4NDk5MDMzNCwxNz
-QxNDMxODA1LC0xMTc0MjM5NTMxLC0xNDM0NDEwNjM0LC01NDI0
-ODYzMTEsLTEzODE1NzA0MzEsMTQyNjQ1NjY5LC0xNjA1MTYxMT
-Q4LC0xOTM4NTMwMzk4LDExOTI2MDU3MTVdfQ==
+eyJoaXN0b3J5IjpbOTI3MDExMjg0LC0xMjg0OTkwMzM0LDE3ND
+E0MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4
+NjMxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUxNjExND
+gsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 -->
