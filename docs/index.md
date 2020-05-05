@@ -73,16 +73,15 @@ I found the results in these case were very poor, even worse than what I expecte
 **Deforming a paraboloid into a hiperboloid (modified with a peak)**
 
 ### Conclusion
-The PyTorch3D mesh data structure 
-
+The PyTorch3D mesh data structure does not present any unexpected challenges if you want to work with a single mesh. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwMDM3NTE5LC0xMjUxMTk5MDUzLDkyNz
-AxMTI4NCwtMTI4NDk5MDMzNCwxNzQxNDMxODA1LC0xMTc0MjM5
-NTMxLC0xNDM0NDEwNjM0LC01NDI0ODYzMTEsLTEzODE1NzA0Mz
-EsMTQyNjQ1NjY5LC0xNjA1MTYxMTQ4LC0xOTM4NTMwMzk4LDEx
-OTI2MDU3MTVdfQ==
+eyJoaXN0b3J5IjpbLTU1MTAzMTI5NSwtMTI1MTE5OTA1Myw5Mj
+cwMTEyODQsLTEyODQ5OTAzMzQsMTc0MTQzMTgwNSwtMTE3NDIz
+OTUzMSwtMTQzNDQxMDYzNCwtNTQyNDg2MzExLC0xMzgxNTcwND
+MxLDE0MjY0NTY2OSwtMTYwNTE2MTE0OCwtMTkzODUzMDM5OCwx
+MTkyNjA1NzE1XX0=
 -->
