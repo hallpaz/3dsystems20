@@ -27,6 +27,7 @@ First, inspired by the availability of primitives in [Blender](https://docs.blen
 * Cube mesh subdivided 4 times.
 ![Image of Cube mesh subdivided 4 times](img/cube-lv4.gif)
 
+####  Solids of revolution
 After these well succeeded attempts, I wrote a function to generate meshes of surfaces of revolution. With this function, we would be able to generate many different meshes only varying the function that describes the generatrix curve. I added a parameter to indicate whether or not the mesh should be closed, with **True** as the default value; in this case, I implemented a naive approach, just connecting  the boundary vertices to a single point on the bottom or the top of the surface. The surfaces were computed as a revolution over the Z axis, using the following parametrization:
 
 u [0, 1]
@@ -60,6 +61,6 @@ You can find the [source notebook here]([https://github.com/hallpaz/3dsystems20/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODcxMDg0OSwxNDI2NDU2NjksLTE2MD
+eyJoaXN0b3J5IjpbLTgxNjc3MjM3MSwxNDI2NDU2NjksLTE2MD
 UxNjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 -->
