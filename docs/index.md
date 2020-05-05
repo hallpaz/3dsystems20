@@ -59,13 +59,13 @@ Experiments on situations (1) and (2) are written in [non_smooth_experiments not
 
 Experiments on situations (3) and (4) are written in [fairly_smooth_experiments notebook](https://github.com/hallpaz/3dsystems20/blob/master/fairly_smooth_experiments.ipynb)). In this case, I just created some solid of revolution, arranged them into pairs and tried to deform one into another. I didn't test all possible combinations as it would take a long time (I used my own cpu); besides that, all meshes had a reasonable resolution (around 5000 vertices) and I used all loss functions with the same weights proposed in the example code.
 
-The experime
+I found the results in these case were very poor, even worse than what I expected. First, I experimented with 1600 iterations and 2400 iterations.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg3MzgyNjUsLTEzODE1NzA0MzEsMT
-QyNjQ1NjY5LC0xNjA1MTYxMTQ4LC0xOTM4NTMwMzk4LDExOTI2
-MDU3MTVdfQ==
+eyJoaXN0b3J5IjpbLTIzNzIwNTM4MSwtMTM4MTU3MDQzMSwxND
+I2NDU2NjksLTE2MDUxNjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYw
+NTcxNV19
 -->
