@@ -31,6 +31,8 @@ u [0, 1]
 v [0, 2pi)
 (ucos(v), usin(v), f(u)) where f is the generatrix
 
+ - <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 * [Source Code](https://github.com/hallpaz/3dsystems20/blob/master/extensions_utils/cylinder.py) for the revolution surface.
 
 >> many images here
@@ -55,5 +57,6 @@ You can find the [source notebook here]([https://github.com/hallpaz/3dsystems20/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbLTE2MDUxNjExNDgsLTE5Mzg1MzAzOTgsMT
+E5MjYwNTcxNV19
 -->
