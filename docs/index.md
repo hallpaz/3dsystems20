@@ -25,11 +25,13 @@ First, inspired by the availability of primitives in [Blender](https://docs.blen
 * Cube mesh subdivided 4 times.
 ![Image of Cube mesh subdivided 4 times](img/cube-lv4.gif)
 
-After these well succeeded attempts, I wrote a function to generate meshes of surfaces of revolution. With this function, we would be able to generate many different meshes only varying the function that describes the generatrix curve. I added a parameter to indicate whether or not the mesh should be closed, with **True** as the default value; in this case, I implemented a naive approach, just connecting  the boundary vertices to a single point on the bottom or the top of the surface. 
+After these well succeeded attempts, I wrote a function to generate meshes of surfaces of revolution. With this function, we would be able to generate many different meshes only varying the function that describes the generatrix curve. I added a parameter to indicate whether or not the mesh should be closed, with **True** as the default value; in this case, I implemented a naive approach, just connecting  the boundary vertices to a single point on the bottom or the top of the surface. The surfaces were computed as a revolution over the Z axis, using the following parametrization:
 
-It's important to observe that closed shapes homeomorphic to the sphere.
+u [0, 1]
+v [0, 2pi)
+(
 
->> code here
+* [Source Code](https://github.com/hallpaz/3dsystems20/blob/master/extensions_utils/cylinder.py) for the cylinder.
 
 >> many images here
 
@@ -48,5 +50,5 @@ The source code can be found in [this link](https://github.com/hallpaz/3dsystems
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTE4MjA5N119
+eyJoaXN0b3J5IjpbMTI5NDU1ODk3XX0=
 -->
