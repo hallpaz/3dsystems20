@@ -45,7 +45,7 @@ Some meshes of revolution. Check all samples on "[data/meshes](https://github.co
 
 After creating new synthetic meshes compatible with Pytorch3D, I decided to explore the tutorial [Deform a source mesh to form a target mesh using 3D loss functions](https://pytorch3d.org/tutorials/deform_source_mesh_to_target_mesh#Deform-a-source-mesh-to-form-a-target-mesh-using-3D-loss-functions). The main goal was to understand the applicability of the library in the optimization of a mesh geometry using *loss functions* and *backpropagation*. 
 
-The example code deforms a refined ico-sphere into a dolphin mesh using the chamfer distance and other three different metrics related to regularization and smoothness of the mesh: an edge length loss, a normal consistency loss and a laplacian regularizer. The example achieves a very good result under these conditions. However, during research and development sometimes
+The example code deforms a refined ico-sphere into a dolphin mesh using the chamfer distance and other three different metrics related to regularization and smoothness of the mesh: an edge length loss, a normal consistency loss and a laplacian regularizer. The example achieves a very good result under these conditions. However, during research and development sometimes things don't run so "smoothly" (did you get this?). Thinking about some
 
 Let's evaluate the impact of each type of loss function applied to the problem and verify some limitations of the method.
 
@@ -61,6 +61,6 @@ You can find the [source notebook here]([https://github.com/hallpaz/3dsystems20/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDYxMjc4NywxNDI2NDU2NjksLTE2MD
-UxNjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbMzg5NzQ1NDg3LDE0MjY0NTY2OSwtMTYwNT
+E2MTE0OCwtMTkzODUzMDM5OCwxMTkyNjA1NzE1XX0=
 -->
