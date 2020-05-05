@@ -53,7 +53,7 @@ The example code deforms a refined ico-sphere into a dolphin mesh using the cham
  4. Meshes with peaks (rotation of arctangent or exponential, for instance)
 
 #### Experiments with the cube
-Experiments on situations (1) and (2) are written in [non_smooth_experiments notebook](https://github.com/hallpaz/3dsystems20/blob/master/non_smooth_experiments.ipynb)). 
+Experiments on situations (1) and (2) are written in [non_smooth_experiments notebook](https://github.com/hallpaz/3dsystems20/blob/master/non_smooth_experiments.ipynb)). In this case, I tried to deform a cube into itself and check if I would get the 
 
 #### Experiments with solids of revolution
 
@@ -65,7 +65,7 @@ I found the results in these case were very poor, even worse than what I expecte
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ0MTA2MzQsLTU0MjQ4NjMxMSwtMT
-M4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUxNjExNDgsLTE5Mzg1
-MzAzOTgsMTE5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbODc0MDAzODg0LC0xNDM0NDEwNjM0LC01ND
+I0ODYzMTEsLTEzODE1NzA0MzEsMTQyNjQ1NjY5LC0xNjA1MTYx
+MTQ4LC0xOTM4NTMwMzk4LDExOTI2MDU3MTVdfQ==
 -->
