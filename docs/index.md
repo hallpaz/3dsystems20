@@ -75,7 +75,7 @@ I found the results in these case were very poor, even worse than what I expecte
 Deforming cone into sphere
 
 
-paraboloid-hiperboloid.jpeg
+![Deforming cone into sphere](img/cone_into_sphere.png)paraboloid-hiperboloid.jpeg
 
 Deforming a para
 
@@ -84,8 +84,8 @@ Deforming a para
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ5OTAzMzQsMTc0MTQzMTgwNSwtMT
-E3NDIzOTUzMSwtMTQzNDQxMDYzNCwtNTQyNDg2MzExLC0xMzgx
-NTcwNDMxLDE0MjY0NTY2OSwtMTYwNTE2MTE0OCwtMTkzODUzMD
-M5OCwxMTkyNjA1NzE1XX0=
+eyJoaXN0b3J5IjpbMjc5NDQ4MTcwLC0xMjg0OTkwMzM0LDE3ND
+E0MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4
+NjMxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUxNjExND
+gsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 -->
