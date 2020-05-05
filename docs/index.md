@@ -52,7 +52,7 @@ The example code deforms a refined ico-sphere into a dolphin mesh using the cham
  3. High valence vertices (the closure solids of revolution)
  4. Meshes with peaks (rotation of arctangent or exponential, for instance)
 
-S
+Experiments on situations (1) and (2) are written in this notebook
 Let's evaluate the impact of each type of loss function applied to the problem and verify some limitations of the method.
 
 #### Experiments with the cube
@@ -67,6 +67,6 @@ You can find the [source notebook here]([https://github.com/hallpaz/3dsystems20/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1NDA4NDg0LDE0MjY0NTY2OSwtMTYwNT
-E2MTE0OCwtMTkzODUzMDM5OCwxMTkyNjA1NzE1XX0=
+eyJoaXN0b3J5IjpbMTg2ODQ3NjIxMCwxNDI2NDU2NjksLTE2MD
+UxNjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 -->
