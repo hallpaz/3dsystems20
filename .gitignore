@@ -1,4 +1,5 @@
 .DS_STore
+drafts/*
 __pycache__/*
 */__pycache__/*
 venv/*
