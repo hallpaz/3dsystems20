@@ -48,9 +48,9 @@ After creating new synthetic meshes compatible with Pytorch3D, I decided to expl
 The example code deforms a refined ico-sphere into a dolphin mesh using the chamfer distance and other three different metrics related to regularization and smoothness of the mesh: an edge length loss, a normal consistency loss and a laplacian regularizer. The example achieves a very good result under these conditions. However, during research and development sometimes things don't run so "smoothly" (did you get this?). Thinking about some troublesome past experiences, I decided to remove the normalization step and run some experiments deforming my own synthetic meshes as I could test the following situations:
 
  1. Low resolution meshes
- 2. High curvature edges 9as 
- 3. High valence vertices
- 4. Meshes with peaks
+ 2. High curvature edges (as in the cube)
+ 3. High valence vertices (the closure solids of revolution)
+ 4. Meshes with peaks (rotation of arctan
 
 Let's evaluate the impact of each type of loss function applied to the problem and verify some limitations of the method.
 
@@ -66,6 +66,6 @@ You can find the [source notebook here]([https://github.com/hallpaz/3dsystems20/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjQ4MzU1MCwxNDI2NDU2NjksLTE2MD
-UxNjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbNTE0MTI5NTgsMTQyNjQ1NjY5LC0xNjA1MT
+YxMTQ4LC0xOTM4NTMwMzk4LDExOTI2MDU3MTVdfQ==
 -->
