@@ -43,6 +43,8 @@ The example code deforms a refined ico-sphere into a dolphin mesh using the cham
 
 Let's evaluate the impact of each type of loss function applied to the problem and verify some limitations of the method.
 
+#### Experiments with the cube
+
 The source code can be found in [this link](https://github.com/hallpaz/3dsystems20/blob/master/non_smooth_experiments.ipynb).
 
 
@@ -50,5 +52,5 @@ The source code can be found in [this link](https://github.com/hallpaz/3dsystems
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbLTU4MTg2OTMzLDExOTI2MDU3MTVdfQ==
 -->
