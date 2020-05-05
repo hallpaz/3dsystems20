@@ -72,14 +72,14 @@ I found the results in these case were very poor, even worse than what I expecte
 ![Deforming cone into sphere](img/paraboloid-hiperboloid.jpeg)
 **Deforming a paraboloid into a hiperboloid (modified with a peak)**
 
-While reflecting about these results, I decided to use the same mesh of the example code to check if my version of the code had any bug. I used the same ico-sphere as the source mesh and I ran the experiment both with and without the normalization step. With the normalization step, I got the same good result of the example code, but without the normalization step, there were some parts of the mesh where we can see the same kind of artifacts I noticed in the previous experiments. In the example notebook 
+While reflecting about these results, I decided to use the same mesh of the example code to check if my version of the code had any bug. I used the same ico-sphere as the source mesh and I ran the experiment both with and without the normalization step. With the normalization step, I got the same good result of the example code, but without the normalization step, there were some parts of the mesh where we can see the same kind of artifacts I noticed in the previous experiments. In the example notebook there is a comment stating that normalization affects only speed of convergence.
 
 > # Note that normalizing the target mesh, speeds up the optimization but is not necessary!
 
-
+If this is really true, it seem
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDE1MjU4NCwtMTI1MTE5OTA1Myw5Mj
+eyJoaXN0b3J5IjpbMTk4NzUwODQ0NiwtMTI1MTE5OTA1Myw5Mj
 cwMTEyODQsLTEyODQ5OTAzMzQsMTc0MTQzMTgwNSwtMTE3NDIz
 OTUzMSwtMTQzNDQxMDYzNCwtNTQyNDg2MzExLC0xMzgxNTcwND
 MxLDE0MjY0NTY2OSwtMTYwNTE2MTE0OCwtMTkzODUzMDM5OCwx
