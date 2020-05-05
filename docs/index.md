@@ -35,7 +35,9 @@ It's important to observe that closed shapes homeomorphic to the sphere.
 
 ### Deforming Shapes
 
-After creating new synthetic meshes compatilble with Pytorch3D, I decided to explore the tutorial [Deform a source mesh to form a target mesh using 3D loss functions](https://pytorch3d.org/tutorials/deform_source_mesh_to_target_mesh#Deform-a-source-mesh-to-form-a-target-mesh-using-3D-loss-functions). The main goal was to undestand the applicability of the library in the optimization of a mesh geometry using loss functions and backpropagation. Let's evaluate the impact of each type of loss function applied to the problem and verify some limitations of the method.
+After creating new synthetic meshes compatible with Pytorch3D, I decided to explore the tutorial [Deform a source mesh to form a target mesh using 3D loss functions](https://pytorch3d.org/tutorials/deform_source_mesh_to_target_mesh#Deform-a-source-mesh-to-form-a-target-mesh-using-3D-loss-functions). The main goal was to understand the applicability of the library in the optimization of a mesh geometry using loss functions and backpropagation. The example code deforms a refined ico-sphere into a dolphin mesh using the chamfer distance 
+
+Let's evaluate the impact of each type of loss function applied to the problem and verify some limitations of the method.
 
 The source code can be found in [this link](https://github.com/hallpaz/3dsystems20/blob/master/non_smooth_experiments.ipynb).
 
@@ -44,5 +46,5 @@ The source code can be found in [this link](https://github.com/hallpaz/3dsystems
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0MzAwNjYxXX0=
+eyJoaXN0b3J5IjpbNDAzMDM5Mjg2XX0=
 -->
