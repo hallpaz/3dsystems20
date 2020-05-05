@@ -55,9 +55,13 @@ The example code deforms a refined ico-sphere into a dolphin mesh using the cham
 #### Experiments with the cube
 Experiments on situations (1) and (2) are written in [non_smooth_experiments notebook](https://github.com/hallpaz/3dsystems20/blob/master/non_smooth_experiments.ipynb)). In this case, I tried to deform a cube into itself and check if I would get something near the original mesh. Although a cube can be represented by a very simple mesh - using only 8 vertices - the first experiment I did, using low resolution and all loss functions, resulted in a degenerated mesh. 
 
+
+
 After this, I decided to run experiments using cubes in different levels of resolution with and without the regularization losses. The meshes I obtained as results can be found on "[data/meshes/non-smooth](https://github.com/hallpaz/3dsystems20/tree/master/data/meshes/non-smooth))" directory.
 
-Using only the Chamfer distance, I could always get a cube as output. When I added the regularization losses, the cube meshes with lower resolutions converged to other shapes; those with higher resolutions became a cube with "smooth edges", reducing the curvature.
+Using only the Chamfer distance, I could always get a cube as output. When I added the regularization losses, the cube meshes with lower resolutions converged to other shapes; those with higher resolutions became a cube with "smooth edges", attenuating the curvature.
+
+
 
 #### Experiments with solids of revolution
 
@@ -69,7 +73,7 @@ I found the results in these case were very poor, even worse than what I expecte
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxMTQ1NzA2LC0xNDM0NDEwNjM0LC01ND
-I0ODYzMTEsLTEzODE1NzA0MzEsMTQyNjQ1NjY5LC0xNjA1MTYx
-MTQ4LC0xOTM4NTMwMzk4LDExOTI2MDU3MTVdfQ==
+eyJoaXN0b3J5IjpbLTExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLT
+U0MjQ4NjMxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUx
+NjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 -->
