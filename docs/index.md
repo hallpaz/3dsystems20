@@ -29,9 +29,9 @@ After these well succeeded attempts, I wrote a function to generate meshes of su
 
 u [0, 1]
 v [0, 2pi)
-(
+(ucos(v), usin(v), f(u)) where f is the generatrix
 
-* [Source Code](https://github.com/hallpaz/3dsystems20/blob/master/extensions_utils/cylinder.py) for the cylinder.
+* [Source Code](https://github.com/hallpaz/3dsystems20/blob/master/extensions_utils/cylinder.py) for the revolution surface.
 
 >> many images here
 
@@ -39,7 +39,7 @@ v [0, 2pi)
 
 After creating new synthetic meshes compatible with Pytorch3D, I decided to explore the tutorial [Deform a source mesh to form a target mesh using 3D loss functions](https://pytorch3d.org/tutorials/deform_source_mesh_to_target_mesh#Deform-a-source-mesh-to-form-a-target-mesh-using-3D-loss-functions). The main goal was to understand the applicability of the library in the optimization of a mesh geometry using loss functions and backpropagation. 
 
-The example code deforms a refined ico-sphere into a dolphin mesh using the chamfer distance and other three different metrics related to regularization and smoothness of the mesh: an edge length loss, a normal consistency loss and a laplacian regularizer. The example achieves a very good result.
+The example code deforms a refined ico-sphere into a dolphin mesh using the chamfer distance and other three different metrics related to regularization and smoothness of the mesh: an edge length loss, a normal consistency loss and a laplacian regularizer. The example achieves a very good result under these conditions
 
 Let's evaluate the impact of each type of loss function applied to the problem and verify some limitations of the method.
 
@@ -50,5 +50,5 @@ The source code can be found in [this link](https://github.com/hallpaz/3dsystems
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDU1ODk3XX0=
+eyJoaXN0b3J5IjpbMTE5MjYwNTcxNV19
 -->
