@@ -57,7 +57,7 @@ Experiments on situations (1) and (2) are written in [non_smooth_experiments not
 
 After this, I decided to run experiments using cubes in different levels of resolution with and without the regularization losses. The meshes I obtained as results can be found on "[data/meshes/non-smooth](https://github.com/hallpaz/3dsystems20/tree/master/data/meshes/non-smooth))" directory.
 
-Using only the Cham
+Using only the Chamfer distance, I could always get a cube as output. When I added the regularization losses, the cube meshes with lower resolutions converged to other shapes. 
 
 #### Experiments with solids of revolution
 
@@ -69,7 +69,7 @@ I found the results in these case were very poor, even worse than what I expecte
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTExNDY1MzQsLTE0MzQ0MTA2MzQsLT
-U0MjQ4NjMxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUx
-NjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbMjAyMDI5MDE5NCwtMTQzNDQxMDYzNCwtNT
+QyNDg2MzExLC0xMzgxNTcwNDMxLDE0MjY0NTY2OSwtMTYwNTE2
+MTE0OCwtMTkzODUzMDM5OCwxMTkyNjA1NzE1XX0=
 -->
