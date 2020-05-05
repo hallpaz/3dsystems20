@@ -69,11 +69,16 @@ Experiments on situations (3) and (4) are written in [fairly_smooth_experiments 
 
 I found the results in these case were very poor, even worse than what I expected. First, I experimented with 1600 iterations, then I tried with 2400 iterations as I thought the missing normalization step could have impacted the performance. With more iterations, the results got a little better, but there were still very bad artifacts such as self intersecting polygons and a high imbalance in vertices concentration. In many cases we can see some highly refined regions on the mesh while another region contains few vertices.
 
+![Deforming cone into sphere](img/cone_into_sphere.png)
+Deforming cone into sphere
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLT
-U0MjQ4NjMxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUx
-NjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbLTQwNDE1MzI0NiwtMTE3NDIzOTUzMSwtMT
+QzNDQxMDYzNCwtNTQyNDg2MzExLC0xMzgxNTcwNDMxLDE0MjY0
+NTY2OSwtMTYwNTE2MTE0OCwtMTkzODUzMDM5OCwxMTkyNjA1Nz
+E1XX0=
 -->
