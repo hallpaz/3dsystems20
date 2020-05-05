@@ -72,7 +72,6 @@ I found the results in these case were very poor, even worse than what I expecte
 Deforming cone into sphere
 
 ![Deforming cone into sphere](img/paraboloid-hiperboloid.jpeg)
-
 Deforming a paraboloid into a hiperboloid (modified with a peak)
 
 
@@ -80,7 +79,7 @@ Deforming a paraboloid into a hiperboloid (modified with a peak)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjg2Mzc4Miw5MjcwMTEyODQsLTEyOD
+eyJoaXN0b3J5IjpbMTg0MTA5OTE5Miw5MjcwMTEyODQsLTEyOD
 Q5OTAzMzQsMTc0MTQzMTgwNSwtMTE3NDIzOTUzMSwtMTQzNDQx
 MDYzNCwtNTQyNDg2MzExLC0xMzgxNTcwNDMxLDE0MjY0NTY2OS
 wtMTYwNTE2MTE0OCwtMTkzODUzMDM5OCwxMTkyNjA1NzE1XX0=
