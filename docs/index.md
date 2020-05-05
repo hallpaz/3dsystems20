@@ -37,7 +37,7 @@ It's important to observe that closed shapes homeomorphic to the sphere.
 
 After creating new synthetic meshes compatible with Pytorch3D, I decided to explore the tutorial [Deform a source mesh to form a target mesh using 3D loss functions](https://pytorch3d.org/tutorials/deform_source_mesh_to_target_mesh#Deform-a-source-mesh-to-form-a-target-mesh-using-3D-loss-functions). The main goal was to understand the applicability of the library in the optimization of a mesh geometry using loss functions and backpropagation. 
 
-The example code deforms a refined ico-sphere into a dolphin mesh using the chamfer distance and other three different metrics related to regularization and smoothness of the mesh: an edge length loss, a normal consistency loss and a laplacian regularizer. The example 
+The example code deforms a refined ico-sphere into a dolphin mesh using the chamfer distance and other three different metrics related to regularization and smoothness of the mesh: an edge length loss, a normal consistency loss and a laplacian regularizer. The example achieves a very good result.
 
 Let's evaluate the impact of each type of loss function applied to the problem and verify some limitations of the method.
 
@@ -48,5 +48,5 @@ The source code can be found in [this link](https://github.com/hallpaz/3dsystems
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA2NzEyMzYyXX0=
+eyJoaXN0b3J5IjpbLTc3MTE4MjA5N119
 -->
