@@ -59,13 +59,13 @@ Experiments on situations (1) and (2) are written in [non_smooth_experiments not
 
 #### Experiments with surfaces of revolution
 
-Experiments on situations (3) and (4) are written in [fairly_smooth_experiments notebook](https://github.com/hallpaz/3dsystems20/blob/master/fairly_smooth_experiments.ipynb)). In this case, I just created some solid of revolution
+Experiments on situations (3) and (4) are written in [fairly_smooth_experiments notebook](https://github.com/hallpaz/3dsystems20/blob/master/fairly_smooth_experiments.ipynb)). In this case, I just created some solid of revolution, arranged them into pairs and tried to deform one into ano. All meshes had a reasonable resolution (around 5000 vertices).
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MzAyMTM0NywxNDI2NDU2NjksLTE2MD
+eyJoaXN0b3J5IjpbLTIzNDY3NjUyMSwxNDI2NDU2NjksLTE2MD
 UxNjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 -->
