@@ -1,7 +1,10 @@
 # 3D Graphics Systems Course - IMPA 2020
 
-#### Professor Luiz Velho
-#### Hallison Paz, 1st year PhD student
+### Professor Luiz Velho
+### Hallison Paz, 1st year PhD student
+
+## [Survey of Differentiable Rendering](differentiable-rendering.md)
+---------
 
 ## Assignment 1 - Exploring PyTorch3D library
 
