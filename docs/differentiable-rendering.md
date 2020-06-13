@@ -11,3 +11,7 @@
 6. Yifan et al, 'Differentiable Surface Splatting for Point-based Geometry Processing', SIGGRAPH Asia 2019
 7. Loubet et al, 'Reparameterizing Discontinuous Integrands for Differentiable Rendering', SIGGRAPH Asia 2019
 8. Chen et al, 'Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer', NeurIPS 2019
+9. [Neural Point-Based Graphics](https://arxiv.org/pdf/1906.08240.pdf)
+10. [Neural Importance Sampling](https://arxiv.org/pdf/1808.03856.pdf)
+11. [RenderNet: A deep convolutional network for differentiable rendering from 3D shapes
+](https://arxiv.org/abs/1806.06575)
