@@ -5,7 +5,9 @@
 
 ---------
 
-## Project - Survey of Differentiable Rendering \[under construction]
+## Project 
+
+#### [Survey of Differentiable Rendering](differentiable-rendering.md) \[under construction]
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. [READ MORE...](differentiable-rendering.md)
 
@@ -18,6 +20,8 @@ The objective of this 2nd assignment is to render a scene using a differentiable
 #### [Exploring PyTorch3D library](assignment1.md)
 
 The objective of this assignment is to get familiarized with the AI Graphics platform [Pytorch3D](https://pytorch3d.org/). To achieve this, I read though the available [documentation](https://pytorch3d.org/docs/why_pytorch3d) and [tutorials](https://pytorch3d.org/tutorials) and started doing some experiments focused on 3D modeling topic.
+
+![Some shapes of revolution](img/rev_shapes.gif)
 
 
 ## Assignment 1 - Exploring PyTorch3D library
@@ -101,7 +105,7 @@ In the example notebook there is a comment stating that normalization affects on
 
 I wonder if this is really true for any case. If this is really true, it seems that the impact on speed is huge, since we added 400 iterations (20% more) and still we did not converge to a good solution. I think it's an issue that needs more investigation in a future work. For now, it seems that these exercises provided the necessary effort to get familiarized with the platform.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTI2MjIxLDE0OTI3OTk3NTAsNDg0Nj
+eyJoaXN0b3J5IjpbLTM4NjI0NTE3LDE0OTI3OTk3NTAsNDg0Nj
 AzODEsLTE0NjU4MjgzMTksLTE5NTAxNzI2OTEsLTEyNTExOTkw
 NTMsOTI3MDExMjg0LC0xMjg0OTkwMzM0LDE3NDE0MzE4MDUsLT
 ExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4NjMxMSwtMTM4
