@@ -10,7 +10,7 @@ The objective of this 2nd assignment is to render a scene using a differentiable
 
 ### Modeling the Scene
 
-First of all, we need to compute the geometry and texture coordinates for a sphere. We decided to use an equirectangular panorama as a bidimensional texture for the interior of the sphere, so it seems easier to parameterize the sphere in terms of latitude and longitude coordinates.
+First of all, we need to compute the geometry and texture coordinates for a sphere. A valid concern about textures is the possibility of distortion due to the mapping. We decided to parameterize the sphere in terms of latitude and longitude coordinates, as well as use an equirectangular panorama as a bidimensional texture for the interior of the sphere. With this representation, we have an image with the app
 
 ![Panorama Equirectangular; source: https://www.flickr.com/photos/101382486@N07/9688940322/in/photolist-NVEvL-FKxNb-8sNqz4-4xDge6-8sdop9-7EncwT-49Fsty-49GdCm-fLbmpd](img/panorama4.jpg)
 
@@ -35,7 +35,7 @@ We triangulate the mesh by connecting vertices on adjacents parallels and meridi
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTE2Mzk4MywtMzQzNTgzNTkyLDExMz
+eyJoaXN0b3J5IjpbMTQ4OTM3NTQ0OCwtMzQzNTgzNTkyLDExMz
 E2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2NywtMTA2NTQyNjQ1
 MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LDE3NTc0ODA1MzldfQ
 ==
