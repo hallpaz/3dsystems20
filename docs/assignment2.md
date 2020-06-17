@@ -17,13 +17,15 @@ First of all, we need to compute the geometry and texture coordinates for a sphe
 For the geometry, we sample points uniformly as we increment the angles Phi and Theta in a spherical coordinate system. 0 <= Phi < 2pi; 0 <= Theta < pi. As the texture has a boundary and the sphere has not , we must be careful to achieve a good and meaningful result. Our strategy for a good mapping was:
 
 1. We don't close the sphere in the poles. 
-As we can see in line #2, we define an epsilon, so that Phi actually varies from epsilon to 
+As we can see in line #2, we define an epsilon, so that Phi actually varies from epsilon to 2pi-epsilon and the vertices of the poles are sampled very close to each other, but are still considered different elements.
+
+2. We duplicate 
 
 
 <script src="https://gist.github.com/hallpaz/1c218e01c893c120b61a661731234c30.js"></script>
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4MDMyNDEzLC0xMDY1NDI2NDUyLDEzMz
-U1MzAxODQsLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
+eyJoaXN0b3J5IjpbLTE2MjIzNDg3NzMsLTEwNjU0MjY0NTIsMT
+MzNTUzMDE4NCwtMTc5NjkzODE4OSwxNzU3NDgwNTM5XX0=
 -->
