@@ -28,13 +28,13 @@ For each parallel, we sample two vertices on the exact same location of the firs
 
 **Mesh Triangulation**
 
-We triangulate the mesh by connecting vertices 
+We triangulate the mesh by connecting vertices on adjacents parallels and meridians over the surface. We choose the order of the vertices such that each face is 
 
 <script src="https://gist.github.com/hallpaz/e4ab7e85c37d221cdd9e2381b8d541a5.js"></script>
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczNTkwODY5LC05MzM5MTY3Niw3ODgyMj
+eyJoaXN0b3J5IjpbODQ0MDUzMTYxLC05MzM5MTY3Niw3ODgyMj
 A3NjcsLTEwNjU0MjY0NTIsMTMzNTUzMDE4NCwtMTc5NjkzODE4
 OSwxNzU3NDgwNTM5XX0=
 -->
