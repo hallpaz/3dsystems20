@@ -10,9 +10,9 @@ The objective of this assignment is to render a scene using a differentiable ren
 
 ### Modeling the Scene
 
-
+First of all, we need to compute the geometry 
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjMwMTAxMl19
+eyJoaXN0b3J5IjpbLTE3ODg4MjAyMzldfQ==
 -->
