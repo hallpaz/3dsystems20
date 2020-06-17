@@ -26,9 +26,13 @@ For each parallel, we sample two vertices on the exact same location of the firs
 
 <script src="https://gist.github.com/hallpaz/1c218e01c893c120b61a661731234c30.js"></script>
 
+**Mesh Triangulation**
+
+
+
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjIxMTgwLC05MzM5MTY3Niw3ODgyMj
+eyJoaXN0b3J5IjpbOTU0ODUyNTEyLC05MzM5MTY3Niw3ODgyMj
 A3NjcsLTEwNjU0MjY0NTIsMTMzNTUzMDE4NCwtMTc5NjkzODE4
 OSwxNzU3NDgwNTM5XX0=
 -->
