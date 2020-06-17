@@ -34,9 +34,11 @@ We triangulate the mesh by connecting vertices on adjacents parallels and meridi
 <script src="https://gist.github.com/hallpaz/e4ab7e85c37d221cdd9e2381b8d541a5.js"></script>
 
 ### Rendering the Scene
+
+This tutorial in the PyTorch3D website shows how to set up a renderer and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAzNzAzOTUsLTM0MzU4MzU5MiwxMT
-MxNjUzOTQ1LC05MzM5MTY3Niw3ODgyMjA3NjcsLTEwNjU0MjY0
-NTIsMTMzNTUzMDE4NCwtMTc5NjkzODE4OSwxNzU3NDgwNTM5XX
-0=
+eyJoaXN0b3J5IjpbLTczNjkyMTQzOSwtMzQzNTgzNTkyLDExMz
+E2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2NywtMTA2NTQyNjQ1
+MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LDE3NTc0ODA1MzldfQ
+==
 -->
