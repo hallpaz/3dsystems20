@@ -12,11 +12,12 @@ The objective of this assignment is to render a scene using a differentiable ren
 
 First of all, we need to compute the geometry and texture coordinates for a sphere. We decided to use an equirectangular panorama as a bidimensional texture for the interior of the sphere, so it seems easier to parameterize the sphere in terms of latitude and longitude coordinates.
 
-
+![Panorama Equirectangular; source: ](img/panorama4.jpg)
 
 
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
+eyJoaXN0b3J5IjpbNjIxMzI1NDkyLC0xNzk2OTM4MTg5LDE3NT
+c0ODA1MzldfQ==
 -->
