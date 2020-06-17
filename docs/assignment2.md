@@ -1,12 +1,12 @@
 # 3D Graphics Systems Course - IMPA 2020
 
-### Professor Luiz Velho
-### Hallison Paz, 1st year PhD student
+#### Professor Luiz Velho
+#### Hallison Paz, 1st year PhD student
 ---------
 
-## Assignment 2 - Rendering a Scene with a Differentiable Renderer
+## Rendering a Scene with a Differentiable Renderer
 
-The objective of this assignment is to render a scene using a differentiable renderer and exploit some capabilities of this system. We aim to render equirectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the câmera in the center of the sphere.
+The objective of this 2nd assignment is to render a scene using a differentiable renderer and exploit some capabilities of this system. We aim to render equirectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the câmera in the center of the sphere.
 
 ### Modeling the Scene
 
@@ -27,6 +27,7 @@ For each parallel, we sample two vertices on the exact same location of the firs
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4MjIwNzY3LC0xMDY1NDI2NDUyLDEzMz
-U1MzAxODQsLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
+eyJoaXN0b3J5IjpbMTA3NTI4NjMzNyw3ODgyMjA3NjcsLTEwNj
+U0MjY0NTIsMTMzNTUzMDE4NCwtMTc5NjkzODE4OSwxNzU3NDgw
+NTM5XX0=
 -->
