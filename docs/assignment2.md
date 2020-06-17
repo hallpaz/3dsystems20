@@ -46,14 +46,21 @@ In the end of the function we convert the lists of data into Pytorch tensors, so
 
 #### Investigating the unexpected results
 
-###### Toy texture
+##### Toy texture
 
-###### Moving the câmera in the tutorial
+##### Moving the câmera in the tutorial
 
 ##### Cropping the mesh
 
+##### Looking for alternatives renderers
+
+
+### Conclusion
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDYxMjkzOTgsLTU3NzQzMDUyNiwtMz
+eyJoaXN0b3J5IjpbLTE3OTA4NzA2NDEsLTU3NzQzMDUyNiwtMz
 QzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2
 NywtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LD
 E3NTc0ODA1MzldfQ==
