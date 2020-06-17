@@ -10,9 +10,9 @@ The objective of this assignment is to render a scene using a differentiable ren
 
 ### Modeling the Scene
 
-First of all, we need to compute the geometry 
+First of all, we need to compute the geometry and texture coordinates for a sphere. We decided to use an equirrectangular panorama as a bidimensional texture for the interior of the sphere, so 
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODg4MjAyMzldfQ==
+eyJoaXN0b3J5IjpbLTIzMzc2MjM0Ml19
 -->
