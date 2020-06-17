@@ -22,9 +22,10 @@ For the geometry, we sample points uniformly as we increment the angles Phi and 
 As we can see in line #2, we define an **epsilon**, so that **Theta** actually varies from **epsilon** to **pi-epsilon** and the vertices of the poles are sampled very close to each other, but are still considered different elements.
 
 2. We duplicate the vertices located over the first meridian
-For each parallel, we sample two vertices on the exact same location of the first sample, which is equivalent to consider that Phi belongs to the closed interval **[0, 2PI]**. We do that to simplify the computations of  the texture reconstruction on the surface, as it can be done with a linear interpolation. Lines #19 to #25 implement with this duplication.
+For each parallel, we sample two vertices on the exact same location of the first sample, which is equivalent to consider that Phi belongs to the closed interval **[0, 2PI]**. We do that to simplify the computations of  the texture reconstruction on the surface, as it can be done with a linear interpolation. Lines #19 to #25 implement this approach.
 
 <script src="https://gist.github.com/hallpaz/1c218e01c893c120b61a661731234c30.js"></script>
+
 
 **Mesh Triangulation**
 
@@ -34,7 +35,7 @@ We triangulate the mesh by connecting vertices on adjacents parallels and meridi
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODM0NzQ5NSwtMzQzNTgzNTkyLDExMz
+eyJoaXN0b3J5IjpbLTYyNTE2Mzk4MywtMzQzNTgzNTkyLDExMz
 E2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2NywtMTA2NTQyNjQ1
 MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LDE3NTc0ODA1MzldfQ
 ==
