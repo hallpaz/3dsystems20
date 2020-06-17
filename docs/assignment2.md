@@ -33,7 +33,7 @@ We triangulate the mesh by connecting vertices on adjacents parallels and meridi
 
 <script src="https://gist.github.com/hallpaz/e4ab7e85c37d221cdd9e2381b8d541a5.js"></script>
 
-
+In the end of the function we convert the lists of data into Pytorch tensors, so we have a data structure compatible with the operations 
 
 ### Rendering the Scene
 
@@ -43,7 +43,8 @@ We triangulate the mesh by connecting vertices on adjacents parallels and meridi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MTA3ODgxLC0zNDM1ODM1OTIsMTEzMT
-Y1Mzk0NSwtOTMzOTE2NzYsNzg4MjIwNzY3LC0xMDY1NDI2NDUy
-LDEzMzU1MzAxODQsLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
+eyJoaXN0b3J5IjpbLTU3NzQzMDUyNiwtMzQzNTgzNTkyLDExMz
+E2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2NywtMTA2NTQyNjQ1
+MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LDE3NTc0ODA1MzldfQ
+==
 -->
