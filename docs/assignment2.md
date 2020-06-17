@@ -28,13 +28,13 @@ For each parallel, we sample two vertices on the exact same location of the firs
 
 **Mesh Triangulation**
 
-We triangulate the mesh by connecting vertices on adjacents parallels and meridians over the surface. We choose the order of the vertices such that each face has a clockwise (CW) orientation.
+We triangulate the mesh by connecting vertices on adjacents parallels and meridians over the surface. We choose the order of the vertices such that each face has a clockwise (CW) winding order.
 
 <script src="https://gist.github.com/hallpaz/e4ab7e85c37d221cdd9e2381b8d541a5.js"></script>
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjY0NjkxMSwtOTMzOTE2NzYsNzg4Mj
+eyJoaXN0b3J5IjpbMTEzMTY1Mzk0NSwtOTMzOTE2NzYsNzg4Mj
 IwNzY3LC0xMDY1NDI2NDUyLDEzMzU1MzAxODQsLTE3OTY5Mzgx
 ODksMTc1NzQ4MDUzOV19
 -->
