@@ -16,7 +16,7 @@ First of all, we need to compute the geometry and texture coordinates for a sphe
 
 For the geometry, we sample points uniformly as we increment the angles Phi and Theta in a spherical coordinate system. **0 <= Phi <= 2pi; 0 <= Theta < pi**. As the texture has a boundary and the sphere has not , we must be careful to achieve a good and meaningful result. Our strategy for a good mapping was:
 
-##### Geometry Coordinates
+##### Geometry  and Texture Coordinates
 
 1. We don't close the sphere in the poles. 
 As we can see in line #2, we define an **epsilon**, so that **Theta** actually varies from **epsilon** to **pi-epsilon** and the vertices of the poles are sampled very close to each other, but are still considered different elements.
@@ -28,7 +28,7 @@ For each parallel, we sample two vertices on the exact same location of the firs
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5Mjc0Mjk0LC05MzM5MTY3Niw3ODgyMj
+eyJoaXN0b3J5IjpbMTAxNjIxMTgwLC05MzM5MTY3Niw3ODgyMj
 A3NjcsLTEwNjU0MjY0NTIsMTMzNTUzMDE4NCwtMTc5NjkzODE4
 OSwxNzU3NDgwNTM5XX0=
 -->
