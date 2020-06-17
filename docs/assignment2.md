@@ -6,7 +6,7 @@
 
 ## Rendering a Scene with a Differentiable Renderer
 
-The objective of this 2nd assignment is to render a scene using a differentiable renderer and exploit some capabilities of this system. We aim to render equirectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the câmera in the center of the sphere.
+The objective of this 2nd assignment is to render a scene using a differentiable renderer and exploit some capabilities of this system. We aim to render equirectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the câmera in the center of the sphere. You can find the [full source code here](https://github.com/hallpaz/3dsystems20/blob/master/Rendering%20Panoramas.ipynb).
 
 ### Modeling the Scene
 
@@ -60,8 +60,8 @@ In the end of the function we convert the lists of data into Pytorch tensors, so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA4NzA2NDEsLTU3NzQzMDUyNiwtMz
-QzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2
-NywtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LD
-E3NTc0ODA1MzldfQ==
+eyJoaXN0b3J5IjpbLTEwODIxMDIzNzksLTE3OTA4NzA2NDEsLT
+U3NzQzMDUyNiwtMzQzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkx
+Njc2LDc4ODIyMDc2NywtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC
+0xNzk2OTM4MTg5LDE3NTc0ODA1MzldfQ==
 -->
