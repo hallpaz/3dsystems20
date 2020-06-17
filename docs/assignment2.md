@@ -42,9 +42,13 @@ In the end of the function we convert the lists of data into Pytorch tensors, so
 ##### Loading mesh data
 
 
+##### Setting the camera inside the sphere
+
+#### Inv
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzQzMDUyNiwtMzQzNTgzNTkyLDExMz
-E2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2NywtMTA2NTQyNjQ1
-MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LDE3NTc0ODA1MzldfQ
-==
+eyJoaXN0b3J5IjpbLTE3NjIzMzAzOTIsLTU3NzQzMDUyNiwtMz
+QzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2
+NywtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LD
+E3NTc0ODA1MzldfQ==
 -->
