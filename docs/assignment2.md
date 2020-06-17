@@ -19,13 +19,14 @@ For the geometry, we sample points uniformly as we increment the angles Phi and 
 1. We don't close the sphere in the poles. 
 As we can see in line #2, we define an **epsilon**, so that **Theta** actually varies from **epsilon** to **pi-epsilon** and the vertices of the poles are sampled very close to each other, but are still considered different elements.
 
-2. We duplicate the vertices 
+2. We duplicate the vertices located over the first meridian
+For each parallel, we sample two vertices on the exact same location 
 
 
 <script src="https://gist.github.com/hallpaz/1c218e01c893c120b61a661731234c30.js"></script>
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY2NjQwODEsLTEwNjU0MjY0NTIsMT
-MzNTUzMDE4NCwtMTc5NjkzODE4OSwxNzU3NDgwNTM5XX0=
+eyJoaXN0b3J5IjpbOTM3MzU3NDgxLC0xMDY1NDI2NDUyLDEzMz
+U1MzAxODQsLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
 -->
