@@ -33,12 +33,17 @@ We triangulate the mesh by connecting vertices on adjacents parallels and meridi
 
 <script src="https://gist.github.com/hallpaz/e4ab7e85c37d221cdd9e2381b8d541a5.js"></script>
 
+
+
 ### Rendering the Scene
 
-This tutorial in the PyTorch3D website shows how to set up a renderer and 
+[This tutorial](https://pytorch3d.org/tutorials/render_textured_meshes) in the PyTorch3D website shows how to set up a renderer to render a textured mesh. We use it as a starting point to our experiments.
+
+##### Loading mesh data
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjkyMTQzOSwtMzQzNTgzNTkyLDExMz
-E2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2NywtMTA2NTQyNjQ1
-MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LDE3NTc0ODA1MzldfQ
-==
+eyJoaXN0b3J5IjpbNTY4MTA3ODgxLC0zNDM1ODM1OTIsMTEzMT
+Y1Mzk0NSwtOTMzOTE2NzYsNzg4MjIwNzY3LC0xMDY1NDI2NDUy
+LDEzMzU1MzAxODQsLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
 -->
