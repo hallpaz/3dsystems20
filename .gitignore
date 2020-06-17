@@ -3,4 +3,7 @@ drafts/*
 __pycache__/*
 */__pycache__/*
 venv/*
+dr_env/*
 .ipynb_checkpoints/*
+.vscode/*
+test_opendr.py
