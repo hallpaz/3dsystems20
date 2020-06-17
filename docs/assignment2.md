@@ -41,6 +41,7 @@ In the end of the function we convert the lists of data into Pytorch tensors, so
 
 ##### Loading mesh data
 
+The [tutorial] shows how to load an obj file with material data to render a textured surface. into memory  We pre-computed the geometry of the mesh in a procedural way. 
 
 ##### Setting the camera inside the sphere
 
@@ -60,8 +61,8 @@ In the end of the function we convert the lists of data into Pytorch tensors, so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODIxMDIzNzksLTE3OTA4NzA2NDEsLT
-U3NzQzMDUyNiwtMzQzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkx
-Njc2LDc4ODIyMDc2NywtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC
-0xNzk2OTM4MTg5LDE3NTc0ODA1MzldfQ==
+eyJoaXN0b3J5IjpbMTcxNjcwOTA3MiwtMTc5MDg3MDY0MSwtNT
+c3NDMwNTI2LC0zNDM1ODM1OTIsMTEzMTY1Mzk0NSwtOTMzOTE2
+NzYsNzg4MjIwNzY3LC0xMDY1NDI2NDUyLDEzMzU1MzAxODQsLT
+E3OTY5MzgxODksMTc1NzQ4MDUzOV19
 -->
