@@ -3,6 +3,17 @@
 #### Professor Luiz Velho
 #### Hallison Paz, 1st year PhD student
 
+---------
+
+## Project - Survey of Differentiable Rendering \[under construction]
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. [READ MORE...](differentiable-rendering.md)
+
+## Assignment 2 - Rendering a scene with a differentible renderer \[under construction]
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. [READ MORE...](assignment2.md)
+
+
 ## Assignment 1 - Exploring PyTorch3D library
 
 The objective of this assignment is to get familiarized with the AI Graphics platform [Pytorch3D](https://pytorch3d.org/). To achieve this, I read though the available [documentation](https://pytorch3d.org/docs/why_pytorch3d) and [tutorials](https://pytorch3d.org/tutorials) and started doing some experiments focused on 3D modeling topic.
@@ -84,9 +95,9 @@ In the example notebook there is a comment stating that normalization affects on
 
 I wonder if this is really true for any case. If this is really true, it seems that the impact on speed is huge, since we added 400 iterations (20% more) and still we did not converge to a good solution. I think it's an issue that needs more investigation in a future work. For now, it seems that these exercises provided the necessary effort to get familiarized with the platform.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU4MjgzMTksLTE5NTAxNzI2OTEsLT
-EyNTExOTkwNTMsOTI3MDExMjg0LC0xMjg0OTkwMzM0LDE3NDE0
-MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4Nj
-MxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUxNjExNDgs
-LTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbNDg0NjAzODEsLTE0NjU4MjgzMTksLTE5NT
+AxNzI2OTEsLTEyNTExOTkwNTMsOTI3MDExMjg0LC0xMjg0OTkw
+MzM0LDE3NDE0MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0MTA2Mz
+QsLTU0MjQ4NjMxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2
+MDUxNjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 -->
