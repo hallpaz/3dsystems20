@@ -77,7 +77,7 @@ def equisphere(meridians = 180, parallels = 90, r = 1, device = None):
         theta = p * (pi - 2*epsilon)/(parallels-1) + epsilon
         for m in range(meridians):
             phi = m * 2*pi/meridians
-            
+            # texture coordinates
             u = phi/(2*pi)
             v = 1.0 - theta/pi
             verts_uv.append(np.array([u,v]))
@@ -94,10 +94,8 @@ def equisphere(meridians = 180, parallels = 90, r = 1, device = None):
         ])
 
     faces = []
-    faces_uv = []
     for p in range(parallels-1):
         for m in range(meridians):
-            # if p+1 < parallels:
             faces.append([
                 p*(meridians+1) + m, 
                 (p+1)*(meridians+1) +m, 
@@ -108,13 +106,6 @@ def equisphere(meridians = 180, parallels = 90, r = 1, device = None):
                     (p+1)*(meridians+1) + m,
                     (p+1)*(meridians+1) + m+1
                 ])
-    
-            # faces_uv.append((verts_uv[p*(meridians+1) + m] + 
-            #     verts_uv[(p+1)*(meridians+1) +m] +
-            #     verts_uv[p*(meridians+1) + m+1])/3)
-            # faces_uv.append((verts_uv[p*(meridians+1) + m+1] + 
-            #     verts_uv[(p+1)*(meridians+1) + m] +
-            #     verts_uv[(p+1)*(meridians+1) + m+1])/3)
             
 
     verts_list = torch.tensor(verts, dtype=torch.float32, device=device)
