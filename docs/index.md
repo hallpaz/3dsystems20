@@ -17,16 +17,16 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 
 The objective of this 2nd assignment is to render a scene using a differentiable renderer and exploit some capabilities of this system. We aim to render equirectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the câmera in the center of the sphere. [READ MORE...](assignment2.md)
 
-#### [Exploring PyTorch3D library](assignment1.md)
+#### [Exploring the PyTorch3D Library for Modeling](assignment1.md)
 
 The objective of this assignment is to get familiarized with the AI Graphics platform [Pytorch3D](https://pytorch3d.org/). To achieve this, I read though the available [documentation](https://pytorch3d.org/docs/why_pytorch3d) and [tutorials](https://pytorch3d.org/tutorials) and started doing some experiments focused on 3D modeling topic.
 
 ![Some shapes of revolution](img/rev_shapes.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MDA5MTc0LC0zODYyNDUxNywxNDkyNz
-k5NzUwLDQ4NDYwMzgxLC0xNDY1ODI4MzE5LC0xOTUwMTcyNjkx
-LC0xMjUxMTk5MDUzLDkyNzAxMTI4NCwtMTI4NDk5MDMzNCwxNz
-QxNDMxODA1LC0xMTc0MjM5NTMxLC0xNDM0NDEwNjM0LC01NDI0
-ODYzMTEsLTEzODE1NzA0MzEsMTQyNjQ1NjY5LC0xNjA1MTYxMT
-Q4LC0xOTM4NTMwMzk4LDExOTI2MDU3MTVdfQ==
+eyJoaXN0b3J5IjpbLTc3OTkwODg5OSwtMzg2MjQ1MTcsMTQ5Mj
+c5OTc1MCw0ODQ2MDM4MSwtMTQ2NTgyODMxOSwtMTk1MDE3MjY5
+MSwtMTI1MTE5OTA1Myw5MjcwMTEyODQsLTEyODQ5OTAzMzQsMT
+c0MTQzMTgwNSwtMTE3NDIzOTUzMSwtMTQzNDQxMDYzNCwtNTQy
+NDg2MzExLC0xMzgxNTcwNDMxLDE0MjY0NTY2OSwtMTYwNTE2MT
+E0OCwtMTkzODUzMDM5OCwxMTkyNjA1NzE1XX0=
 -->
