@@ -1,7 +1,7 @@
 # 3D Graphics Systems Course - IMPA 2020
 
-### Professor Luiz Velho
-### Hallison Paz, 1st year PhD student
+#### Professor Luiz Velho
+#### Hallison Paz, 1st year PhD student
 
 ---------
 
@@ -95,9 +95,9 @@ In the example notebook there is a comment stating that normalization affects on
 
 I wonder if this is really true for any case. If this is really true, it seems that the impact on speed is huge, since we added 400 iterations (20% more) and still we did not converge to a good solution. I think it's an issue that needs more investigation in a future work. For now, it seems that these exercises provided the necessary effort to get familiarized with the platform.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU4MjgzMTksLTE5NTAxNzI2OTEsLT
-EyNTExOTkwNTMsOTI3MDExMjg0LC0xMjg0OTkwMzM0LDE3NDE0
-MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4Nj
-MxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUxNjExNDgs
-LTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
+eyJoaXN0b3J5IjpbNDg0NjAzODEsLTE0NjU4MjgzMTksLTE5NT
+AxNzI2OTEsLTEyNTExOTkwNTMsOTI3MDExMjg0LC0xMjg0OTkw
+MzM0LDE3NDE0MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0MTA2Mz
+QsLTU0MjQ4NjMxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2
+MDUxNjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 -->
