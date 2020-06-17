@@ -6,15 +6,17 @@
 
 ## Assignment 2 - Rendering a Scene with a Differentiable Renderer
 
-The objective of this assignment is to render a scene using a differentiable renderer and exploit some capabilities of this system. We aim to render equirrectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the câmera in the center of the sphere.
+The objective of this assignment is to render a scene using a differentiable renderer and exploit some capabilities of this system. We aim to render equirectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the câmera in the center of the sphere.
 
 ### Modeling the Scene
 
-First of all, we need to compute the geometry and texture coordinates for a sphere. We decided to use an equirrectangular panorama as a bidimensional texture for the interior of the sphere, so it seems easier to parameterize the sphere in terms of latitude and longitude coordinates.
+First of all, we need to compute the geometry and texture coordinates for a sphere. We decided to use an equirectangular panorama as a bidimensional texture for the interior of the sphere, so it seems easier to parameterize the sphere in terms of latitude and longitude coordinates.
+
+
 
 
 
 ### Rendering the Scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzQ4MDUzOV19
+eyJoaXN0b3J5IjpbLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
 -->
