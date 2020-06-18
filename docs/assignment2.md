@@ -59,15 +59,15 @@ ff
 
 ##### Looking for alternatives renderers
 
-We tried to use the Tensorflow Graphics to render a mesh, but we could'nt find information on how to render a textured mesh and it did 
+We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the Open Differentiable Renderer (OpenDR).
 
 ### Conclusion
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjYxNzA5MSwtNDYyMzQyNjcsLTE3OT
-A4NzA2NDEsLTU3NzQzMDUyNiwtMzQzNTgzNTkyLDExMzE2NTM5
-NDUsLTkzMzkxNjc2LDc4ODIyMDc2NywtMTA2NTQyNjQ1MiwxMz
-M1NTMwMTg0LC0xNzk2OTM4MTg5LDE3NTc0ODA1MzldfQ==
+eyJoaXN0b3J5IjpbLTEwMjMxNjM1MjUsLTQ2MjM0MjY3LC0xNz
+kwODcwNjQxLC01Nzc0MzA1MjYsLTM0MzU4MzU5MiwxMTMxNjUz
+OTQ1LC05MzM5MTY3Niw3ODgyMjA3NjcsLTEwNjU0MjY0NTIsMT
+MzNTUzMDE4NCwtMTc5NjkzODE4OSwxNzU3NDgwNTM5XX0=
 -->
