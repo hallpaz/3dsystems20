@@ -41,7 +41,7 @@ In the end of the function we convert the lists of data into Pytorch tensors, so
 
 ##### Loading mesh data
 
-The [tutorial] shows how to load an obj file into memory with material data to render a textured surface.  Our first approach was to try to write the computed the geometry of the mesh to an obj file with texture information. Howein a procedural way, so we had to learn how to do it reading the code. 
+The [tutorial] shows how to load an obj file into memory with material data to render a textured surface.  Our first approach was to try to write the computed the geometry of the mesh to an obj file with texture information. However, we discovered that the library does not support saving a mesh with texture coordinates yet and [it does not intent to add this feature soon](https://github.com/facebookresearch/pytorch3d/issues/151). To solvelearn how to do it reading the code. 
 
 As this library is still very new, we had to deal  
 
@@ -63,8 +63,8 @@ As this library is still very new, we had to deal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUxODc1MzUsLTQ2MjM0MjY3LC0xNz
-kwODcwNjQxLC01Nzc0MzA1MjYsLTM0MzU4MzU5MiwxMTMxNjUz
-OTQ1LC05MzM5MTY3Niw3ODgyMjA3NjcsLTEwNjU0MjY0NTIsMT
-MzNTUzMDE4NCwtMTc5NjkzODE4OSwxNzU3NDgwNTM5XX0=
+eyJoaXN0b3J5IjpbODQyOTI3NDk3LC00NjIzNDI2NywtMTc5MD
+g3MDY0MSwtNTc3NDMwNTI2LC0zNDM1ODM1OTIsMTEzMTY1Mzk0
+NSwtOTMzOTE2NzYsNzg4MjIwNzY3LC0xMDY1NDI2NDUyLDEzMz
+U1MzAxODQsLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
 -->
