@@ -60,7 +60,7 @@ We decided to put the camera outside the sphere again and render some intermedia
 T = [[0, 0, 2.1]] (outside)
 ```html
 <figure>
-	<img src="img/" alt="Uma imagem impressionante">	
+	<img src="img/T12.png" alt="Uma imagem impressionante">	
 	<figcaption>Câmera located at point [0.0, 0.0, 1.2] (outside)</figcaption>
 </figure>
 ```
@@ -127,7 +127,7 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjgyMDMyOSwtMTc1NDYzMzI1MywtMT
+eyJoaXN0b3J5IjpbMTQwNDQzMDIxNSwtMTc1NDYzMzI1MywtMT
 E3MjAzNTQwMywtNTI3OTQ2OTA0LDEyNTcxNDA1NzUsMTk1MTkw
 MzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1NTY3LC0xMjU4NDAxND
 g5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5MiwtMTE4MzQyMjYwNiw0
