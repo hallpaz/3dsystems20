@@ -97,7 +97,17 @@ However, we can see that in this case, render with the camera located in the cen
 
 ##### Changing Renderer Settings
 
-We tried to explore different sets of parameters 
+We tried to explore different sets of the parameters faces_per_pixel, bin_size and max_faces_per
+
+	'''python
+		raster_settings = RasterizationSettings(
+	    image_size=512, 
+	    blur_radius=0.0, 
+	    faces_per_pixel=1, 
+	    bin_size = None,  # this setting controls whether naive or coarse-to-fine rasterization is used
+	    max_faces_per_bin = None  # this setting is for coarse rasterization
+	)
+'''
 
 ##### Moving the near clipping plane
 
@@ -111,11 +121,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDg1Nzc0NCwtNTI3OTQ2OTA0LDEyNT
-cxNDA1NzUsMTk1MTkwMzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1
-NTY3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5Mi
-wtMTE4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAy
-MzE2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMD
-UyNiwtMzQzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LDc4
-ODIyMDc2N119
+eyJoaXN0b3J5IjpbLTE0NTIxMjAyODQsLTUyNzk0NjkwNCwxMj
+U3MTQwNTc1LDE5NTE5MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1
+NTU2NywtMTI1ODQwMTQ4OSwtNTc5OTIwNDk3LC04MTU2OTk0OT
+IsLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2NDM4NzIwNDAsLTEw
+MjMxNjM1MjUsLTQ2MjM0MjY3LC0xNzkwODcwNjQxLC01Nzc0Mz
+A1MjYsLTM0MzU4MzU5MiwxMTMxNjUzOTQ1LC05MzM5MTY3Niw3
+ODgyMjA3NjddfQ==
 -->
