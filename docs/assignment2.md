@@ -78,13 +78,13 @@ The first test we did to check if the error was in our computations, was to expo
 
 ##### Moving the câmera in the tutorial
 
-We decided to take the original code of the tutorial and move the camera towards the inside of the cow mesh. We could observe the exact same problem. We discarded issues related to the winding order of the faces.
+We decided to take the original code of the tutorial and move the camera towards the inside of the cow mesh. We could observe the exact same problem. We discarded issues related to the winding order and normal orientation of the faces.
 
 ![enter image description here](img/cow_interior.jpg)
 
 ##### Toy texture
 
-
+##### Moving the near clipping plane
 
 ##### Cropping the mesh
 
@@ -97,7 +97,7 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxNTU5MTQ2LDE4ODk5NTU1NjcsLTEyNT
+eyJoaXN0b3J5IjpbNTAxMDIwMDg4LDE4ODk5NTU1NjcsLTEyNT
 g0MDE0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzNDIy
 NjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYzNTI1LC
 00NjIzNDI2NywtMTc5MDg3MDY0MSwtNTc3NDMwNTI2LC0zNDM1
