@@ -13,14 +13,14 @@ The objective of this 2nd assignment is to render a scene using the differentiab
 First of all, we need to compute the geometry and texture coordinates for a sphere. We decided to parameterize the sphere in terms of latitude and longitude coordinates, as well as use an equirectangular panorama as a bidimensional texture for the interior of the sphere. A valid concern about textures is the possibility of distortion due to the mapping; using this representation, we have an image and a natural map that takes into account the distortion of the surface.
 ![Panorama Equirectangular; source: https://www.flickr.com/photos/101382486@N07/9688940322/in/photolist-NVEvL-FKxNb-8sNqz4-4xDge6-8sdop9-7EncwT-49Fsty-49GdCm-fLbmpd](img/panorama4.jpg)
 
-For the geometry, we sample points uniformly as we increment the angles Phi and Theta in a spherical coordinate system. **0 <= Phi <= 2pi; 0 <= Theta < pi**. As the texture has a boundary and the sphere has not , we must be careful to achieve a good and meaningful result. Our strategy for a good mapping was:
-
 ##### Geometry  and Texture Coordinates
+
+For the geometry, we sample points uniformly as we increment the angles Phi and Theta in a spherical coordinate system. **0 <= Phi <= 2pi; 0 <= Theta < pi**. As the texture has a boundary and the sphere has not, we must be careful to achieve a good and meaningful result. Our strategy for a good mapping was:
 
 1. We don't close the sphere in the poles. 
 As we can see in line #2, we define an **epsilon**, so that **Theta** actually varies from **epsilon** to **pi-epsilon** and the vertices of the poles are sampled very close to each other, but are still considered different elements.
 
-2. We duplicate the vertices located over the first meridian
+2. We duplicate the vertices located over the first meridian.
 For each parallel, we sample two vertices on the exact same location of the first sample, which is equivalent to consider that Phi belongs to the closed interval **[0, 2PI]**. We do that to simplify the computations of  the texture reconstruction on the surface, as it can be done with a linear interpolation. Lines #19 to #25 implement this approach.
 
 <script src="https://gist.github.com/hallpaz/1c218e01c893c120b61a661731234c30.js"></script>
@@ -139,11 +139,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTE3MTMzMiw3MzUzOTc2MCwtMjA1Mj
-I3MDYzMSwtNjg2NTYzODE5LC0xNDc2Mzg4OTkxLC04MTUwNTYx
-MzcsLTE3NTQ2MzMyNTMsLTExNzIwMzU0MDMsLTUyNzk0NjkwNC
-wxMjU3MTQwNTc1LDE5NTE5MDMyMzQsLTIwNjkzNjgzNTEsMTg4
-OTk1NTU2NywtMTI1ODQwMTQ4OSwtNTc5OTIwNDk3LC04MTU2OT
-k0OTIsLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2NDM4NzIwNDAs
-LTEwMjMxNjM1MjVdfQ==
+eyJoaXN0b3J5IjpbLTk5OTYzODQyLDE4MzkxNzEzMzIsNzM1Mz
+k3NjAsLTIwNTIyNzA2MzEsLTY4NjU2MzgxOSwtMTQ3NjM4ODk5
+MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC
+01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5
+MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMD
+Q5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5Nywx
+NjQzODcyMDQwXX0=
 -->
