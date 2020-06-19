@@ -124,17 +124,17 @@ An unexpected result
 
 ##### Looking for alternatives renderers
 
-We tried to use the [Tensorflow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we discovered it's written in Python 2, which is deprecated as of 2020, and it's not compatible with Python 3. If we manage to render the scene in another differentiable renderer system, we 
+We tried to use the [Tensorflow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we discovered it's written in Python 2, which is deprecated as of 2020, and it's not compatible with Python 3. Finding a way to render the scene in another similar differentiable renderer system, can help us understand if it's a problem related to the method or to the specific implementation in PyTorch3D. This point remains unco
 
 ### Conclusion
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTE3ODgxMSwtMTQ3NjM4ODk5MSwtOD
-E1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5
-NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4Mz
-UxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5Nywt
-ODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQzOD
-cyMDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5MDg3MDY0
-MSwtNTc3NDMwNTI2XX0=
+eyJoaXN0b3J5IjpbLTEwNTAyOTE0MDYsLTE0NzYzODg5OTEsLT
+gxNTA1NjEzNywtMTc1NDYzMzI1MywtMTE3MjAzNTQwMywtNTI3
+OTQ2OTA0LDEyNTcxNDA1NzUsMTk1MTkwMzIzNCwtMjA2OTM2OD
+M1MSwxODg5OTU1NTY3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcs
+LTgxNTY5OTQ5MiwtMTE4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mz
+g3MjA0MCwtMTAyMzE2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2
+NDEsLTU3NzQzMDUyNl19
 -->
