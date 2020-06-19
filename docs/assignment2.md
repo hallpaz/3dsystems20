@@ -104,7 +104,7 @@ Unfortunately, we couldn't identify any pattern in the rendered image that could
 	<figcaption>Camera located at point [0.0, 0.0, 0.3] (inside)</figcaption>
 </figure>
 
-However, in this case, when we render the scene with the camera located in the center of the sphere, we don't get a black screen.
+An interesting result was that, in this case, when we rendered the scene with the camera located in the center of the sphere, we didn't get a black screen as we got using the fisrst .
 
 <figure>
 	<img src="img/toy0.png" alt="Rendering the sphere">
@@ -137,11 +137,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2MzEyMTQwLC03MDczNDQ2MzksMTgzOT
-E3MTMzMiw3MzUzOTc2MCwtMjA1MjI3MDYzMSwtNjg2NTYzODE5
-LC0xNDc2Mzg4OTkxLC04MTUwNTYxMzcsLTE3NTQ2MzMyNTMsLT
-ExNzIwMzU0MDMsLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5
-MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQwMT
-Q4OSwtNTc5OTIwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MDYs
-NDU3Njc1MTk3XX0=
+eyJoaXN0b3J5IjpbMTAxMTExMzQxMSwtNzA3MzQ0NjM5LDE4Mz
+kxNzEzMzIsNzM1Mzk3NjAsLTIwNTIyNzA2MzEsLTY4NjU2Mzgx
+OSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC
+0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUx
+OTAzMjM0LC0yMDY5MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MD
+E0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2
+LDQ1NzY3NTE5N119
 -->
