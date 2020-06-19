@@ -48,23 +48,23 @@ The [tutorial] shows how to load an obj file into memory with material data to r
 First, we tried to reproduce the tutorial steps to check if the texture data is fine and see what would be rendered. 
 We can see part of the the texture represented in a spherical form in an image that looks a little dark. This result seems fine as we are looking to the sphere from the outside and the normals of the faces points inward the surface. 
 
-![enter image description here](img/render_exterior1.jpg)
+![enter image description here](img/render_exterior1.png)
 
 After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen.
 
-![enter image description here](T0.jpg)
+![enter image description here](T0.png)
 
 We decided to put the camera outside the sphere again and render some intermediate images as we move the camera towards the center of the sphere. 
 
-![enter image description here](T21.jpg)
+![enter image description here](T21.png)
 T = [[0, 0, 2.1]] (outside)
-![enter image description here](T12.jpg)
+![enter image description here](T12.png)
 T = [[0, 0, 1.2]] (outside)
 
-![enter image description here](T09.jpg)
+![enter image description here](T09.png)
 T = [[0, 0, 0.9]] (inside)
 
-![enter image description here](inside_mosaic.jpg)
+![enter image description here](inside_mosaic.png)
 T = [[0, 0, 0.6]] | [[0, 0, 0.3]] | [[0, 0, 0.0]] (inside)
 
 As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, we have a black screen. 
@@ -80,12 +80,12 @@ The first test we did to check if the error was in our computations, was to expo
 
 We decided to take the original code of the tutorial and move the camera towards the inside of the cow mesh. We could observe the exact same problem. We discarded issues related to the winding order and normal orientation of the faces.
 
-![enter image description here](img/cow_interior.jpg)
+![enter image description here](img/cow_interior.png)
 
 ##### Toy texture
 
 We decided to use a very simple texture, represented by 4 large rectangles in different colors, to try to investigate the problem by looking to the result. 
-![enter image description here](img/panorama5.jpg)
+![enter image description here](img/panorama5.png)
 
 ##### Moving the near clipping plane
 
@@ -100,7 +100,7 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxOTg4ODkxOCwtMjA2OTM2ODM1MSwxOD
+eyJoaXN0b3J5IjpbLTk1NDUxMjg4NiwtMjA2OTM2ODM1MSwxOD
 g5OTU1NTY3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5
 OTQ5MiwtMTE4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MC
 wtMTAyMzE2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3
