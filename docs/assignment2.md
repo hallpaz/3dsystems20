@@ -50,7 +50,7 @@ We can see part of the the texture represented in a spherical form in an image t
 
 ![enter image description here](img/render_exterior1.jpg)
 
-Now, we moved the camera to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0.
+After that, we moved the camera and the  to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0.
 
 
 #### Investigating the unexpected results
@@ -70,10 +70,10 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTY5OTQ5MiwtMTE4MzQyMjYwNiw0NT
-c2NzUxOTcsMTY0Mzg3MjA0MCwtMTAyMzE2MzUyNSwtNDYyMzQy
-NjcsLTE3OTA4NzA2NDEsLTU3NzQzMDUyNiwtMzQzNTgzNTkyLD
-ExMzE2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2NywtMTA2NTQy
-NjQ1MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LDE3NTc0ODA1Mz
-ldfQ==
+eyJoaXN0b3J5IjpbLTIwODg3NTM1MTMsLTgxNTY5OTQ5MiwtMT
+E4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAyMzE2
+MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMDUyNi
+wtMzQzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LDc4ODIy
+MDc2NywtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC0xNzk2OTM4MT
+g5LDE3NTc0ODA1MzldfQ==
 -->
