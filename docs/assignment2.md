@@ -46,8 +46,9 @@ The [tutorial] shows how to load an obj file into memory with material data to r
 ##### Setting the scene parameters
 
 First, we tried to reproduce the tutorial steps to check if the texture data is fine and see what would be rendered. 
+We can see part of the the texture represented in a spherical form in a image that looks a little dark. This result seems fine as we are looking to the sphere from the outside and the normals of the faces points inward the surface. 
 
-We can see part of the the texture represented in a spherical form in a image that looks a little dark. This resuThe image looks fine as the camera is outside the sphere. It seems a little dark, probably due to 
+
 We used the same parameters of the tutorial to configure the rasterization settings and the mesh renderer, including the shader (Phong Shader). 
 
 
@@ -69,7 +70,7 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQ1NDI0NDksNDU3Njc1MTk3LDE2ND
+eyJoaXN0b3J5IjpbLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2ND
 M4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2MjM0MjY3LC0xNzkwODcw
 NjQxLC01Nzc0MzA1MjYsLTM0MzU4MzU5MiwxMTMxNjUzOTQ1LC
 05MzM5MTY3Niw3ODgyMjA3NjcsLTEwNjU0MjY0NTIsMTMzNTUz
