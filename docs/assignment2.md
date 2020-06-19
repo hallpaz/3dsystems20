@@ -97,7 +97,7 @@ However, we can see that in this case, render with the camera located in the cen
 
 ##### Changing Renderer Settings
 
-We tried to explore different sets of the parameters faces_per_pixel, bin_size and max_faces_per
+We tried to explore different sets of the parameters faces_per_pixel, bin_size and max_faces_per_bin, but we could't perceive any difference rendering the "toy texture".
 
 	'''python
 		raster_settings = RasterizationSettings(
@@ -111,7 +111,7 @@ We tried to explore different sets of the parameters faces_per_pixel, bin_size a
 
 ##### Moving the near clipping plane
 
-A
+An unexpected result
 
 ##### Looking for alternatives renderers
 
@@ -121,7 +121,7 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTIxMjAyODQsLTUyNzk0NjkwNCwxMj
+eyJoaXN0b3J5IjpbLTExNzIwMzU0MDMsLTUyNzk0NjkwNCwxMj
 U3MTQwNTc1LDE5NTE5MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1
 NTU2NywtMTI1ODQwMTQ4OSwtNTc5OTIwNDk3LC04MTU2OTk0OT
 IsLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2NDM4NzIwNDAsLTEw
