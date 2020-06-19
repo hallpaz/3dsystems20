@@ -36,11 +36,11 @@ In the end of the function we convert the lists of data into PyTorch tensors, so
 
 ### Rendering the Scene
 
-[This tutorial](https://pytorch3d.org/tutorials/render_textured_meshes) in the PyTorch3D website shows how to set up a renderer to render a textured mesh. We use it as a starting point to our experiments.
+[This tutorial](https://pytorch3d.org/tutorials/render_textured_meshes) in the PyTorch3D website shows how to set up a renderer to render a textured mesh. We used it as a starting point to our experiments.
 
 ##### Loading mesh data
 
-The [tutorial] shows how to load an obj file into memory with material data to render a textured surface.  Our first approach was to try to write the computed the geometry of the mesh to an obj file with texture information. However, we discovered that the library does not support saving a mesh with texture coordinates yet and [it does not intent to add this feature soon](https://github.com/facebookresearch/pytorch3d/issues/151). To solve this problem, we figured how to use the Texture class out of the source code.
+The tutorial shows how to load an *obj* file and material data into memory to render a textured surface. Our first approach was to try to write the computed geometry of the mesh to an obj file with texture information. However, we discovered that the library does not support saving a mesh with texture coordinates yet and [it does not intent to add this feature soon](https://github.com/facebookresearch/pytorch3d/issues/151). To solve this problem, we figured how to use the Texture class out of the source code.
 
 ##### Setting the scene parameters
 
@@ -139,11 +139,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA3NzE3MzcsMTgzOTE3MTMzMiw3Mz
-UzOTc2MCwtMjA1MjI3MDYzMSwtNjg2NTYzODE5LC0xNDc2Mzg4
-OTkxLC04MTUwNTYxMzcsLTE3NTQ2MzMyNTMsLTExNzIwMzU0MD
-MsLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5MDMyMzQsLTIw
-NjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQwMTQ4OSwtNTc5OT
-IwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MDYsNDU3Njc1MTk3
-LDE2NDM4NzIwNDBdfQ==
+eyJoaXN0b3J5IjpbLTcxNDA1NTc3LDE4MzkxNzEzMzIsNzM1Mz
+k3NjAsLTIwNTIyNzA2MzEsLTY4NjU2MzgxOSwtMTQ3NjM4ODk5
+MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC
+01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5
+MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMD
+Q5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5Nywx
+NjQzODcyMDQwXX0=
 -->
