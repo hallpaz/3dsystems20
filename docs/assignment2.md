@@ -50,7 +50,7 @@ We can see part of the the texture represented in a spherical form in an image t
 
 ![enter image description here](img/render_exterior1.png)
 
-After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen.
+After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen, but based on further tests that we'll descri.
 
 ![enter image description here](img/T0.png)
 
@@ -107,7 +107,7 @@ Unfortunately, we couldn't identify any pattern in the rendered image that could
 	<figcaption>Camera located at point [0.0, 0.0, 0.3] (inside)</figcaption>
 </figure>
 
-However, in this case, when we render the scene with the camera located in the center of the sphere, we don't get a black screen. In computer graphics, a completely black screen scre
+However, in this case, when we render the scene with the camera located in the center of the sphere, we don't get a black screen.
 
 <figure>
 	<img src="img/toy0.png" alt="Rendering the sphere">
@@ -140,11 +140,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQwOTY4OTksLTIwNTIyNzA2MzEsLT
-Y4NjU2MzgxOSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0
-NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MD
-U3NSwxOTUxOTAzMjM0LC0yMDY5MzY4MzUxLDE4ODk5NTU1Njcs
-LTEyNTg0MDE0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMT
-gzNDIyNjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYz
-NTI1LC00NjIzNDI2N119
+eyJoaXN0b3J5IjpbMzM2NjkxNzc3LC0yMDUyMjcwNjMxLC02OD
+Y1NjM4MTksLTE0NzYzODg5OTEsLTgxNTA1NjEzNywtMTc1NDYz
+MzI1MywtMTE3MjAzNTQwMywtNTI3OTQ2OTA0LDEyNTcxNDA1Nz
+UsMTk1MTkwMzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1NTY3LC0x
+MjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5MiwtMTE4Mz
+QyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAyMzE2MzUy
+NSwtNDYyMzQyNjddfQ==
 -->
