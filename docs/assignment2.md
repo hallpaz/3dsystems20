@@ -29,11 +29,11 @@ For each parallel, we sample two vertices on the exact same location of the firs
 
 **Mesh Triangulation**
 
-We triangulate the mesh by connecting vertices on adjacents parallels and meridians over the surface. We choose the order of the vertices such that each face has a clockwise (CW) winding order. This way, the normals point to the interior of the surface where we wish to locate our camera.
+We triangulate the mesh by connecting vertices on adjacent parallels and meridians over the surface. We choose the order of the vertices such that each face has a clockwise (CW) winding order. This way, the normals point to the interior of the surface where we wish to locate our camera.
 
 <script src="https://gist.github.com/hallpaz/e4ab7e85c37d221cdd9e2381b8d541a5.js"></script>
 
-In the end of the function we convert the lists of data into Pytorch tensors, so we have a data structure compatible with the operations 
+In the end of the function we convert the lists of data into PyTorch tensors, so we have a data structure compatible with the operations 
 
 ### Rendering the Scene
 
@@ -82,7 +82,7 @@ As we can see, as soon as the camera enters the surface, the visualization gives
 
 ##### Rendering the Mesh in MeshLab
 
-The first test we did to check if the error was in our computations, was to export the mesh and open it on Meshlab. We wrote a simple function to write an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In Meshlab, everything was ok, so we discarded a problem with our geometry.
+The first test we did to check if the error was in our computations, was to export the mesh and open it on MeshLab. We wrote a simple function to write an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In MeshLab, everything was ok, so we discarded a problem with our geometry.
 
 <video width="706"  height="458"  controls>  
 <source src="img/meshlab_panorama_video.mp4" type="video/mp4">  
@@ -124,13 +124,13 @@ An unexpected result
 
 ##### Looking for alternatives renderers
 
-We tried to use the [Tensorflow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we discovered it's written in Python 2, which is deprecated as of 2020, and it's not compatible with Python 3. Finding a way to render the scene in another similar differentiable renderer system, can help us understand if it's a problem related to the method or to the specific implementation in PyTorch3D. As we already spent a significant amount of time **This point remains inconclusive until now.**
+We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we discovered it's written in Python 2, which is deprecated as of 2020, and it's not compatible with Python 3. Finding a way to render the scene in another similar differentiable renderer system, can help us understand if it's a problem related to the method or to the specific implementation in PyTorch3D. As we already spent a significant amount of time in this assignment, **this point remains inconclusive until now.**
 
 ### Conclusion
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzY5OTU0NywtMTQ3NjM4ODk5MSwtOD
+eyJoaXN0b3J5IjpbMTY2MzA4MTM2OCwtMTQ3NjM4ODk5MSwtOD
 E1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5
 NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4Mz
 UxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5Nywt
