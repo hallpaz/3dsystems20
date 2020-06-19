@@ -10,6 +10,7 @@
 #### [A Survey of Differentiable Rendering](differentiable-rendering.md) \[under construction]
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. [READ MORE...](differentiable-rendering.md)
+![enter image description here](img/expectation.png)
 
 ## Assignments
 
@@ -23,7 +24,7 @@ The objective of this 1st assignment is to get familiarized with the AI Graphics
 
 ![Some shapes of revolution](img/rev_shapes.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDUxNDk0MSwtMzg2MjQ1MTcsMTQ5Mj
+eyJoaXN0b3J5IjpbLTIyODcyMDUwNSwtMzg2MjQ1MTcsMTQ5Mj
 c5OTc1MCw0ODQ2MDM4MSwtMTQ2NTgyODMxOSwtMTk1MDE3MjY5
 MSwtMTI1MTE5OTA1Myw5MjcwMTEyODQsLTEyODQ5OTAzMzQsMT
 c0MTQzMTgwNSwtMTE3NDIzOTUzMSwtMTQzNDQxMDYzNCwtNTQy
