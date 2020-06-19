@@ -124,17 +124,17 @@ An unexpected result
 
 ##### Looking for alternatives renderers
 
-We tried to use the [Tensorflow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we discovered it's written in Python 2, which is deprecated as of 2020, and it's not compatible with Python 3. Finding a way to render the scene in another similar differentiable renderer system, can help us understand if it's a problem related to the method or to the specific implementation in PyTorch3D. This point remains inconclusive untill now.
+We tried to use the [Tensorflow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we discovered it's written in Python 2, which is deprecated as of 2020, and it's not compatible with Python 3. Finding a way to render the scene in another similar differentiable renderer system, can help us understand if it's a problem related to the method or to the specific implementation in PyTorch3D. This point remains unconclusive untill now.
 
 ### Conclusion
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTEyMzYzNywtMTQ3NjM4ODk5MSwtOD
-E1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5
-NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4Mz
-UxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5Nywt
-ODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQzOD
-cyMDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5MDg3MDY0
-MSwtNTc3NDMwNTI2XX0=
+eyJoaXN0b3J5IjpbOTc0OTkyNTc1LC0xNDc2Mzg4OTkxLC04MT
+UwNTYxMzcsLTE3NTQ2MzMyNTMsLTExNzIwMzU0MDMsLTUyNzk0
+NjkwNCwxMjU3MTQwNTc1LDE5NTE5MDMyMzQsLTIwNjkzNjgzNT
+EsMTg4OTk1NTU2NywtMTI1ODQwMTQ4OSwtNTc5OTIwNDk3LC04
+MTU2OTk0OTIsLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2NDM4Nz
+IwNDAsLTEwMjMxNjM1MjUsLTQ2MjM0MjY3LC0xNzkwODcwNjQx
+LC01Nzc0MzA1MjZdfQ==
 -->
