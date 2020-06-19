@@ -140,13 +140,15 @@ An unexpected result
 
 ### Conclusion
 
-Differentiable rendering is a powerful tool to unite the computer graphics and computer vision problems. Our primary goal was to build on t the knowledge acquired during the last assignment to model and render a scene In this assignment, we couldn't achieve our primary goal 
+Differentiable rendering is a powerful tool to unite the computer graphics and computer vision problems. Our primary goal was render a 3D scene using the differentiable rendering implementation of Pytorch3D. Using equirrectangua 
+
+In this assignment, we couldn't achieve our primary goal 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIwNTcwMDIsLTcwNzM0NDYzOSwxOD
-M5MTcxMzMyLDczNTM5NzYwLC0yMDUyMjcwNjMxLC02ODY1NjM4
-MTksLTE0NzYzODg5OTEsLTgxNTA1NjEzNywtMTc1NDYzMzI1My
-wtMTE3MjAzNTQwMywtNTI3OTQ2OTA0LDEyNTcxNDA1NzUsMTk1
-MTkwMzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1NTY3LC0xMjU4ND
-AxNDg5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5MiwtMTE4MzQyMjYw
-Niw0NTc2NzUxOTddfQ==
+eyJoaXN0b3J5IjpbLTU5MzU1MDA0LC03MDczNDQ2MzksMTgzOT
+E3MTMzMiw3MzUzOTc2MCwtMjA1MjI3MDYzMSwtNjg2NTYzODE5
+LC0xNDc2Mzg4OTkxLC04MTUwNTYxMzcsLTE3NTQ2MzMyNTMsLT
+ExNzIwMzU0MDMsLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5
+MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQwMT
+Q4OSwtNTc5OTIwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MDYs
+NDU3Njc1MTk3XX0=
 -->
