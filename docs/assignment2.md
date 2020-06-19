@@ -64,7 +64,10 @@ T = [[0, 0, 1.2]] (outside)
 ![enter image description here](T09.jpg)
 T = [[0, 0, 0.9]] (inside)
 
-As
+![enter image description here](inside_mosaic.jpg)
+T = [[0, 0, 0.6]] | [[0, 0, 0.3]] | [[0, 0, 0.0]] (inside)
+
+As we can see, as soon as the camera enters
 
 
 #### Investigating the unexpected results
@@ -84,7 +87,7 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjcwNjUwMCwtODE1Njk5NDkyLC0xMT
+eyJoaXN0b3J5IjpbLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMT
 gzNDIyNjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYz
 NTI1LC00NjIzNDI2NywtMTc5MDg3MDY0MSwtNTc3NDMwNTI2LC
 0zNDM1ODM1OTIsMTEzMTY1Mzk0NSwtOTMzOTE2NzYsNzg4MjIw
