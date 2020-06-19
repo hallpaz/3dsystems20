@@ -44,8 +44,7 @@ The tutorial shows how to load an *obj* file and material data into memory to re
 
 ##### Setting the scene parameters
 
-First, we tried to reproduce the tutorial steps to check if the texture data is fine and see what would be rendered. 
-We can see part of the the texture represented in a spherical form in an image that looks a little dark. This result seems fine as we are looking to the sphere from the outside and the normals of the faces points inward the surface. 
+On the first experiment, we tried to reproduce the tutorial steps to check if the texture data is fine and see what would be rendered. We can see part of the texture represented in a spherical shape in an image that looks a little dark. This result seems fine as we are looking to the sphere from the outside and the normals of the faces points inward the surface. 
 
 ![enter image description here](img/render_exterior1.png)
 
@@ -139,7 +138,7 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTgwMjEwNiwxODM5MTcxMzMyLDczNT
+eyJoaXN0b3J5IjpbMTMxOTc5OTU0MSwxODM5MTcxMzMyLDczNT
 M5NzYwLC0yMDUyMjcwNjMxLC02ODY1NjM4MTksLTE0NzYzODg5
 OTEsLTgxNTA1NjEzNywtMTc1NDYzMzI1MywtMTE3MjAzNTQwMy
 wtNTI3OTQ2OTA0LDEyNTcxNDA1NzUsMTk1MTkwMzIzNCwtMjA2
