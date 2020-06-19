@@ -79,7 +79,7 @@ As we can see, as soon as the camera enters the surface, the visualization gives
 
 ##### Rendering the Mesh in MeshLab
 
-The first test we did to check if the error was in our computations, was to export the mesh and open it on MeshLab. We wrote a simple function to write an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In MeshLab, everything was ok, so we discarded a problem with our geometry.
+The first test we did to check if the error was in our computations, was to export the mesh and open it on [MeshLab](https://www.meshlab.net/). We wrote a simple function to save an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In MeshLab, everything was ok, so *we discarded a problem with our geometry*.
 
 <video width="706"  height="458"  controls>  
 <source src="img/meshlab_panorama_video.mp4" type="video/mp4">  
@@ -88,7 +88,7 @@ Your browser does not support the video tag.
 
 ##### Moving the câmera in the tutorial
 
-We decided to take the original code of the tutorial and move the camera towards the inside of the cow mesh. We could observe the exact same problem. We discarded issues related to the winding order and normal orientation of the faces.
+We decided to take the original code of the tutorial and move the camera towards the inside of the cow mesh. We could observe the exact same problem. *We discarded issues related to the winding order and normal orientation of the faces*.
 
 ![enter image description here](img/cow_interior.png)
 
@@ -97,7 +97,7 @@ We decided to take the original code of the tutorial and move the camera towards
 We decided to use a very simple texture, represented by 4 large rectangles in different colors, to try to investigate the problem by looking to the result. 
 ![enter image description here](img/panorama5.png)
 
-Unfortunately, we couldn't identify any pattern in the rendered image that could lead us to a solution. At first, we can see that some regions show patterns that resemble self-intersections or visibility problems related to depth sorting or face culling. We already checked that our mesh is correct and has no self-intersections, but to investigate visibility problems, we need to understand the details of this particular implementation.
+Unfortunately, we couldn't identify any pattern in the rendered image that could lead us to a solution. At first, we can see that some regions show patterns that resemble self-intersections or visibility problems related to depth sorting or face culling. We already checked that our mesh is correct and has no self-intersections, but to investigate visibility problems, *we need to understand the details of this particular implementation*.
 
 <figure>
 	<img src="img/toy03.png" alt="Rendering the sphere">
@@ -137,7 +137,7 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5NDIzMDQxLC03MDczNDQ2MzksMTgzOT
+eyJoaXN0b3J5IjpbOTg2MzEyMTQwLC03MDczNDQ2MzksMTgzOT
 E3MTMzMiw3MzUzOTc2MCwtMjA1MjI3MDYzMSwtNjg2NTYzODE5
 LC0xNDc2Mzg4OTkxLC04MTUwNTYxMzcsLTE3NTQ2MzMyNTMsLT
 ExNzIwMzU0MDMsLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5
