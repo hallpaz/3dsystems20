@@ -6,11 +6,11 @@
 
 ## Rendering a Scene with a Differentiable Renderer
 
-The objective of this 2nd assignment is to render a scene using the differentiable renderer and exploit some capabilities of this system. We aim to render equirectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the câmera in the center of the sphere. You can find the [full source code here](https://github.com/hallpaz/3dsystems20/blob/master/Rendering%20Panoramas.ipynb).
+The objective of this 2nd assignment is to render a scene using the differentiable renderer implemented in PyTorch3D and exploit some capabilities of this system. We aim to render equirectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the camera in the center of the sphere. You can find the [full source code here](https://github.com/hallpaz/3dsystems20/blob/master/Rendering%20Panoramas.ipynb).
 
 ### Modeling the Scene
 
-First of all, we need to compute the geometry and texture coordinates for a sphere. A valid concern about textures is the possibility of distortion due to the mapping. We decided to parameterize the sphere in terms of latitude and longitude coordinates, as well as use an equirectangular panorama as a bidimensional texture for the interior of the sphere. With this representation, we have an image that takes into account the distortion of the surface.
+First of all, we need to compute the geometry and texture coordinates for a sphere. We decided to parameterize the sphere in terms of latitude and longitude coordinates, as well as use an equirectangular panorama as a bidimensional texture for the interior of the sphere. A valid concern about textures is the possibility of distortion due to the mapping. With this representation, we have an image that takes into account the distortion of the surface.
 
 ![Panorama Equirectangular; source: https://www.flickr.com/photos/101382486@N07/9688940322/in/photolist-NVEvL-FKxNb-8sNqz4-4xDge6-8sdop9-7EncwT-49Fsty-49GdCm-fLbmpd](img/panorama4.jpg)
 
@@ -140,11 +140,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTU0Mzc0NCw3MzUzOTc2MCwtMjA1Mj
-I3MDYzMSwtNjg2NTYzODE5LC0xNDc2Mzg4OTkxLC04MTUwNTYx
-MzcsLTE3NTQ2MzMyNTMsLTExNzIwMzU0MDMsLTUyNzk0NjkwNC
-wxMjU3MTQwNTc1LDE5NTE5MDMyMzQsLTIwNjkzNjgzNTEsMTg4
-OTk1NTU2NywtMTI1ODQwMTQ4OSwtNTc5OTIwNDk3LC04MTU2OT
-k0OTIsLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2NDM4NzIwNDAs
-LTEwMjMxNjM1MjVdfQ==
+eyJoaXN0b3J5IjpbLTExOTMwNzU4NjQsNzM1Mzk3NjAsLTIwNT
+IyNzA2MzEsLTY4NjU2MzgxOSwtMTQ3NjM4ODk5MSwtODE1MDU2
+MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5NDY5MD
+QsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4MzUxLDE4
+ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5NywtODE1Nj
+k5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQzODcyMDQw
+LC0xMDIzMTYzNTI1XX0=
 -->
