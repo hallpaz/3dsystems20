@@ -107,7 +107,7 @@ We tried to explore different sets of the parameters faces_per_pixel, bin_size a
 	    bin_size = None,  # this setting controls whether naive or coarse-to-fine rasterization is used
 	    max_faces_per_bin = None  # this setting is for coarse rasterization
 	)
-```
+	``` 
 
 ##### Moving the near clipping plane
 
@@ -121,11 +121,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1ODEwMzI1LC0xMTcyMDM1NDAzLC01Mj
-c5NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4
-MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5Ny
-wtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQz
-ODcyMDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5MDg3MD
-Y0MSwtNTc3NDMwNTI2LC0zNDM1ODM1OTIsMTEzMTY1Mzk0NSwt
-OTMzOTE2NzZdfQ==
+eyJoaXN0b3J5IjpbLTE3NTQ2MzMyNTMsLTExNzIwMzU0MDMsLT
+UyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5MDMyMzQsLTIwNjkz
+NjgzNTEsMTg4OTk1NTU2NywtMTI1ODQwMTQ4OSwtNTc5OTIwND
+k3LC04MTU2OTk0OTIsLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2
+NDM4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2MjM0MjY3LC0xNzkwOD
+cwNjQxLC01Nzc0MzA1MjYsLTM0MzU4MzU5MiwxMTMxNjUzOTQ1
+LC05MzM5MTY3Nl19
 -->
