@@ -46,11 +46,11 @@ The [tutorial] shows how to load an obj file into memory with material data to r
 ##### Setting the scene parameters
 
 First, we tried to reproduce the tutorial steps to check if the texture data is fine and see what would be rendered. 
-We can see part of the the texture represented in a spherical form in a image that looks a little dark. This result seems fine as we are looking to the sphere from the outside and the normals of the faces points inward the surface. 
+We can see part of the the texture represented in a spherical form in an image that looks a little dark. This result seems fine as we are looking to the sphere from the outside and the normals of the faces points inward the surface. 
 
+![enter image description here](img/render_exterior1.jpg)
 
-We used the same parameters of the tutorial to configure the rasterization settings and the mesh renderer, including the shader (Phong Shader). 
-
+Now, we kept all 
 
 
 #### Investigating the unexpected results
@@ -70,9 +70,10 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2ND
-M4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2MjM0MjY3LC0xNzkwODcw
-NjQxLC01Nzc0MzA1MjYsLTM0MzU4MzU5MiwxMTMxNjUzOTQ1LC
-05MzM5MTY3Niw3ODgyMjA3NjcsLTEwNjU0MjY0NTIsMTMzNTUz
-MDE4NCwtMTc5NjkzODE4OSwxNzU3NDgwNTM5XX0=
+eyJoaXN0b3J5IjpbLTEyNjA2NTEzOTAsLTExODM0MjI2MDYsND
+U3Njc1MTk3LDE2NDM4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2MjM0
+MjY3LC0xNzkwODcwNjQxLC01Nzc0MzA1MjYsLTM0MzU4MzU5Mi
+wxMTMxNjUzOTQ1LC05MzM5MTY3Niw3ODgyMjA3NjcsLTEwNjU0
+MjY0NTIsMTMzNTUzMDE4NCwtMTc5NjkzODE4OSwxNzU3NDgwNT
+M5XX0=
 -->
