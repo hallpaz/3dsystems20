@@ -70,7 +70,7 @@ We decided to put the camera outside the sphere again and render some intermedia
 	<figcaption>Câmera located at points  [0, 0, 0.6] | [0, 0, 0.3] | [0, 0, 0.0] (inside)</figcaption>
 </figure>
 
-As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, we have a black screen, which we believe this result is texture dependent.
+As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, we have a black screen, which we believe is a texture dependent result, based on further experiments that we'll describe below.
 
 
 #### Investigating the unexpected results
@@ -135,11 +135,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA4MTgwNDIsMTgzOTE3MTMzMiw3Mz
-UzOTc2MCwtMjA1MjI3MDYzMSwtNjg2NTYzODE5LC0xNDc2Mzg4
-OTkxLC04MTUwNTYxMzcsLTE3NTQ2MzMyNTMsLTExNzIwMzU0MD
-MsLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5MDMyMzQsLTIw
-NjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQwMTQ4OSwtNTc5OT
-IwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MDYsNDU3Njc1MTk3
-LDE2NDM4NzIwNDBdfQ==
+eyJoaXN0b3J5IjpbLTcwNzM0NDYzOSwxODM5MTcxMzMyLDczNT
+M5NzYwLC0yMDUyMjcwNjMxLC02ODY1NjM4MTksLTE0NzYzODg5
+OTEsLTgxNTA1NjEzNywtMTc1NDYzMzI1MywtMTE3MjAzNTQwMy
+wtNTI3OTQ2OTA0LDEyNTcxNDA1NzUsMTk1MTkwMzIzNCwtMjA2
+OTM2ODM1MSwxODg5OTU1NTY3LC0xMjU4NDAxNDg5LC01Nzk5Mj
+A0OTcsLTgxNTY5OTQ5MiwtMTE4MzQyMjYwNiw0NTc2NzUxOTcs
+MTY0Mzg3MjA0MF19
 -->
