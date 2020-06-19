@@ -43,7 +43,9 @@ In the end of the function we convert the lists of data into Pytorch tensors, so
 
 The [tutorial] shows how to load an obj file into memory with material data to render a textured surface.  Our first approach was to try to write the computed the geometry of the mesh to an obj file with texture information. However, we discovered that the library does not support saving a mesh with texture coordinates yet and [it does not intent to add this feature soon](https://github.com/facebookresearch/pytorch3d/issues/151). To solve this problem, we figured how to use the Texture class out of the source code.
 
-##### Setting the camera inside the sphere
+##### Setting the scene parameters
+
+We used the same parameters of the tutorial to configure the raste
 
 
 
@@ -64,9 +66,9 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwNDE2MzM4LC0xMDIzMTYzNTI1LC00Nj
-IzNDI2NywtMTc5MDg3MDY0MSwtNTc3NDMwNTI2LC0zNDM1ODM1
-OTIsMTEzMTY1Mzk0NSwtOTMzOTE2NzYsNzg4MjIwNzY3LC0xMD
-Y1NDI2NDUyLDEzMzU1MzAxODQsLTE3OTY5MzgxODksMTc1NzQ4
-MDUzOV19
+eyJoaXN0b3J5IjpbLTYyOTk1NjgzNiwtMTAyMzE2MzUyNSwtND
+YyMzQyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMDUyNiwtMzQzNTgz
+NTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2NywtMT
+A2NTQyNjQ1MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LDE3NTc0
+ODA1MzldfQ==
 -->
