@@ -50,16 +50,10 @@ On the first experiment, we tried to reproduce the tutorial steps to check if th
 	<figcaption>Câmera located at point [0.0, 0.0, 2.1] (outside)</figcaption>
 </figure>
 
-After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 sas the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen, but based on further tests that we'll describe below, we believe this result is texture dependent.
-
+After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen.
 ![enter image description here](img/T0.png)
 
 We decided to put the camera outside the sphere again and render some intermediate images as we move the camera towards the center of the sphere. 
-
-<figure>
-	<img src="img/T21.png" alt="Rendering the sphere">	
-	<figcaption>Câmera located at point [0.0, 0.0, 2.1] (outside)</figcaption>
-</figure>
 
 <figure>
 	<img src="img/T12.png" alt="Rendering the sphere">	
@@ -76,7 +70,8 @@ We decided to put the camera outside the sphere again and render some intermedia
 	<figcaption>Câmera located at points  [0, 0, 0.6] | [0, 0, 0.3] | [0, 0, 0.0] (inside)</figcaption>
 </figure>
 
-As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, we have a black screen. 
+As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, we have a black screen, which we believe this result is texture dependent.
+
 
 #### Investigating the unexpected results
 
@@ -140,7 +135,7 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI5MDA4NTgsMTgzOTE3MTMzMiw3Mz
+eyJoaXN0b3J5IjpbLTE5NDA4MTgwNDIsMTgzOTE3MTMzMiw3Mz
 UzOTc2MCwtMjA1MjI3MDYzMSwtNjg2NTYzODE5LC0xNDc2Mzg4
 OTkxLC04MTUwNTYxMzcsLTE3NTQ2MzMyNTMsLTExNzIwMzU0MD
 MsLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5MDMyMzQsLTIw
