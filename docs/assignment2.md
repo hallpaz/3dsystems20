@@ -56,7 +56,13 @@ After that, we moved the camera and the light source to the center of the sphere
 
 We decided to put the camera outside the sphere again and render some intermediate images as we move the camera towards the center of the sphere. 
 
-![enter image description here](T.jpg)
+![enter image description here](T21.jpg)
+T = [[0, 0, 2.1]] (outside)
+![enter image description here](T12.jpg)
+T = [[0, 0, 1.2]] (outside)
+
+![enter image description here](T09.jpg)
+T = [[0, 0, 0.9]] (inside)
 
 As
 
@@ -78,10 +84,10 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQ5MDQzMzgsLTgxNTY5OTQ5MiwtMT
-E4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAyMzE2
-MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMDUyNi
-wtMzQzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LDc4ODIy
-MDc2NywtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC0xNzk2OTM4MT
-g5LDE3NTc0ODA1MzldfQ==
+eyJoaXN0b3J5IjpbMTI4MjcwNjUwMCwtODE1Njk5NDkyLC0xMT
+gzNDIyNjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYz
+NTI1LC00NjIzNDI2NywtMTc5MDg3MDY0MSwtNTc3NDMwNTI2LC
+0zNDM1ODM1OTIsMTEzMTY1Mzk0NSwtOTMzOTE2NzYsNzg4MjIw
+NzY3LC0xMDY1NDI2NDUyLDEzMzU1MzAxODQsLTE3OTY5MzgxOD
+ksMTc1NzQ4MDUzOV19
 -->
