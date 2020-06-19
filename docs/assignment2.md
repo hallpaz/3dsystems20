@@ -50,7 +50,7 @@ We can see part of the the texture represented in a spherical form in an image t
 
 ![enter image description here](img/render_exterior1.png)
 
-After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen, but based on further tests that we'll descri.
+After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen, but based on further tests that we'll describe below, we believe this result is texture dependent.
 
 ![enter image description here](img/T0.png)
 
@@ -140,11 +140,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2NjkxNzc3LC0yMDUyMjcwNjMxLC02OD
-Y1NjM4MTksLTE0NzYzODg5OTEsLTgxNTA1NjEzNywtMTc1NDYz
-MzI1MywtMTE3MjAzNTQwMywtNTI3OTQ2OTA0LDEyNTcxNDA1Nz
-UsMTk1MTkwMzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1NTY3LC0x
-MjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5MiwtMTE4Mz
-QyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAyMzE2MzUy
-NSwtNDYyMzQyNjddfQ==
+eyJoaXN0b3J5IjpbNzM1Mzk3NjAsLTIwNTIyNzA2MzEsLTY4Nj
+U2MzgxOSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMz
+MjUzLC0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NS
+wxOTUxOTAzMjM0LC0yMDY5MzY4MzUxLDE4ODk5NTU1NjcsLTEy
+NTg0MDE0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzND
+IyNjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYzNTI1
+LC00NjIzNDI2N119
 -->
