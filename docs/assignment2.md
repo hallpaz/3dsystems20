@@ -58,10 +58,13 @@ We decided to put the camera outside the sphere again and render some intermedia
 
 ![enter image description here](img/T21.png)
 T = [[0, 0, 2.1]] (outside)
-![enter image description here](img/T12.png)
-T = [[0, 0, 1.2]] (outside)
+```html
+<figure>
+	<img src="img/" alt="Uma imagem impressionante">	
+	<figcaption>Câmera located at point [0.0, 0.0, 1.2] (outside)</figcaption>
+</figure>
+```
 
-<!-- Imagem com legenda -->
 <figure>
 	![enter image description here](img/T09.png)
 	<figcaption>Câmera located at point [0.0, 0.0, 0.9] (inside)</figcaption>
@@ -109,7 +112,7 @@ We tried to explore different sets of the parameters faces_per_pixel, bin_size a
     faces_per_pixel=1, 
     bin_size = None,  # this setting controls whether naive or coarse-to-fine rasterization is used
     max_faces_per_bin = None  # this setting is for coarse rasterization
-)
+	)
 ``` 
 
 ##### Moving the near clipping plane
@@ -124,11 +127,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDIzMjYzOTksLTE3NTQ2MzMyNTMsLT
-ExNzIwMzU0MDMsLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5
-MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQwMT
-Q4OSwtNTc5OTIwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MDYs
-NDU3Njc1MTk3LDE2NDM4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2Mj
-M0MjY3LC0xNzkwODcwNjQxLC01Nzc0MzA1MjYsLTM0MzU4MzU5
-MiwxMTMxNjUzOTQ1XX0=
+eyJoaXN0b3J5IjpbLTk4NjgyMDMyOSwtMTc1NDYzMzI1MywtMT
+E3MjAzNTQwMywtNTI3OTQ2OTA0LDEyNTcxNDA1NzUsMTk1MTkw
+MzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1NTY3LC0xMjU4NDAxND
+g5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5MiwtMTE4MzQyMjYwNiw0
+NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAyMzE2MzUyNSwtNDYyMz
+QyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMDUyNiwtMzQzNTgzNTky
+LDExMzE2NTM5NDVdfQ==
 -->
