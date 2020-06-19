@@ -56,19 +56,17 @@ After that, we moved the camera and the light source to the center of the sphere
 
 We decided to put the camera outside the sphere again and render some intermediate images as we move the camera towards the center of the sphere. 
 
-<figure>
-	<img src="img/T12.png" alt="Rendering the sphere">	
-	<figcaption>Câmera located at point [0.0, 0.0, 1.2] (outside)</figcaption>
-</figure>
+![Rendering the sphere](img/T12.png) <br/>
+**Camera located at point [0.0, 0.0, 1.2] (outside)**
 
-<figure>
-	<img src="img/T09.png" alt="Rendering the sphere">
-	<figcaption>Câmera located at point [0.0, 0.0, 0.9] (inside)</figcaption>
-</figure>
+![Rendering the sphere](img/T09.png) <br/>
+**Cameras located at points  [0, 0, 0.6] | [0, 0, 0.3] | [0, 0, 0.0] (inside)**
 
+![Rendering the sphere](img/inside_mosaic.png) <br/>
+**Camera located at point [0.0, 0.0, 0.9] (inside)**
 <figure>
 	<img src="img/inside_mosaic.png" alt="Rendering the sphere">
-	<figcaption>Câmera located at points  [0, 0, 0.6] | [0, 0, 0.3] | [0, 0, 0.0] (inside)</figcaption>
+	<figcaption>Cameras located at points  [0, 0, 0.6] | [0, 0, 0.3] | [0, 0, 0.0] (inside)</figcaption>
 </figure>
 
 As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, we have a black screen, which we believe is a texture dependent result, based on further experiments that we'll describe below.
@@ -141,11 +139,11 @@ We managed to build on top of the knowledge acquired on the last assignment and 
 
 We tried many different approaches to understand the unexpected behavior of the rendering and check which role our code played in this process. We could achieve the desired visualization using an external software with a regular rendering system based on rasterization, which helped us to validate our computed geometry and texture data. However, we still don't know the real reason behind this unexpected result and we need to dive deeper in the implementation details to understand. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5MTc3OTQxLDE3NDgxNzQ5MTMsLTc2Mj
-QwNjcxMCwtNzA3MzQ0NjM5LDE4MzkxNzEzMzIsNzM1Mzk3NjAs
-LTIwNTIyNzA2MzEsLTY4NjU2MzgxOSwtMTQ3NjM4ODk5MSwtOD
-E1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5
-NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4Mz
-UxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5Nywt
-ODE1Njk5NDkyXX0=
+eyJoaXN0b3J5IjpbLTEwNzg2OTQzMzIsNjM5MTc3OTQxLDE3ND
+gxNzQ5MTMsLTc2MjQwNjcxMCwtNzA3MzQ0NjM5LDE4MzkxNzEz
+MzIsNzM1Mzk3NjAsLTIwNTIyNzA2MzEsLTY4NjU2MzgxOSwtMT
+Q3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcy
+MDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMj
+M0LC0yMDY5MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODks
+LTU3OTkyMDQ5N119
 -->
