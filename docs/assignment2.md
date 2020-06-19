@@ -84,6 +84,8 @@ We decided to take the original code of the tutorial and move the camera towards
 
 ##### Toy texture
 
+We decided to use a very simple texture, represented by 4 large rectangles in different colors, to try to debug the  something from the result debug 
+
 ##### Moving the near clipping plane
 
 ##### Cropping the mesh
@@ -97,11 +99,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxMDIwMDg4LDE4ODk5NTU1NjcsLTEyNT
-g0MDE0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzNDIy
-NjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYzNTI1LC
-00NjIzNDI2NywtMTc5MDg3MDY0MSwtNTc3NDMwNTI2LC0zNDM1
-ODM1OTIsMTEzMTY1Mzk0NSwtOTMzOTE2NzYsNzg4MjIwNzY3LC
-0xMDY1NDI2NDUyLDEzMzU1MzAxODQsLTE3OTY5MzgxODksMTc1
-NzQ4MDUzOV19
+eyJoaXN0b3J5IjpbMTIzNTEzNzc2MSwxODg5OTU1NTY3LC0xMj
+U4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5MiwtMTE4MzQy
+MjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAyMzE2MzUyNS
+wtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMDUyNiwtMzQz
+NTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2Ny
+wtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LDE3
+NTc0ODA1MzldfQ==
 -->
