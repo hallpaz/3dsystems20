@@ -68,7 +68,7 @@ We decided to put the camera outside the sphere again and render some intermedia
 As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, we have a black screen, which we believe is a texture dependent result, based on further experiments that we'll describe below.
 
 
-#### Investigating the unexpected results
+### Investigating the unexpected results
 
 ##### Rendering the Mesh in MeshLab
 
@@ -131,11 +131,11 @@ We managed to build on top of the knowledge acquired on the last assignment and 
 
 We tried many different approaches to understand the unexpected behavior of the rendering and check which role our code played in this process. We could achieve the desired visualization using an external software with a regular rendering system based on rasterization, which helped us to validate our computed geometry and texture data. However, we still don't know the real reason behind this unexpected result and we need to dive deeper in the implementation details to understand. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDcyNzAzMiw2MzkxNzc5NDEsMTc0OD
-E3NDkxMywtNzYyNDA2NzEwLC03MDczNDQ2MzksMTgzOTE3MTMz
-Miw3MzUzOTc2MCwtMjA1MjI3MDYzMSwtNjg2NTYzODE5LC0xND
-c2Mzg4OTkxLC04MTUwNTYxMzcsLTE3NTQ2MzMyNTMsLTExNzIw
-MzU0MDMsLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5MDMyMz
-QsLTIwNjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQwMTQ4OSwt
-NTc5OTIwNDk3XX0=
+eyJoaXN0b3J5IjpbNzU5ODUyMTAzLC01MjQ3MjcwMzIsNjM5MT
+c3OTQxLDE3NDgxNzQ5MTMsLTc2MjQwNjcxMCwtNzA3MzQ0NjM5
+LDE4MzkxNzEzMzIsNzM1Mzk3NjAsLTIwNTIyNzA2MzEsLTY4Nj
+U2MzgxOSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMz
+MjUzLC0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NS
+wxOTUxOTAzMjM0LC0yMDY5MzY4MzUxLDE4ODk5NTU1NjcsLTEy
+NTg0MDE0ODldfQ==
 -->
