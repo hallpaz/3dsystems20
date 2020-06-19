@@ -45,7 +45,7 @@ The [tutorial] shows how to load an obj file into memory with material data to r
 
 ##### Setting the scene parameters
 
-We used the same parameters of the tutorial to configure the rasterization settings and the mesh renderer, including the shader (Phong Shader). 
+First, we tried to reproduce the tutorial steps to check if the texture data is fine and if we can We used the same parameters of the tutorial to configure the rasterization settings and the mesh renderer, including the shader (Phong Shader). 
 
 
 
@@ -66,9 +66,9 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Mzg3MjA0MCwtMTAyMzE2MzUyNSwtND
-YyMzQyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMDUyNiwtMzQzNTgz
-NTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LDc4ODIyMDc2NywtMT
-A2NTQyNjQ1MiwxMzM1NTMwMTg0LC0xNzk2OTM4MTg5LDE3NTc0
-ODA1MzldfQ==
+eyJoaXN0b3J5IjpbLTE5MTUxMDc3MzQsMTY0Mzg3MjA0MCwtMT
+AyMzE2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3NzQz
+MDUyNiwtMzQzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LD
+c4ODIyMDc2NywtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC0xNzk2
+OTM4MTg5LDE3NTc0ODA1MzldfQ==
 -->
