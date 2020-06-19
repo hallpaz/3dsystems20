@@ -56,7 +56,11 @@ After that, we moved the camera and the light source to the center of the sphere
 
 We decided to put the camera outside the sphere again and render some intermediate images as we move the camera towards the center of the sphere. 
 
-![enter image description here](img/T21.png)
+<figure>
+	<img src="img/T21.png" alt="Rendering the sphere">	
+	<figcaption>Câmera located at point [0.0, 0.0, 2.1.2] (outside)</figcaption>
+</figure>
+
 T = [[0, 0, 2.1]] (outside)
 
 <figure>
@@ -65,12 +69,14 @@ T = [[0, 0, 2.1]] (outside)
 </figure>
 
 <figure>
-	![Rendering the sphere](img/T09.png)
+	<img src="img/T09.png" alt="Rendering the sphere">
 	<figcaption>Câmera located at point [0.0, 0.0, 0.9] (inside)</figcaption>
 </figure>
 
-![enter image description here](inside_mosaic.png)
-T = [[0, 0, 0.6]] | [[0, 0, 0.3]] | [[0, 0, 0.0]] (inside)
+<figure>
+	<img src="img/inside_mosaic.png" alt="Rendering the sphere">
+	<figcaption>Câmera located at points  [0, 0, 0.6] | [0, 0, 0.3] | [0, 0, 0.0] (inside)</figcaption>
+</figure>
 
 As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, we have a black screen. 
 
@@ -126,11 +132,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTA1NjEzNywtMTc1NDYzMzI1MywtMT
-E3MjAzNTQwMywtNTI3OTQ2OTA0LDEyNTcxNDA1NzUsMTk1MTkw
-MzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1NTY3LC0xMjU4NDAxND
-g5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5MiwtMTE4MzQyMjYwNiw0
-NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAyMzE2MzUyNSwtNDYyMz
-QyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMDUyNiwtMzQzNTgzNTky
-LDExMzE2NTM5NDVdfQ==
+eyJoaXN0b3J5IjpbLTc1OTYyNjg4MiwtODE1MDU2MTM3LC0xNz
+U0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0
+MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4MzUxLDE4ODk5NTU1Nj
+csLTEyNTg0MDE0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0x
+MTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMT
+YzNTI1LC00NjIzNDI2NywtMTc5MDg3MDY0MSwtNTc3NDMwNTI2
+LC0zNDM1ODM1OTJdfQ==
 -->
