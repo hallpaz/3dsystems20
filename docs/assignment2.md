@@ -140,13 +140,13 @@ Differentiable rendering is a powerful tool to unite the computer graphics and c
 
 We managed to build on top of the knowledge acquired on the last assignment and model the desired scene using PyTorch3D, but the task of rendering showed itself more challenging than expected. We couldn't achieve our primary goal as the rendering from cameras located inside a closed mesh resulted in distorted images.
 
-We tried many different approaches to understand the unexpected behavior of the rendering and check which role our code played in this process. our
+We tried many different approaches to understand the unexpected behavior of the rendering and check which role our code played in this process. We could achieve the desired visualization using an external software with a regular rendering system based on rasterization, which hel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODYwMzczMDEsLTc2MjQwNjcxMCwtNz
-A3MzQ0NjM5LDE4MzkxNzEzMzIsNzM1Mzk3NjAsLTIwNTIyNzA2
-MzEsLTY4NjU2MzgxOSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC
-0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1
-NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4MzUxLDE4ODk5NT
-U1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5NywtODE1Njk5NDky
-LC0xMTgzNDIyNjA2XX0=
+eyJoaXN0b3J5IjpbMTEwNzk0MzMyNCwtNzYyNDA2NzEwLC03MD
+czNDQ2MzksMTgzOTE3MTMzMiw3MzUzOTc2MCwtMjA1MjI3MDYz
+MSwtNjg2NTYzODE5LC0xNDc2Mzg4OTkxLC04MTUwNTYxMzcsLT
+E3NTQ2MzMyNTMsLTExNzIwMzU0MDMsLTUyNzk0NjkwNCwxMjU3
+MTQwNTc1LDE5NTE5MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1NT
+U2NywtMTI1ODQwMTQ4OSwtNTc5OTIwNDk3LC04MTU2OTk0OTIs
+LTExODM0MjI2MDZdfQ==
 -->
