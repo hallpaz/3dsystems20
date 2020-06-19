@@ -6,7 +6,7 @@
 
 ## Rendering a Scene with a Differentiable Renderer
 
-The objective of this 2nd assignment is to render a scene using a differentiable renderer and exploit some capabilities of this system. We aim to render equirectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the câmera in the center of the sphere. You can find the [full source code here](https://github.com/hallpaz/3dsystems20/blob/master/Rendering%20Panoramas.ipynb).
+The objective of this 2nd assignment is to render a scene using the differentiable renderer and exploit some capabilities of this system. We aim to render equirectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the câmera in the center of the sphere. You can find the [full source code here](https://github.com/hallpaz/3dsystems20/blob/master/Rendering%20Panoramas.ipynb).
 
 ### Modeling the Scene
 
@@ -140,11 +140,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1Mzk3NjAsLTIwNTIyNzA2MzEsLTY4Nj
-U2MzgxOSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMz
-MjUzLC0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NS
-wxOTUxOTAzMjM0LC0yMDY5MzY4MzUxLDE4ODk5NTU1NjcsLTEy
-NTg0MDE0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzND
-IyNjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYzNTI1
-LC00NjIzNDI2N119
+eyJoaXN0b3J5IjpbMTUwOTU0Mzc0NCw3MzUzOTc2MCwtMjA1Mj
+I3MDYzMSwtNjg2NTYzODE5LC0xNDc2Mzg4OTkxLC04MTUwNTYx
+MzcsLTE3NTQ2MzMyNTMsLTExNzIwMzU0MDMsLTUyNzk0NjkwNC
+wxMjU3MTQwNTc1LDE5NTE5MDMyMzQsLTIwNjkzNjgzNTEsMTg4
+OTk1NTU2NywtMTI1ODQwMTQ4OSwtNTc5OTIwNDk3LC04MTU2OT
+k0OTIsLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2NDM4NzIwNDAs
+LTEwMjMxNjM1MjVdfQ==
 -->
