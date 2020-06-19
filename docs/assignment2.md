@@ -58,10 +58,8 @@ We decided to put the camera outside the sphere again and render some intermedia
 
 <figure>
 	<img src="img/T21.png" alt="Rendering the sphere">	
-	<figcaption>Câmera located at point [0.0, 0.0, 2.1.2] (outside)</figcaption>
+	<figcaption>Câmera located at point [0.0, 0.0, 2.1] (outside)</figcaption>
 </figure>
-
-T = [[0, 0, 2.1]] (outside)
 
 <figure>
 	<img src="img/T12.png" alt="Rendering the sphere">	
@@ -132,11 +130,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTYyNjg4MiwtODE1MDU2MTM3LC0xNz
-U0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0
-MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4MzUxLDE4ODk5NTU1Nj
-csLTEyNTg0MDE0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0x
-MTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMT
-YzNTI1LC00NjIzNDI2NywtMTc5MDg3MDY0MSwtNTc3NDMwNTI2
-LC0zNDM1ODM1OTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNjg1MjE5NTIsLTgxNTA1NjEzNywtMT
+c1NDYzMzI1MywtMTE3MjAzNTQwMywtNTI3OTQ2OTA0LDEyNTcx
+NDA1NzUsMTk1MTkwMzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1NT
+Y3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5Miwt
+MTE4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAyMz
+E2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMDUy
+NiwtMzQzNTgzNTkyXX0=
 -->
