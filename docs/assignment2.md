@@ -106,7 +106,7 @@ However, we can see that in this case, render with the camera located in the cen
 
 ##### Changing Renderer Settings
 
-We tried to explore different sets of the parameters faces_per_pixel, bin_size and max_faces_per_bin, but we could't perceive any difference rendering the "toy texture".
+We tried to explore different sets of the parameters faces_per_pixel, bin_size and max_faces_per_bin, but we could't perceive any difference rendering the "toy texture". We tried both the coarse and coarse-to-fine rasterization as stated in the documentation.
 
 ```python
 raster_settings = RasterizationSettings(
@@ -130,7 +130,7 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzA4MTM2OCwtMTQ3NjM4ODk5MSwtOD
+eyJoaXN0b3J5IjpbMTQyODU2ODE5MiwtMTQ3NjM4ODk5MSwtOD
 E1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5
 NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4Mz
 UxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5Nywt
