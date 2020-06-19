@@ -67,7 +67,7 @@ T = [[0, 0, 0.9]] (inside)
 ![enter image description here](inside_mosaic.jpg)
 T = [[0, 0, 0.6]] | [[0, 0, 0.3]] | [[0, 0, 0.0]] (inside)
 
-As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Sett
+As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, 
 
 
 #### Investigating the unexpected results
@@ -87,10 +87,10 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODA3Mzc5OSwtNTc5OTIwNDk3LC04MT
-U2OTk0OTIsLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2NDM4NzIw
-NDAsLTEwMjMxNjM1MjUsLTQ2MjM0MjY3LC0xNzkwODcwNjQxLC
-01Nzc0MzA1MjYsLTM0MzU4MzU5MiwxMTMxNjUzOTQ1LC05MzM5
-MTY3Niw3ODgyMjA3NjcsLTEwNjU0MjY0NTIsMTMzNTUzMDE4NC
-wtMTc5NjkzODE4OSwxNzU3NDgwNTM5XX0=
+eyJoaXN0b3J5IjpbLTE2MzQ1NTczMTEsLTU3OTkyMDQ5NywtOD
+E1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQzODcy
+MDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5MDg3MDY0MS
+wtNTc3NDMwNTI2LC0zNDM1ODM1OTIsMTEzMTY1Mzk0NSwtOTMz
+OTE2NzYsNzg4MjIwNzY3LC0xMDY1NDI2NDUyLDEzMzU1MzAxOD
+QsLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
 -->
