@@ -75,7 +75,10 @@ As we can see, as soon as the camera enters the surface, the visualization gives
 
 The first test we did to check if the error was in our computations, was to export the mesh and open it on Meshlab. We wrote a simple function to write an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In Meshlab, everything was ok, so we discarded a problem with our geometry.
 
-meshlab_panorama_video.mp4
+<video width="706"  height="458"  controls>  
+<source src="img/meshlab_panorama_video.mp4" type="video/mp4">  
+Your browser does not support the video tag.  
+</video>
 
 ##### Moving the câmera in the tutorial
 
@@ -98,7 +101,7 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjI5NzAxMCwtMjA2OTM2ODM1MSwxOD
+eyJoaXN0b3J5IjpbMTk1MTkwMzIzNCwtMjA2OTM2ODM1MSwxOD
 g5OTU1NTY3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5
 OTQ5MiwtMTE4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MC
 wtMTAyMzE2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3
