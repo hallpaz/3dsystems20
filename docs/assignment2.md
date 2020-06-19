@@ -93,6 +93,8 @@ We decided to use a very simple texture, represented by 4 large rectangles in di
 
 Unfortunately, we couldn't identify any pattern in the rendered image that could lead us to a solution. At first, we can see that some regions show patterns that resemble self-intersections or visibility problems related to depth sorting or face culling. We already checked that our mesh is correct and has no self-intersections, but to investigate visibility problems, we need to understand the details of this particular implementation.
 
+However, we can see that in this case, render with the camera located in the center of the sphere
+
 ##### Moving the near clipping plane
 
 ##### Looking for alternatives renderers
@@ -103,7 +105,7 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjM3NzY3NywxMjU3MTQwNTc1LDE5NT
+eyJoaXN0b3J5IjpbLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NT
 E5MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQw
 MTQ4OSwtNTc5OTIwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MD
 YsNDU3Njc1MTk3LDE2NDM4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2
