@@ -99,7 +99,7 @@ However, we can see that in this case, render with the camera located in the cen
 
 We tried to explore different sets of the parameters faces_per_pixel, bin_size and max_faces_per_bin, but we could't perceive any difference rendering the "toy texture".
 
-	'''python
+	```python
 		raster_settings = RasterizationSettings(
 	    image_size=512, 
 	    blur_radius=0.0, 
@@ -107,7 +107,7 @@ We tried to explore different sets of the parameters faces_per_pixel, bin_size a
 	    bin_size = None,  # this setting controls whether naive or coarse-to-fine rasterization is used
 	    max_faces_per_bin = None  # this setting is for coarse rasterization
 	)
-'''
+```
 
 ##### Moving the near clipping plane
 
@@ -121,11 +121,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzIwMzU0MDMsLTUyNzk0NjkwNCwxMj
-U3MTQwNTc1LDE5NTE5MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1
-NTU2NywtMTI1ODQwMTQ4OSwtNTc5OTIwNDk3LC04MTU2OTk0OT
-IsLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2NDM4NzIwNDAsLTEw
-MjMxNjM1MjUsLTQ2MjM0MjY3LC0xNzkwODcwNjQxLC01Nzc0Mz
-A1MjYsLTM0MzU4MzU5MiwxMTMxNjUzOTQ1LC05MzM5MTY3Niw3
-ODgyMjA3NjddfQ==
+eyJoaXN0b3J5IjpbMjM1ODEwMzI1LC0xMTcyMDM1NDAzLC01Mj
+c5NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4
+MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5Ny
+wtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQz
+ODcyMDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5MDg3MD
+Y0MSwtNTc3NDMwNTI2LC0zNDM1ODM1OTIsMTEzMTY1Mzk0NSwt
+OTMzOTE2NzZdfQ==
 -->
