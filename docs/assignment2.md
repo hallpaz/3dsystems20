@@ -140,9 +140,9 @@ An unexpected result
 
 ### Conclusion
 
-Cropping the mesh
+Differentiable rendering is a powerful tool to In this assignment, we couldn't achieve our primary goal 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDUxMTI4MCwtNzA3MzQ0NjM5LDE4Mz
+eyJoaXN0b3J5IjpbLTQ4MDkzNDc2NCwtNzA3MzQ0NjM5LDE4Mz
 kxNzEzMzIsNzM1Mzk3NjAsLTIwNTIyNzA2MzEsLTY4NjU2Mzgx
 OSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC
 0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUx
