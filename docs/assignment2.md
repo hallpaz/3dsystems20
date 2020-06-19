@@ -76,6 +76,7 @@ As we can see, as soon as the camera enters the surface, the visualization gives
 The first test we did to check if the error was in our computations, was to export the mesh and open it on Meshlab. We wrote a simple function to write an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In Meshlab, everything was ok, so we discarded a problem with our geometry.
 
 
+
 ##### Moving the câmera in the tutorial
 
 We decided to take the original code of the tutorial and move the camera towards the inside of the cow mesh. We could observe the exact same problem. We discarded issues related to the winding order and normal orientation of the faces.
@@ -89,18 +90,15 @@ We decided to use a very simple texture, represented by 4 large rectangles in di
 
 ##### Moving the near clipping plane
 
-##### Cropping the mesh
-
 ##### Looking for alternatives renderers
 
 We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the Open Differentiable Renderer (OpenDR).
 
 ### Conclusion
 
-
-
+Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDUxMjg4NiwtMjA2OTM2ODM1MSwxOD
+eyJoaXN0b3J5IjpbLTQ4MDk4NTQ5OSwtMjA2OTM2ODM1MSwxOD
 g5OTU1NTY3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5
 OTQ5MiwtMTE4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MC
 wtMTAyMzE2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3
