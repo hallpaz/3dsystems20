@@ -140,11 +140,13 @@ An unexpected result
 
 ### Conclusion
 
-Differentiable rendering is a powerful tool to unite the computer graphics and computer vision problems. Our primary goal was render a 3D scene using the differentiable rendering implementation of Pytorch3D. Using equirectangular panoramas as bidimensional textures, we could render visually complex scenes using the very simple geometry of a sphere. We managed to build on top of the knowledge acquired on the last assignment and model the desired sc
+Differentiable rendering is a powerful tool to unite the computer graphics and computer vision problems. Our primary goal was render a 3D scene using the differentiable rendering implementation of Pytorch3D. Using equirectangular panoramas as bidimensional textures, we could render visually complex scenes using the very simple geometry of a sphere. 
+
+We managed to build on top of the knowledge acquired on the last assignment and model the desired scene using PyTorch3D, but the task of rendering showed itself more challenging than expected. We couldn't achieve our primary goal 
 
 In this assignment, we couldn't achieve our primary goal 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTIwNjAzNywtNzA3MzQ0NjM5LDE4Mz
+eyJoaXN0b3J5IjpbMTcxOTQzMzI4NiwtNzA3MzQ0NjM5LDE4Mz
 kxNzEzMzIsNzM1Mzk3NjAsLTIwNTIyNzA2MzEsLTY4NjU2Mzgx
 OSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC
 0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUx
