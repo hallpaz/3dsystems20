@@ -46,10 +46,9 @@ The tutorial shows how to load an *obj* file and material data into memory to re
 ##### Setting the scene parameters
 
 On the first experiment, we tried to reproduce the tutorial steps to check if the texture data is fine and see what would be rendered. We can see part of the texture represented in a circular shape in an image that looks a little dark. This result seems fine as we are looking to the sphere from the outside and the normals of the faces points inward the surface. 
-<figure>
-	<img src="img/T21.png" alt="Rendering the sphere">	
+
+![Rendering the sphere](img/T21.png)
 **Câmera located at point [0.0, 0.0, 2.1] (outside)**
-</figure>
 
 After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen.
 
@@ -142,11 +141,11 @@ We managed to build on top of the knowledge acquired on the last assignment and 
 
 We tried many different approaches to understand the unexpected behavior of the rendering and check which role our code played in this process. We could achieve the desired visualization using an external software with a regular rendering system based on rasterization, which helped us to validate our computed geometry and texture data. However, we still don't know the real reason behind this unexpected result and we need to dive deeper in the implementation details to understand. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzI3MDA4NywxNzQ4MTc0OTEzLC03Nj
-I0MDY3MTAsLTcwNzM0NDYzOSwxODM5MTcxMzMyLDczNTM5NzYw
-LC0yMDUyMjcwNjMxLC02ODY1NjM4MTksLTE0NzYzODg5OTEsLT
-gxNTA1NjEzNywtMTc1NDYzMzI1MywtMTE3MjAzNTQwMywtNTI3
-OTQ2OTA0LDEyNTcxNDA1NzUsMTk1MTkwMzIzNCwtMjA2OTM2OD
-M1MSwxODg5OTU1NTY3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcs
-LTgxNTY5OTQ5Ml19
+eyJoaXN0b3J5IjpbLTE3NzE1NzQyMTQsMTc0ODE3NDkxMywtNz
+YyNDA2NzEwLC03MDczNDQ2MzksMTgzOTE3MTMzMiw3MzUzOTc2
+MCwtMjA1MjI3MDYzMSwtNjg2NTYzODE5LC0xNDc2Mzg4OTkxLC
+04MTUwNTYxMzcsLTE3NTQ2MzMyNTMsLTExNzIwMzU0MDMsLTUy
+Nzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5MDMyMzQsLTIwNjkzNj
+gzNTEsMTg4OTk1NTU2NywtMTI1ODQwMTQ4OSwtNTc5OTIwNDk3
+LC04MTU2OTk0OTJdfQ==
 -->
