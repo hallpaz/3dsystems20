@@ -95,7 +95,7 @@ We decided to take the original code of the tutorial and move the camera towards
 ##### Toy texture
 
 We decided to use a very simple texture, represented by 4 large rectangles in different colors, to try to investigate the problem by looking to the result. 
-![enter image description here](img/panorama5.png)
+![enter image description here](img/panorama5.jpg)
 
 Unfortunately, we couldn't identify any pattern in the rendered image that could lead us to a solution. At first, we can see that some regions show patterns that resemble self-intersections or visibility problems related to depth sorting or face culling. We already checked that our mesh is correct and has no self-intersections, but to investigate visibility problems, *we need to understand the details of this particular implementation*.
 
@@ -142,11 +142,11 @@ We managed to build on top of the knowledge acquired on the last assignment and 
 
 We tried many different approaches to understand the unexpected behavior of the rendering and check which role our code played in this process. We could achieve the desired visualization using an external software with a regular rendering system based on rasterization, which helped us to validate our computed geometry and texture data. However, we still don't know the real reason behind this unexpected result and we need to dive deeper in the implementation details to understand. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODE3NDkxMywtNzYyNDA2NzEwLC03MD
-czNDQ2MzksMTgzOTE3MTMzMiw3MzUzOTc2MCwtMjA1MjI3MDYz
-MSwtNjg2NTYzODE5LC0xNDc2Mzg4OTkxLC04MTUwNTYxMzcsLT
-E3NTQ2MzMyNTMsLTExNzIwMzU0MDMsLTUyNzk0NjkwNCwxMjU3
-MTQwNTc1LDE5NTE5MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1NT
-U2NywtMTI1ODQwMTQ4OSwtNTc5OTIwNDk3LC04MTU2OTk0OTIs
-LTExODM0MjI2MDZdfQ==
+eyJoaXN0b3J5IjpbMjgyMTk1OTYxLDE3NDgxNzQ5MTMsLTc2Mj
+QwNjcxMCwtNzA3MzQ0NjM5LDE4MzkxNzEzMzIsNzM1Mzk3NjAs
+LTIwNTIyNzA2MzEsLTY4NjU2MzgxOSwtMTQ3NjM4ODk5MSwtOD
+E1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5
+NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4Mz
+UxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5Nywt
+ODE1Njk5NDkyXX0=
 -->
