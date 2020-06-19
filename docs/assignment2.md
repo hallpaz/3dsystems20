@@ -52,16 +52,16 @@ We can see part of the the texture represented in a spherical form in an image t
 
 After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen.
 
-![enter image description here](T0.png)
+![enter image description here](img/T0.png)
 
 We decided to put the camera outside the sphere again and render some intermediate images as we move the camera towards the center of the sphere. 
 
-![enter image description here](T21.png)
+![enter image description here](img/T21.png)
 T = [[0, 0, 2.1]] (outside)
-![enter image description here](T12.png)
+![enter image description here](img/T12.png)
 T = [[0, 0, 1.2]] (outside)
 
-![enter image description here](T09.png)
+![enter image description here](img/T09.png)
 T = [[0, 0, 0.9]] (inside)
 
 ![enter image description here](inside_mosaic.png)
@@ -101,11 +101,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTkwMzIzNCwtMjA2OTM2ODM1MSwxOD
-g5OTU1NTY3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5
-OTQ5MiwtMTE4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MC
-wtMTAyMzE2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3
-NzQzMDUyNiwtMzQzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNj
-c2LDc4ODIyMDc2NywtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC0x
-Nzk2OTM4MTg5XX0=
+eyJoaXN0b3J5IjpbMTQ4NzIxODE3OCwxOTUxOTAzMjM0LC0yMD
+Y5MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTky
+MDQ5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5Ny
+wxNjQzODcyMDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5
+MDg3MDY0MSwtNTc3NDMwNTI2LC0zNDM1ODM1OTIsMTEzMTY1Mz
+k0NSwtOTMzOTE2NzYsNzg4MjIwNzY3LC0xMDY1NDI2NDUyLDEz
+MzU1MzAxODRdfQ==
 -->
