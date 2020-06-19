@@ -63,12 +63,9 @@ T = [[0, 0, 1.2]] (outside)
 
 <!-- Imagem com legenda -->
 <figure>
-	<img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="Uma imagem impressionante">	
-	<figcaption>Legenda para a imagem impressionante</figcaption>
+	![enter image description here](img/T09.png)
+	<figcaption>Câmera located at point [0.0, 0.0, 0.9] (inside)</figcaption>
 </figure>
-
-
-T = [[0, 0, 0.9]] (inside)
 
 ![enter image description here](inside_mosaic.png)
 T = [[0, 0, 0.6]] | [[0, 0, 0.3]] | [[0, 0, 0.0]] (inside)
@@ -127,11 +124,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODk5MTk2LC0xNzU0NjMzMjUzLC0xMT
-cyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAz
-MjM0LC0yMDY5MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0OD
-ksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1
-NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYzNTI1LC00NjIzND
-I2NywtMTc5MDg3MDY0MSwtNTc3NDMwNTI2LC0zNDM1ODM1OTIs
-MTEzMTY1Mzk0NV19
+eyJoaXN0b3J5IjpbLTEzNDIzMjYzOTksLTE3NTQ2MzMyNTMsLT
+ExNzIwMzU0MDMsLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5
+MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQwMT
+Q4OSwtNTc5OTIwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MDYs
+NDU3Njc1MTk3LDE2NDM4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2Mj
+M0MjY3LC0xNzkwODcwNjQxLC01Nzc0MzA1MjYsLTM0MzU4MzU5
+MiwxMTMxNjUzOTQ1XX0=
 -->
