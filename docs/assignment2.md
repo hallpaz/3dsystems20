@@ -73,13 +73,14 @@ As we can see, as soon as the camera enters the surface, the visualization gives
 
 ##### Rendering the Mesh in MeshLab
 
-The first test we did to check if the error was in our computations, was to export the mesh and open it on Meshlab. We wrote a simple function to write an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In Meshlab, everything was ok.
-
+The first test we did to check if the error was in our computations, was to export the mesh and open it on Meshlab. We wrote a simple function to write an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In Meshlab, everything was ok, so we discarded a problem with our geometry.
 
 
 ##### Moving the câmera in the tutorial
 
-We decided to take the original code of the tutorial and move the camera towards the inside of the cow mesh. We could observe the exact same problem.
+We decided to take the original code of the tutorial and move the camera towards the inside of the cow mesh. We could observe the exact same problem. We discarded issues related to the winding order of the faces.
+
+![enter image description here](img/cow_interior.jpg)
 
 ##### Toy texture
 
@@ -96,11 +97,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4OTk1NTU2NywtMTI1ODQwMTQ4OSwtNT
-c5OTIwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MDYsNDU3Njc1
-MTk3LDE2NDM4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2MjM0MjY3LC
-0xNzkwODcwNjQxLC01Nzc0MzA1MjYsLTM0MzU4MzU5MiwxMTMx
-NjUzOTQ1LC05MzM5MTY3Niw3ODgyMjA3NjcsLTEwNjU0MjY0NT
-IsMTMzNTUzMDE4NCwtMTc5NjkzODE4OSwxNzU3NDgwNTM5XX0=
-
+eyJoaXN0b3J5IjpbNTgxNTU5MTQ2LDE4ODk5NTU1NjcsLTEyNT
+g0MDE0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzNDIy
+NjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYzNTI1LC
+00NjIzNDI2NywtMTc5MDg3MDY0MSwtNTc3NDMwNTI2LC0zNDM1
+ODM1OTIsMTEzMTY1Mzk0NSwtOTMzOTE2NzYsNzg4MjIwNzY3LC
+0xMDY1NDI2NDUyLDEzMzU1MzAxODQsLTE3OTY5MzgxODksMTc1
+NzQ4MDUzOV19
 -->
