@@ -104,7 +104,7 @@ Unfortunately, we couldn't identify any pattern in the rendered image that could
 	<figcaption>Camera located at point [0.0, 0.0, 0.3] (inside)</figcaption>
 </figure>
 
-An interesting result was that, in this case, when we rendered the scene with the camera located in the center of the sphere, we didn't get a black screen as we got using the fisrst .
+An interesting result was that, in this case, when we rendered the scene with the camera located in the center of the sphere, we didn't get a black screen as we got using the first texture.
 
 <figure>
 	<img src="img/toy0.png" alt="Rendering the sphere">
@@ -113,7 +113,7 @@ An interesting result was that, in this case, when we rendered the scene with th
 
 ##### Changing Renderer Settings
 
-We tried to explore different sets of the parameters faces_per_pixel, bin_size and max_faces_per_bin, but we could't perceive any difference rendering the "toy texture". We tried both the coarse and coarse-to-fine rasterization as stated in the documentation.
+We tried to explore different sets of the parameters [faces_per_pixel](), [bin_size]() and [max_faces_per_bin](), but we could't perceive any difference while rendering the "toy texture". We tried both the coarse and coarse-to-fine rasterization as stated in the documentation.
 
 ```python
 raster_settings = RasterizationSettings(
@@ -137,7 +137,7 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTExMzQxMSwtNzA3MzQ0NjM5LDE4Mz
+eyJoaXN0b3J5IjpbLTc3MzgzNTQ2MywtNzA3MzQ0NjM5LDE4Mz
 kxNzEzMzIsNzM1Mzk3NjAsLTIwNTIyNzA2MzEsLTY4NjU2Mzgx
 OSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC
 0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUx
