@@ -71,9 +71,13 @@ As we can see, as soon as the camera enters the surface, the visualization gives
 
 #### Investigating the unexpected results
 
+##### Rendering the Mesh in MeshLab
+
+The first test we did to check if the error was in our computations, was to export the mesh and open it on Mes
+
 ##### Moving the câmera in the tutorial
 
-We decided to take the original code of the tutorial and move the camera towards the inside of the cow mesh. We cou
+We decided to take the original code of the tutorial and move the camera towards the inside of the cow mesh. We could observe the exact same problem.
 
 ##### Toy texture
 
@@ -90,11 +94,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTc0NzQ1OTYsLTEyNTg0MDE0ODksLT
-U3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3
-NTE5NywxNjQzODcyMDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2Ny
-wtMTc5MDg3MDY0MSwtNTc3NDMwNTI2LC0zNDM1ODM1OTIsMTEz
-MTY1Mzk0NSwtOTMzOTE2NzYsNzg4MjIwNzY3LC0xMDY1NDI2ND
-UyLDEzMzU1MzAxODQsLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
+eyJoaXN0b3J5IjpbLTM1MDE4NDA5NiwtMTI1ODQwMTQ4OSwtNT
+c5OTIwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MDYsNDU3Njc1
+MTk3LDE2NDM4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2MjM0MjY3LC
+0xNzkwODcwNjQxLC01Nzc0MzA1MjYsLTM0MzU4MzU5MiwxMTMx
+NjUzOTQ1LC05MzM5MTY3Niw3ODgyMjA3NjcsLTEwNjU0MjY0NT
+IsMTMzNTUzMDE4NCwtMTc5NjkzODE4OSwxNzU3NDgwNTM5XX0=
 
 -->
