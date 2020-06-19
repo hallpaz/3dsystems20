@@ -50,7 +50,11 @@ We can see part of the the texture represented in a spherical form in an image t
 
 ![enter image description here](img/render_exterior1.jpg)
 
-After that, we moved the camera and the  to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0.
+After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen.
+
+![enter image description here](T0.jpg)
+
+We decided to visualize some intermediate images 
 
 
 #### Investigating the unexpected results
@@ -70,10 +74,10 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg3NTM1MTMsLTgxNTY5OTQ5MiwtMT
-E4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAyMzE2
-MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMDUyNi
-wtMzQzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LDc4ODIy
-MDc2NywtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC0xNzk2OTM4MT
-g5LDE3NTc0ODA1MzldfQ==
+eyJoaXN0b3J5IjpbMTE5NjkyMDI3MSwtODE1Njk5NDkyLC0xMT
+gzNDIyNjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYz
+NTI1LC00NjIzNDI2NywtMTc5MDg3MDY0MSwtNTc3NDMwNTI2LC
+0zNDM1ODM1OTIsMTEzMTY1Mzk0NSwtOTMzOTE2NzYsNzg4MjIw
+NzY3LC0xMDY1NDI2NDUyLDEzMzU1MzAxODQsLTE3OTY5MzgxOD
+ksMTc1NzQ4MDUzOV19
 -->
