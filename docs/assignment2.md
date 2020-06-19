@@ -95,7 +95,13 @@ Unfortunately, we couldn't identify any pattern in the rendered image that could
 
 However, we can see that in this case, render with the camera located in the center of the sphere
 
+##### Changing Renderer Settings
+
+We tried to explore different sets of parameters 
+
 ##### Moving the near clipping plane
+
+A
 
 ##### Looking for alternatives renderers
 
@@ -105,11 +111,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NT
-E5MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQw
-MTQ4OSwtNTc5OTIwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MD
-YsNDU3Njc1MTk3LDE2NDM4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2
-MjM0MjY3LC0xNzkwODcwNjQxLC01Nzc0MzA1MjYsLTM0MzU4Mz
-U5MiwxMTMxNjUzOTQ1LC05MzM5MTY3Niw3ODgyMjA3NjcsLTEw
-NjU0MjY0NTJdfQ==
+eyJoaXN0b3J5IjpbLTQwNDg1Nzc0NCwtNTI3OTQ2OTA0LDEyNT
+cxNDA1NzUsMTk1MTkwMzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1
+NTY3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5Mi
+wtMTE4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAy
+MzE2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMD
+UyNiwtMzQzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNjc2LDc4
+ODIyMDc2N119
 -->
