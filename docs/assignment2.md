@@ -124,13 +124,13 @@ An unexpected result
 
 ##### Looking for alternatives renderers
 
-We tried to use the [Tensorflow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, the repository is out of
+We tried to use the [Tensorflow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we disc
 
 ### Conclusion
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA3NjczODYsLTgxNTA1NjEzNywtMT
+eyJoaXN0b3J5IjpbLTExMTEzMzUxMjgsLTgxNTA1NjEzNywtMT
 c1NDYzMzI1MywtMTE3MjAzNTQwMywtNTI3OTQ2OTA0LDEyNTcx
 NDA1NzUsMTk1MTkwMzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1NT
 Y3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5Miwt
