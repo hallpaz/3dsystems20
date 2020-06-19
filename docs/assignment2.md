@@ -67,7 +67,7 @@ T = [[0, 0, 0.9]] (inside)
 ![enter image description here](inside_mosaic.jpg)
 T = [[0, 0, 0.6]] | [[0, 0, 0.3]] | [[0, 0, 0.0]] (inside)
 
-As we can see, as soon as the camera enters
+As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Sett
 
 
 #### Investigating the unexpected results
@@ -87,10 +87,10 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMT
-gzNDIyNjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYz
-NTI1LC00NjIzNDI2NywtMTc5MDg3MDY0MSwtNTc3NDMwNTI2LC
-0zNDM1ODM1OTIsMTEzMTY1Mzk0NSwtOTMzOTE2NzYsNzg4MjIw
-NzY3LC0xMDY1NDI2NDUyLDEzMzU1MzAxODQsLTE3OTY5MzgxOD
-ksMTc1NzQ4MDUzOV19
+eyJoaXN0b3J5IjpbMTIyODA3Mzc5OSwtNTc5OTIwNDk3LC04MT
+U2OTk0OTIsLTExODM0MjI2MDYsNDU3Njc1MTk3LDE2NDM4NzIw
+NDAsLTEwMjMxNjM1MjUsLTQ2MjM0MjY3LC0xNzkwODcwNjQxLC
+01Nzc0MzA1MjYsLTM0MzU4MzU5MiwxMTMxNjUzOTQ1LC05MzM5
+MTY3Niw3ODgyMjA3NjcsLTEwNjU0MjY0NTIsMTMzNTUzMDE4NC
+wtMTc5NjkzODE4OSwxNzU3NDgwNTM5XX0=
 -->
