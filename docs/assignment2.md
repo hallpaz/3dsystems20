@@ -92,17 +92,13 @@ We decided to use a very simple texture, represented by 4 large rectangles in di
 
 Unfortunately, we couldn't identify any pattern in the rendered image that could lead us to a solution. At first, we can see that some regions show patterns that resemble self-intersections or visibility problems related to depth sorting or face culling. We already checked that our mesh is correct and has no self-intersections, but to investigate visibility problems, *we need to understand the details of this particular implementation*.
 
-<figure>
-	<img src="img/toy03.png" alt="Rendering the sphere">
-	<figcaption>Camera located at point [0.0, 0.0, 0.3] (inside)</figcaption>
-</figure>
+![Rendering the sphere](img/toy03.png) <br/>
+**Camera located at point [0.0, 0.0, 0.3] (inside)**
 
 An interesting result was that, in this case, when we rendered the scene with the camera located in the center of the sphere, we didn't get a black screen as we got using the first texture.
 
-<figure>
-	<img src="img/toy0.png" alt="Rendering the sphere">
-	<figcaption>Camera located at point [0.0, 0.0, 0.0] (inside)</figcaption>
-</figure>
+![Rendering the sphere](img/toy0.png) <br/>
+**Camera located at point [0.0, 0.0, 0.0] (inside)**
 
 ##### Changing Renderer Settings
 
@@ -135,7 +131,7 @@ We managed to build on top of the knowledge acquired on the last assignment and 
 
 We tried many different approaches to understand the unexpected behavior of the rendering and check which role our code played in this process. We could achieve the desired visualization using an external software with a regular rendering system based on rasterization, which helped us to validate our computed geometry and texture data. However, we still don't know the real reason behind this unexpected result and we need to dive deeper in the implementation details to understand. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNTgzMDU0Miw2MzkxNzc5NDEsMTc0OD
+eyJoaXN0b3J5IjpbLTUyNDcyNzAzMiw2MzkxNzc5NDEsMTc0OD
 E3NDkxMywtNzYyNDA2NzEwLC03MDczNDQ2MzksMTgzOTE3MTMz
 Miw3MzUzOTc2MCwtMjA1MjI3MDYzMSwtNjg2NTYzODE5LC0xND
 c2Mzg4OTkxLC04MTUwNTYxMzcsLTE3NTQ2MzMyNTMsLTExNzIw
