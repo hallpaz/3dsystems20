@@ -11,6 +11,7 @@ The objective of this 2nd assignment is to render a scene using the differentiab
 ### Modeling the Scene
 
 First of all, we need to compute the geometry and texture coordinates for a sphere. We decided to parameterize the sphere in terms of latitude and longitude coordinates, as well as use an equirectangular panorama as a bidimensional texture for the interior of the sphere. A valid concern about textures is the possibility of distortion due to the mapping; using this representation, we have an image and a natural map that takes into account the distortion of the surface.
+
 ![Panorama Equirectangular; source: https://www.flickr.com/photos/101382486@N07/9688940322/in/photolist-NVEvL-FKxNb-8sNqz4-4xDge6-8sdop9-7EncwT-49Fsty-49GdCm-fLbmpd](img/panorama4.jpg)
 
 ##### Geometry  and Texture Coordinates
@@ -51,6 +52,7 @@ On the first experiment, we tried to reproduce the tutorial steps to check if th
 </figure>
 
 After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen.
+
 ![enter image description here](img/T0.png)
 
 We decided to put the camera outside the sphere again and render some intermediate images as we move the camera towards the center of the sphere. 
@@ -135,11 +137,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzM0NDYzOSwxODM5MTcxMzMyLDczNT
-M5NzYwLC0yMDUyMjcwNjMxLC02ODY1NjM4MTksLTE0NzYzODg5
-OTEsLTgxNTA1NjEzNywtMTc1NDYzMzI1MywtMTE3MjAzNTQwMy
-wtNTI3OTQ2OTA0LDEyNTcxNDA1NzUsMTk1MTkwMzIzNCwtMjA2
-OTM2ODM1MSwxODg5OTU1NTY3LC0xMjU4NDAxNDg5LC01Nzk5Mj
-A0OTcsLTgxNTY5OTQ5MiwtMTE4MzQyMjYwNiw0NTc2NzUxOTcs
-MTY0Mzg3MjA0MF19
+eyJoaXN0b3J5IjpbODE5NDIzMDQxLC03MDczNDQ2MzksMTgzOT
+E3MTMzMiw3MzUzOTc2MCwtMjA1MjI3MDYzMSwtNjg2NTYzODE5
+LC0xNDc2Mzg4OTkxLC04MTUwNTYxMzcsLTE3NTQ2MzMyNTMsLT
+ExNzIwMzU0MDMsLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5
+MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQwMT
+Q4OSwtNTc5OTIwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MDYs
+NDU3Njc1MTk3XX0=
 -->
