@@ -104,14 +104,14 @@ Unfortunately, we couldn't identify any pattern in the rendered image that could
 
 <figure>
 	<img src="img/toy03.png" alt="Rendering the sphere">
-	<figcaption>Câmera located at point [0.0, 0.0, 0.9] (inside)</figcaption>
+	<figcaption>Camera located at point [0.0, 0.0, 0.3] (inside)</figcaption>
 </figure>
 
 However, in this case, when we render the scene with the camera located in the center of the sphere, we don't get a black screen. 
 
 <figure>
 	<img src="img/toy0.png" alt="Rendering the sphere">
-	<figcaption>Câmera located at points  [0, 0, 0.6] | [0, 0, 0.3] | [0, 0, 0.0] (inside)</figcaption>
+	<figcaption>Camera located at point [0.0, 0.0, 0.0] (inside)</figcaption>
 </figure>
 
 ##### Changing Renderer Settings
@@ -140,7 +140,7 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ4NjcyODksLTY4NjU2MzgxOSwtMT
+eyJoaXN0b3J5IjpbLTIwNTIyNzA2MzEsLTY4NjU2MzgxOSwtMT
 Q3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcy
 MDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMj
 M0LC0yMDY5MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODks
