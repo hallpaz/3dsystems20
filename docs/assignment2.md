@@ -125,23 +125,28 @@ raster_settings = RasterizationSettings(
 )
 ``` 
 
+##### Looking for alternatives renderers
+
+We tried to use the library [TensorFlow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could learn it and achieve the expected result on time. 
+
+Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we discovered it's written in Python 2, which is deprecated as of 2020, and it's not compatible with Python 3. 
+
+Finding a way to render the scene in another similar differentiable renderer system, can help us understand if it's a problem related to the method or to the specific implementation in PyTorch3D. As we already spent a significant amount of time in this assignment, **this point remains inconclusive until now.**
+
 ##### Moving the near clipping plane
 
 An unexpected result
 
-##### Looking for alternatives renderers
-
-We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we discovered it's written in Python 2, which is deprecated as of 2020, and it's not compatible with Python 3. Finding a way to render the scene in another similar differentiable renderer system, can help us understand if it's a problem related to the method or to the specific implementation in PyTorch3D. As we already spent a significant amount of time in this assignment, **this point remains inconclusive until now.**
 
 ### Conclusion
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzgzNTQ2MywtNzA3MzQ0NjM5LDE4Mz
-kxNzEzMzIsNzM1Mzk3NjAsLTIwNTIyNzA2MzEsLTY4NjU2Mzgx
-OSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC
-0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUx
-OTAzMjM0LC0yMDY5MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MD
-E0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2
-LDQ1NzY3NTE5N119
+eyJoaXN0b3J5IjpbLTExMzkyMDU1NDEsLTcwNzM0NDYzOSwxOD
+M5MTcxMzMyLDczNTM5NzYwLC0yMDUyMjcwNjMxLC02ODY1NjM4
+MTksLTE0NzYzODg5OTEsLTgxNTA1NjEzNywtMTc1NDYzMzI1My
+wtMTE3MjAzNTQwMywtNTI3OTQ2OTA0LDEyNTcxNDA1NzUsMTk1
+MTkwMzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1NTY3LC0xMjU4ND
+AxNDg5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5MiwtMTE4MzQyMjYw
+Niw0NTc2NzUxOTddfQ==
 -->
