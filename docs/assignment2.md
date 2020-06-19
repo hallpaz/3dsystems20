@@ -140,13 +140,13 @@ An unexpected result
 
 ### Conclusion
 
-Differentiable rendering is a powerful tool to In this assignment, we couldn't achieve our primary goal 
+Differentiable rendering is a powerful tool to unite the computer graphics and computer vision problems. Our primary goal was to build on t the knowledge acquired during the last assignment to model and render a scene In this assignment, we couldn't achieve our primary goal 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDkzNDc2NCwtNzA3MzQ0NjM5LDE4Mz
-kxNzEzMzIsNzM1Mzk3NjAsLTIwNTIyNzA2MzEsLTY4NjU2Mzgx
-OSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC
-0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUx
-OTAzMjM0LC0yMDY5MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MD
-E0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2
-LDQ1NzY3NTE5N119
+eyJoaXN0b3J5IjpbLTE1NDIwNTcwMDIsLTcwNzM0NDYzOSwxOD
+M5MTcxMzMyLDczNTM5NzYwLC0yMDUyMjcwNjMxLC02ODY1NjM4
+MTksLTE0NzYzODg5OTEsLTgxNTA1NjEzNywtMTc1NDYzMzI1My
+wtMTE3MjAzNTQwMywtNTI3OTQ2OTA0LDEyNTcxNDA1NzUsMTk1
+MTkwMzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1NTY3LC0xMjU4ND
+AxNDg5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5MiwtMTE4MzQyMjYw
+Niw0NTc2NzUxOTddfQ==
 -->
