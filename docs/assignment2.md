@@ -124,17 +124,17 @@ An unexpected result
 
 ##### Looking for alternatives renderers
 
-We tried to use the [Tensorflow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we discovered it's written in Python 2, which is deprecated as of 2020, and it's not compatible with Python 3.
+We tried to use the [Tensorflow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we discovered it's written in Python 2, which is deprecated as of 2020, and it's not compatible with Python 3. If we manage to render the scene in another differentiable renderer system, we 
 
 ### Conclusion
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzYzODg5OTEsLTgxNTA1NjEzNywtMT
-c1NDYzMzI1MywtMTE3MjAzNTQwMywtNTI3OTQ2OTA0LDEyNTcx
-NDA1NzUsMTk1MTkwMzIzNCwtMjA2OTM2ODM1MSwxODg5OTU1NT
-Y3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5OTQ5Miwt
-MTE4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MCwtMTAyMz
-E2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3NzQzMDUy
-NiwtMzQzNTgzNTkyXX0=
+eyJoaXN0b3J5IjpbLTUwOTE3ODgxMSwtMTQ3NjM4ODk5MSwtOD
+E1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5
+NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4Mz
+UxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5Nywt
+ODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQzOD
+cyMDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5MDg3MDY0
+MSwtNTc3NDMwNTI2XX0=
 -->
