@@ -91,7 +91,7 @@ We decided to take the original code of the tutorial and move the camera towards
 We decided to use a very simple texture, represented by 4 large rectangles in different colors, to try to investigate the problem by looking to the result. 
 ![enter image description here](img/panorama5.png)
 
-Unfortunately, we couldn't identify any pattern in the rendered image that could lead us to a solution. We can see that some regions show patterns that resemble self-intersections or visibility problems related to depth sorting or face culling. We already checked our mesh is correct and has no self-intersections, but to investigate 
+Unfortunately, we couldn't identify any pattern in the rendered image that could lead us to a solution. At first, we can see that some regions show patterns that resemble self-intersections or visibility problems related to depth sorting or face culling. We already checked that our mesh is correct and has no self-intersections, but to investigate visibility problems, we need to understand the details of this particular implementation.
 
 ##### Moving the near clipping plane
 
@@ -103,11 +103,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMD
-Y5MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTky
-MDQ5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5Ny
-wxNjQzODcyMDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5
-MDg3MDY0MSwtNTc3NDMwNTI2LC0zNDM1ODM1OTIsMTEzMTY1Mz
-k0NSwtOTMzOTE2NzYsNzg4MjIwNzY3LC0xMDY1NDI2NDUyLDEz
-MzU1MzAxODRdfQ==
+eyJoaXN0b3J5IjpbMTUwNjM3NzY3NywxMjU3MTQwNTc1LDE5NT
+E5MDMyMzQsLTIwNjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQw
+MTQ4OSwtNTc5OTIwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MD
+YsNDU3Njc1MTk3LDE2NDM4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2
+MjM0MjY3LC0xNzkwODcwNjQxLC01Nzc0MzA1MjYsLTM0MzU4Mz
+U5MiwxMTMxNjUzOTQ1LC05MzM5MTY3Niw3ODgyMjA3NjcsLTEw
+NjU0MjY0NTJdfQ==
 -->
