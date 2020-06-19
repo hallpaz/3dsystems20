@@ -73,7 +73,7 @@ As we can see, as soon as the camera enters the surface, the visualization gives
 
 ##### Rendering the Mesh in MeshLab
 
-The first test we did to check if the error was in our computations, was to export the mesh and open it on Meshlab. We wrote a simple function to write an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In Meshlab
+The first test we did to check if the error was in our computations, was to export the mesh and open it on Meshlab. We wrote a simple function to write an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In Meshlab, everything was ok.
 
 
 
@@ -96,7 +96,7 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDkzNjQ5OSwtMTI1ODQwMTQ4OSwtNT
+eyJoaXN0b3J5IjpbMTg4OTk1NTU2NywtMTI1ODQwMTQ4OSwtNT
 c5OTIwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MDYsNDU3Njc1
 MTk3LDE2NDM4NzIwNDAsLTEwMjMxNjM1MjUsLTQ2MjM0MjY3LC
 0xNzkwODcwNjQxLC01Nzc0MzA1MjYsLTM0MzU4MzU5MiwxMTMx
