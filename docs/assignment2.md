@@ -44,11 +44,10 @@ The tutorial shows how to load an *obj* file and material data into memory to re
 
 ##### Setting the scene parameters
 
-On the first experiment, we tried to reproduce the tutorial steps to check if the texture data is fine and see what would be rendered. We can see part of the texture represented in a spherical shape in an image that looks a little dark. This result seems fine as we are looking to the sphere from the outside and the normals of the faces points inward the surface. 
-
+On the first experiment, we tried to reproduce the tutorial steps to check if the texture data is fine and see what would be rendered. We can see part of the texture represented in a circular shape in an image that looks a little dark. This result seems fine as we are looking to the sphere from the outside and the normals of the faces points inward the surface. 
 ![enter image description here](img/render_exterior1.png)
 
-After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen, but based on further tests that we'll describe below, we believe this result is texture dependent.
+After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 sas the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen, but based on further tests that we'll describe below, we believe this result is texture dependent.
 
 ![enter image description here](img/T0.png)
 
@@ -138,11 +137,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTc5OTU0MSwxODM5MTcxMzMyLDczNT
-M5NzYwLC0yMDUyMjcwNjMxLC02ODY1NjM4MTksLTE0NzYzODg5
-OTEsLTgxNTA1NjEzNywtMTc1NDYzMzI1MywtMTE3MjAzNTQwMy
-wtNTI3OTQ2OTA0LDEyNTcxNDA1NzUsMTk1MTkwMzIzNCwtMjA2
-OTM2ODM1MSwxODg5OTU1NTY3LC0xMjU4NDAxNDg5LC01Nzk5Mj
-A0OTcsLTgxNTY5OTQ5MiwtMTE4MzQyMjYwNiw0NTc2NzUxOTcs
-MTY0Mzg3MjA0MF19
+eyJoaXN0b3J5IjpbMjc0ODg3ODk4LDE4MzkxNzEzMzIsNzM1Mz
+k3NjAsLTIwNTIyNzA2MzEsLTY4NjU2MzgxOSwtMTQ3NjM4ODk5
+MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC
+01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5
+MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMD
+Q5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5Nywx
+NjQzODcyMDQwXX0=
 -->
