@@ -67,10 +67,11 @@ T = [[0, 0, 0.9]] (inside)
 ![enter image description here](inside_mosaic.jpg)
 T = [[0, 0, 0.6]] | [[0, 0, 0.3]] | [[0, 0, 0.0]] (inside)
 
-As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, 
-
+As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, we have a black screen. 
 
 #### Investigating the unexpected results
+
+
 
 ##### Toy texture
 
@@ -87,7 +88,7 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQ1NTczMTEsLTU3OTkyMDQ5NywtOD
+eyJoaXN0b3J5IjpbLTEyNTg0MDE0ODksLTU3OTkyMDQ5NywtOD
 E1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQzODcy
 MDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5MDg3MDY0MS
 wtNTc3NDMwNTI2LC0zNDM1ODM1OTIsMTEzMTY1Mzk0NSwtOTMz
