@@ -91,7 +91,7 @@ We decided to take the original code of the tutorial and move the camera towards
 We decided to use a very simple texture, represented by 4 large rectangles in different colors, to try to investigate the problem by looking to the result. 
 ![enter image description here](img/panorama5.png)
 
-Unfortunatelly, we couldn't identify any pattern in the rendered image that could lead us to a solution. We can see that some regions appears to show
+Unfortunatelly, we couldn't identify any pattern in the rendered image that could lead us to a solution. We can see that some regions show patterns that ressemble self-intersections or visibility problems related to sorting or 
 
 ##### Moving the near clipping plane
 
@@ -103,7 +103,7 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjE2NjYyOCwxOTUxOTAzMjM0LC0yMD
+eyJoaXN0b3J5IjpbMTQ3OTM1MzY0MCwxOTUxOTAzMjM0LC0yMD
 Y5MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTky
 MDQ5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5Ny
 wxNjQzODcyMDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5
