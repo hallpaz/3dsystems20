@@ -32,7 +32,7 @@ We triangulate the mesh by connecting vertices on adjacent parallels and meridia
 
 <script src="https://gist.github.com/hallpaz/e4ab7e85c37d221cdd9e2381b8d541a5.js"></script>
 
-In the end of the function we convert the lists of data into PyTorch tensors, so we have a data structure compatible with the operations 
+In the end of the function we convert the lists of data into PyTorch tensors, so we have a data structure compatible with the operations of the library.
 
 ### Rendering the Scene
 
@@ -139,11 +139,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTYzODQyLDE4MzkxNzEzMzIsNzM1Mz
-k3NjAsLTIwNTIyNzA2MzEsLTY4NjU2MzgxOSwtMTQ3NjM4ODk5
-MSwtODE1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC
-01Mjc5NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5
-MzY4MzUxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMD
-Q5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5Nywx
-NjQzODcyMDQwXX0=
+eyJoaXN0b3J5IjpbLTEzNTA3NzE3MzcsMTgzOTE3MTMzMiw3Mz
+UzOTc2MCwtMjA1MjI3MDYzMSwtNjg2NTYzODE5LC0xNDc2Mzg4
+OTkxLC04MTUwNTYxMzcsLTE3NTQ2MzMyNTMsLTExNzIwMzU0MD
+MsLTUyNzk0NjkwNCwxMjU3MTQwNTc1LDE5NTE5MDMyMzQsLTIw
+NjkzNjgzNTEsMTg4OTk1NTU2NywtMTI1ODQwMTQ4OSwtNTc5OT
+IwNDk3LC04MTU2OTk0OTIsLTExODM0MjI2MDYsNDU3Njc1MTk3
+LDE2NDM4NzIwNDBdfQ==
 -->
