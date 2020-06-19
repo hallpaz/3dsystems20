@@ -29,11 +29,11 @@ For each parallel, we sample two vertices on the exact same location of the firs
 
 **Mesh Triangulation**
 
-We triangulate the mesh by connecting vertices on adjacents parallels and meridians over the surface. We choose the order of the vertices such that each face has a clockwise (CW) winding order. This way, the normals point to the interior of the surface where we wish to locate our camera.
+We triangulate the mesh by connecting vertices on adjacent parallels and meridians over the surface. We choose the order of the vertices such that each face has a clockwise (CW) winding order. This way, the normals point to the interior of the surface where we wish to locate our camera.
 
 <script src="https://gist.github.com/hallpaz/e4ab7e85c37d221cdd9e2381b8d541a5.js"></script>
 
-In the end of the function we convert the lists of data into Pytorch tensors, so we have a data structure compatible with the operations 
+In the end of the function we convert the lists of data into PyTorch tensors, so we have a data structure compatible with the operations 
 
 ### Rendering the Scene
 
@@ -50,22 +50,31 @@ We can see part of the the texture represented in a spherical form in an image t
 
 ![enter image description here](img/render_exterior1.png)
 
-After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen.
+After that, we moved the camera and the light source to the center of the sphere, decreasing the near clipping plane to 0.5 as the radius of the sphere is equal to 1.0. For our surprise the result was only a black screen, but based on further tests that we'll describe below, we believe this result is texture dependent.
 
-![enter image description here](T0.png)
+![enter image description here](img/T0.png)
 
 We decided to put the camera outside the sphere again and render some intermediate images as we move the camera towards the center of the sphere. 
 
-![enter image description here](T21.png)
-T = [[0, 0, 2.1]] (outside)
-![enter image description here](T12.png)
-T = [[0, 0, 1.2]] (outside)
+<figure>
+	<img src="img/T21.png" alt="Rendering the sphere">	
+	<figcaption>Câmera located at point [0.0, 0.0, 2.1] (outside)</figcaption>
+</figure>
 
-![enter image description here](T09.png)
-T = [[0, 0, 0.9]] (inside)
+<figure>
+	<img src="img/T12.png" alt="Rendering the sphere">	
+	<figcaption>Câmera located at point [0.0, 0.0, 1.2] (outside)</figcaption>
+</figure>
 
-![enter image description here](inside_mosaic.png)
-T = [[0, 0, 0.6]] | [[0, 0, 0.3]] | [[0, 0, 0.0]] (inside)
+<figure>
+	<img src="img/T09.png" alt="Rendering the sphere">
+	<figcaption>Câmera located at point [0.0, 0.0, 0.9] (inside)</figcaption>
+</figure>
+
+<figure>
+	<img src="img/inside_mosaic.png" alt="Rendering the sphere">
+	<figcaption>Câmera located at points  [0, 0, 0.6] | [0, 0, 0.3] | [0, 0, 0.0] (inside)</figcaption>
+</figure>
 
 As we can see, as soon as the camera enters the surface, the visualization gives an unexpected result. Setting the camera anywhere inside the sphere but the center, appears to show a distorted visualization where we can't identify any object in the texture. In the center, we have a black screen. 
 
@@ -73,7 +82,7 @@ As we can see, as soon as the camera enters the surface, the visualization gives
 
 ##### Rendering the Mesh in MeshLab
 
-The first test we did to check if the error was in our computations, was to export the mesh and open it on Meshlab. We wrote a simple function to write an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In Meshlab, everything was ok, so we discarded a problem with our geometry.
+The first test we did to check if the error was in our computations, was to export the mesh and open it on MeshLab. We wrote a simple function to write an obj file with texture coordinates for vertices and we copied the material used in the cow mesh, changing only the image used as texture. In MeshLab, everything was ok, so we discarded a problem with our geometry.
 
 <video width="706"  height="458"  controls>  
 <source src="img/meshlab_panorama_video.mp4" type="video/mp4">  
@@ -91,21 +100,51 @@ We decided to take the original code of the tutorial and move the camera towards
 We decided to use a very simple texture, represented by 4 large rectangles in different colors, to try to investigate the problem by looking to the result. 
 ![enter image description here](img/panorama5.png)
 
+Unfortunately, we couldn't identify any pattern in the rendered image that could lead us to a solution. At first, we can see that some regions show patterns that resemble self-intersections or visibility problems related to depth sorting or face culling. We already checked that our mesh is correct and has no self-intersections, but to investigate visibility problems, we need to understand the details of this particular implementation.
+
+<figure>
+	<img src="img/toy03.png" alt="Rendering the sphere">
+	<figcaption>Camera located at point [0.0, 0.0, 0.3] (inside)</figcaption>
+</figure>
+
+However, in this case, when we render the scene with the camera located in the center of the sphere, we don't get a black screen.
+
+<figure>
+	<img src="img/toy0.png" alt="Rendering the sphere">
+	<figcaption>Camera located at point [0.0, 0.0, 0.0] (inside)</figcaption>
+</figure>
+
+##### Changing Renderer Settings
+
+We tried to explore different sets of the parameters faces_per_pixel, bin_size and max_faces_per_bin, but we could't perceive any difference rendering the "toy texture". We tried both the coarse and coarse-to-fine rasterization as stated in the documentation.
+
+```python
+raster_settings = RasterizationSettings(
+   image_size=512, 
+   blur_radius=0.0, 
+   faces_per_pixel=1, 
+   bin_size = None,  # this setting controls whether naive or coarse-to-fine rasterization is used
+   max_faces_per_bin = None  # this setting is for coarse rasterization
+)
+``` 
+
 ##### Moving the near clipping plane
+
+An unexpected result
 
 ##### Looking for alternatives renderers
 
-We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the Open Differentiable Renderer (OpenDR).
+We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) to render the mesh, but we couldn't find information on how to render a textured mesh and it didn't appear we could achieve it on time. Our second alternative was the [Open Differentiable Renderer](http://open-dr.org/) (OpenDR). Although this have a nice documentation of the examples, including a paper detailing how they achieved this result, we couldn't run the examples. Later, we discovered it's written in Python 2, which is deprecated as of 2020, and it's not compatible with Python 3. Finding a way to render the scene in another similar differentiable renderer system, can help us understand if it's a problem related to the method or to the specific implementation in PyTorch3D. As we already spent a significant amount of time in this assignment, **this point remains inconclusive until now.**
 
 ### Conclusion
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTkwMzIzNCwtMjA2OTM2ODM1MSwxOD
-g5OTU1NTY3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcsLTgxNTY5
-OTQ5MiwtMTE4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mzg3MjA0MC
-wtMTAyMzE2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2NDEsLTU3
-NzQzMDUyNiwtMzQzNTgzNTkyLDExMzE2NTM5NDUsLTkzMzkxNj
-c2LDc4ODIyMDc2NywtMTA2NTQyNjQ1MiwxMzM1NTMwMTg0LC0x
-Nzk2OTM4MTg5XX0=
+eyJoaXN0b3J5IjpbNzM1Mzk3NjAsLTIwNTIyNzA2MzEsLTY4Nj
+U2MzgxOSwtMTQ3NjM4ODk5MSwtODE1MDU2MTM3LC0xNzU0NjMz
+MjUzLC0xMTcyMDM1NDAzLC01Mjc5NDY5MDQsMTI1NzE0MDU3NS
+wxOTUxOTAzMjM0LC0yMDY5MzY4MzUxLDE4ODk5NTU1NjcsLTEy
+NTg0MDE0ODksLTU3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzND
+IyNjA2LDQ1NzY3NTE5NywxNjQzODcyMDQwLC0xMDIzMTYzNTI1
+LC00NjIzNDI2N119
 -->
