@@ -71,11 +71,13 @@ As we can see, as soon as the camera enters the surface, the visualization gives
 
 #### Investigating the unexpected results
 
+##### Moving the câmera in the tutorial
 
+We decided to take the original code of the tutorial and move the camera towards the inside of the cow mesh. We cou
 
 ##### Toy texture
 
-##### Moving the câmera in the tutorial
+
 
 ##### Cropping the mesh
 
@@ -88,10 +90,11 @@ We tried to use the Tensorflow Graphics to render a mesh, but we couldn't find i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg0MDE0ODksLTU3OTkyMDQ5NywtOD
-E1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQzODcy
-MDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5MDg3MDY0MS
-wtNTc3NDMwNTI2LC0zNDM1ODM1OTIsMTEzMTY1Mzk0NSwtOTMz
-OTE2NzYsNzg4MjIwNzY3LC0xMDY1NDI2NDUyLDEzMzU1MzAxOD
-QsLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
+eyJoaXN0b3J5IjpbLTExMTc0NzQ1OTYsLTEyNTg0MDE0ODksLT
+U3OTkyMDQ5NywtODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3
+NTE5NywxNjQzODcyMDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2Ny
+wtMTc5MDg3MDY0MSwtNTc3NDMwNTI2LC0zNDM1ODM1OTIsMTEz
+MTY1Mzk0NSwtOTMzOTE2NzYsNzg4MjIwNzY3LC0xMDY1NDI2ND
+UyLDEzMzU1MzAxODQsLTE3OTY5MzgxODksMTc1NzQ4MDUzOV19
+
 -->
