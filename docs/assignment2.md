@@ -104,7 +104,7 @@ Unfortunately, we couldn't identify any pattern in the rendered image that could
 
 
 
-However, in this case, wrender with the camera located in the center of the sphere
+However, in this case, when we render the scene with the camera located in the center of the sphere, we don't get a black screen. 
 
 ##### Changing Renderer Settings
 
@@ -132,7 +132,7 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDE2ODA3MSwtMTQ3NjM4ODk5MSwtOD
+eyJoaXN0b3J5IjpbMTcyMzM4MTkxMSwtMTQ3NjM4ODk5MSwtOD
 E1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5
 NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4Mz
 UxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5Nywt
