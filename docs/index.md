@@ -10,7 +10,7 @@
 #### [A Survey of Differentiable Rendering](differentiable-rendering.md) \[under construction]
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. [READ MORE...](differentiable-rendering.md)
-![enter image description here](img/expectation.png)
+![enter image description here](img/expectation.jpg)
 
 ## Assignments
 
@@ -24,10 +24,10 @@ The objective of this 1st assignment is to get familiarized with the AI Graphics
 
 ![Some shapes of revolution](img/rev_shapes.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODcyMDUwNSwtMzg2MjQ1MTcsMTQ5Mj
-c5OTc1MCw0ODQ2MDM4MSwtMTQ2NTgyODMxOSwtMTk1MDE3MjY5
-MSwtMTI1MTE5OTA1Myw5MjcwMTEyODQsLTEyODQ5OTAzMzQsMT
-c0MTQzMTgwNSwtMTE3NDIzOTUzMSwtMTQzNDQxMDYzNCwtNTQy
-NDg2MzExLC0xMzgxNTcwNDMxLDE0MjY0NTY2OSwtMTYwNTE2MT
-E0OCwtMTkzODUzMDM5OCwxMTkyNjA1NzE1XX0=
+eyJoaXN0b3J5IjpbLTExNzQ1OTc1NjksLTM4NjI0NTE3LDE0OT
+I3OTk3NTAsNDg0NjAzODEsLTE0NjU4MjgzMTksLTE5NTAxNzI2
+OTEsLTEyNTExOTkwNTMsOTI3MDExMjg0LC0xMjg0OTkwMzM0LD
+E3NDE0MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLTU0
+MjQ4NjMxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUxNj
+ExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcxNV19
 -->
