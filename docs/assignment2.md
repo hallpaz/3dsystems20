@@ -102,6 +102,8 @@ We decided to use a very simple texture, represented by 4 large rectangles in di
 
 Unfortunately, we couldn't identify any pattern in the rendered image that could lead us to a solution. At first, we can see that some regions show patterns that resemble self-intersections or visibility problems related to depth sorting or face culling. We already checked that our mesh is correct and has no self-intersections, but to investigate visibility problems, we need to understand the details of this particular implementation.
 
+
+
 However, we can see that in this case, render with the camera located in the center of the sphere
 
 ##### Changing Renderer Settings
@@ -130,11 +132,11 @@ We tried to use the [TensorFlow Graphics](https://www.tensorflow.org/graphics/) 
 
 Cropping the mesh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODU2ODE5MiwtMTQ3NjM4ODk5MSwtOD
-E1MDU2MTM3LC0xNzU0NjMzMjUzLC0xMTcyMDM1NDAzLC01Mjc5
-NDY5MDQsMTI1NzE0MDU3NSwxOTUxOTAzMjM0LC0yMDY5MzY4Mz
-UxLDE4ODk5NTU1NjcsLTEyNTg0MDE0ODksLTU3OTkyMDQ5Nywt
-ODE1Njk5NDkyLC0xMTgzNDIyNjA2LDQ1NzY3NTE5NywxNjQzOD
-cyMDQwLC0xMDIzMTYzNTI1LC00NjIzNDI2NywtMTc5MDg3MDY0
-MSwtNTc3NDMwNTI2XX0=
+eyJoaXN0b3J5IjpbLTE4MTg3MjIyNjgsLTE0NzYzODg5OTEsLT
+gxNTA1NjEzNywtMTc1NDYzMzI1MywtMTE3MjAzNTQwMywtNTI3
+OTQ2OTA0LDEyNTcxNDA1NzUsMTk1MTkwMzIzNCwtMjA2OTM2OD
+M1MSwxODg5OTU1NTY3LC0xMjU4NDAxNDg5LC01Nzk5MjA0OTcs
+LTgxNTY5OTQ5MiwtMTE4MzQyMjYwNiw0NTc2NzUxOTcsMTY0Mz
+g3MjA0MCwtMTAyMzE2MzUyNSwtNDYyMzQyNjcsLTE3OTA4NzA2
+NDEsLTU3NzQzMDUyNl19
 -->
