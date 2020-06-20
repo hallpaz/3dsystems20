@@ -13,7 +13,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 
 ## Assignments
 
-#### [Rendering a Scene with a Differentiable Renderer](assignment2.md) \[under construction]
+#### [Rendering a Scene with a Differentiable Renderer](assignment2.md)
 
 The objective of this 2nd assignment is to render a scene using a differentiable renderer and exploit some capabilities of this system. We aim to render equirectangular panoramas, building a scene with a single sphere parameterized by latitude and longitude and setting the câmera in the center of the sphere. [READ MORE...](assignment2.md)
 ![Expected result, not reality](img/expectation.jpg)
@@ -24,11 +24,11 @@ The objective of this 1st assignment is to get familiarized with the AI Graphics
 
 ![Some shapes of revolution](img/rev_shapes.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI1NDAzNTQsLTExNzQ1OTc1NjksLT
-M4NjI0NTE3LDE0OTI3OTk3NTAsNDg0NjAzODEsLTE0NjU4Mjgz
-MTksLTE5NTAxNzI2OTEsLTEyNTExOTkwNTMsOTI3MDExMjg0LC
-0xMjg0OTkwMzM0LDE3NDE0MzE4MDUsLTExNzQyMzk1MzEsLTE0
-MzQ0MTA2MzQsLTU0MjQ4NjMxMSwtMTM4MTU3MDQzMSwxNDI2ND
-U2NjksLTE2MDUxNjExNDgsLTE5Mzg1MzAzOTgsMTE5MjYwNTcx
-NV19
+eyJoaXN0b3J5IjpbNjA4NjU0ODIxLC0xODgyNTQwMzU0LC0xMT
+c0NTk3NTY5LC0zODYyNDUxNywxNDkyNzk5NzUwLDQ4NDYwMzgx
+LC0xNDY1ODI4MzE5LC0xOTUwMTcyNjkxLC0xMjUxMTk5MDUzLD
+kyNzAxMTI4NCwtMTI4NDk5MDMzNCwxNzQxNDMxODA1LC0xMTc0
+MjM5NTMxLC0xNDM0NDEwNjM0LC01NDI0ODYzMTEsLTEzODE1Nz
+A0MzEsMTQyNjQ1NjY5LC0xNjA1MTYxMTQ4LC0xOTM4NTMwMzk4
+LDExOTI2MDU3MTVdfQ==
 -->
