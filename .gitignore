@@ -7,3 +7,6 @@ dr_env/*
 .ipynb_checkpoints/*
 .vscode/*
 test_opendr.py
+data/meshes/sphere/calota180/*
+data/meshes/sphere/calota135/*
+data/meshes/sphere/calota_small/*
