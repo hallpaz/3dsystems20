@@ -18,7 +18,10 @@ The objective of this 2nd assignment is to render a scene using the differentiab
 ### Differentiable Rendering
 
 [1] M. M. Loper and M. J. Black. Opendr: An approximate differentiable renderer. In European Conference on Computer Vision, pages 154–169. Springer, 2014.
+
 [2] H. Kato, Y. Ushiku, and T. Harada. Neural 3d mesh renderer. In Proceedings ofthe IEEE Conference on Computer Vision and Pattern Recognition, pages 3907–3916, 2018.
+
+
 
 
 ### Experiments and Analysis
@@ -34,5 +37,5 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2OTkyNzI5XX0=
+eyJoaXN0b3J5IjpbLTIxMTkwODExNDVdfQ==
 -->
