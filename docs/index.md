@@ -5,11 +5,11 @@
 
 ---------
 
-## Project 
+## Final Project 
 
 #### [AI Graphics | Differentiable Rendering](project.md) \[under construction]
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. [READ MORE...](project.md)
+This project builds on the previous assignments of 3D modeling and scene visualization using PyTorch3D, one of the AI graphics platforms available for free. Our goal is to_Render a panoramic scene using a differentiable renderer and exploit the inverse rendering to augment a scene.  [READ MORE...](project.md)
 
 ## Assignments
 
@@ -24,11 +24,11 @@ The objective of this 1st assignment is to get familiarized with the AI Graphics
 
 ![Some shapes of revolution](img/rev_shapes.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDI0NDk3OSw2MDg2NTQ4MjEsLTE4OD
-I1NDAzNTQsLTExNzQ1OTc1NjksLTM4NjI0NTE3LDE0OTI3OTk3
-NTAsNDg0NjAzODEsLTE0NjU4MjgzMTksLTE5NTAxNzI2OTEsLT
-EyNTExOTkwNTMsOTI3MDExMjg0LC0xMjg0OTkwMzM0LDE3NDE0
-MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4Nj
-MxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUxNjExNDgs
-LTE5Mzg1MzAzOThdfQ==
+eyJoaXN0b3J5IjpbMTA3Mjc5MTE2LDYwODY1NDgyMSwtMTg4Mj
+U0MDM1NCwtMTE3NDU5NzU2OSwtMzg2MjQ1MTcsMTQ5Mjc5OTc1
+MCw0ODQ2MDM4MSwtMTQ2NTgyODMxOSwtMTk1MDE3MjY5MSwtMT
+I1MTE5OTA1Myw5MjcwMTEyODQsLTEyODQ5OTAzMzQsMTc0MTQz
+MTgwNSwtMTE3NDIzOTUzMSwtMTQzNDQxMDYzNCwtNTQyNDg2Mz
+ExLC0xMzgxNTcwNDMxLDE0MjY0NTY2OSwtMTYwNTE2MTE0OCwt
+MTkzODUzMDM5OF19
 -->
