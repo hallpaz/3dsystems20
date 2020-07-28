@@ -25,15 +25,8 @@ Rendering, or more specifically diferrentiable rendering, looks like a good topi
 
 ### Differentiable Rendering
 
-[] Immersive Light Field Video with a Layered Mesh Representation
 
-[]
 
-[1] M. M. Loper and M. J. Black. Opendr: An approximate differentiable renderer. In European Conference on Computer Vision, pages 154–169. Springer, 2014.
-
-[2] H. Kato, Y. Ushiku, and T. Harada. Neural 3d mesh renderer. In Proceedings ofthe IEEE Conference on Computer Vision and Pattern Recognition, pages 3907–3916, 2018.
-
-[3] Liu, S., Li, T., Chen, W., Li, H.: Soft rasterizer: A differentiable renderer for image-based 3d reasoning. In: Proceedings of the IEEE International Conference on Computer Vision. pp. 7708–7717 (2019)
 
 
 ### Experiments and Analysis
@@ -41,14 +34,25 @@ Rendering, or more specifically diferrentiable rendering, looks like a good topi
 
 ### Conclusion and next steps
 
-As the works in this area are still very recent, we are subject to unexpected bugs as the one found in Pytorch3D.  Although ... we managed to  
+As the works in this area are still very recent, we are subject to unexpected bugs as the one found in Pytorch3D.  Although ... we managed to complete the rendering step of our panoramic scene using the Soft Rasterizer 
 -   ✓Parameterize rotations (quaternions?)
 -   ✓Render new objects in panoramic environment
 
 You can find the Keynote presented at the course below.
 
+### References
+
+[1] Immersive Light Field Video with a Layered Mesh Representation
+
+[2]
+
+[3] M. M. Loper and M. J. Black. Opendr: An approximate differentiable renderer. In European Conference on Computer Vision, pages 154–169. Springer, 2014.
+
+[4] H. Kato, Y. Ushiku, and T. Harada. Neural 3d mesh renderer. In Proceedings ofthe IEEE Conference on Computer Vision and Pattern Recognition, pages 3907–3916, 2018.
+
+[5] Liu, S., Li, T., Chen, W., Li, H.: Soft rasterizer: A differentiable renderer for image-based 3d reasoning. In: Proceedings of the IEEE International Conference on Computer Vision. pp. 7708–7717 (2019)
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTM2NDU5NywxODM2ODU3ODk5XX0=
+eyJoaXN0b3J5IjpbLTY4OTYxODEzMiwxODM2ODU3ODk5XX0=
 -->
