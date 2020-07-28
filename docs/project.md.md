@@ -41,7 +41,7 @@ Rendering, or more specifically diferrentiable rendering, looks like a good topi
 
 ### Conclusion and next steps
 
-As the works in this area are still very recent, we  
+As the works in this area are still very recent, we are subject to unexpected bugs as the one found in Pytorch3D.  Although ... we managed to  
 -   ✓Parameterize rotations (quaternions?)
 -   ✓Render new objects in panoramic environment
 
@@ -50,5 +50,5 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDAwNzUyMzAsMTgzNjg1Nzg5OV19
+eyJoaXN0b3J5IjpbLTI4OTM2NDU5NywxODM2ODU3ODk5XX0=
 -->
