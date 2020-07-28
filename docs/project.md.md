@@ -29,7 +29,9 @@ The objective of this 2nd assignment is to render a scene using the differentiab
 -   ✓Parameterize rotations (quaternions?)
 -   ✓Render new objects in panoramic environment
 
-You can find 
+You can find the Keynote presented at the course below.
+
+###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDAxNTIxN119
+eyJoaXN0b3J5IjpbLTEzODk0ODkzMDFdfQ==
 -->
