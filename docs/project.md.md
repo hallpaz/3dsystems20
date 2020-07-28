@@ -21,7 +21,7 @@ The objective of this 2nd assignment is to render a scene using the differentiab
 
 [2] H. Kato, Y. Ushiku, and T. Harada. Neural 3d mesh renderer. In Proceedings ofthe IEEE Conference on Computer Vision and Pattern Recognition, pages 3907–3916, 2018.
 
-
+[3] Liu, S., Li, T., Chen, W., Li, H.: Soft rasterizer: A differentiable renderer for image-based 3d reasoning. In: Proceedings of the IEEE International Conference on Computer Vision. pp. 7708–7717 (2019)
 
 
 ### Experiments and Analysis
@@ -37,5 +37,5 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTkwODExNDVdfQ==
+eyJoaXN0b3J5IjpbLTEwNTIyNDAxNDRdfQ==
 -->
