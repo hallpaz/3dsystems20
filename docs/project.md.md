@@ -31,7 +31,8 @@ The objective of this 2nd assignment is to render a scene using the differentiab
 
 You can find the Keynote presented at the course below.
 
+
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODk0ODkzMDFdfQ==
+eyJoaXN0b3J5IjpbOTM2OTkyNzI5XX0=
 -->
