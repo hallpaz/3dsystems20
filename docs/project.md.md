@@ -11,7 +11,7 @@ This project builds on the previous assignments of 3D modeling and scene visuali
 > Our goal is to_Render a panoramic scene using a differentiable
 > renderer and exploit the inverse rendering to augment a scene.
 
-Most of the experiments can be found in the rendering or de-rendering Google Colab notebooks. You can [download full results here](https://drive.google.com/drive/folders/1IUPjgpALrnlfuBMZir779LogZt2_ZxAR?usp=sharing).
+Most of the experiments can be found in the [rendering](https://colab.research.google.com/drive/1ggdaF0OFeAm9CTC1ZXiQFUnNxdgrrRWH?usp=sharing) or [de-rendering](https://colab.research.google.com/drive/16393ggQ6bzDhjda7pMBoMOAFluPzRSL-?usp=sharing) Google Colab notebooks. You can [download full results here](https://drive.google.com/drive/folders/1IUPjgpALrnlfuBMZir779LogZt2_ZxAR?usp=sharing).
 
 ### Motivation
 -   ✓AI Graphics
@@ -41,5 +41,5 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDY2NDkzOSwxODM2ODU3ODk5XX0=
+eyJoaXN0b3J5IjpbNjgwMzUxMjAzLDE4MzY4NTc4OTldfQ==
 -->
