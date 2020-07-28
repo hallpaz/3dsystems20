@@ -41,6 +41,7 @@ Rendering, or more specifically diferrentiable rendering, looks like a good topi
 
 ### Conclusion and next steps
 
+As the works in this area are still very recent, we  
 -   ✓Parameterize rotations (quaternions?)
 -   ✓Render new objects in panoramic environment
 
@@ -49,5 +50,5 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDk3NzUzMiwxODM2ODU3ODk5XX0=
+eyJoaXN0b3J5IjpbLTE5MDAwNzUyMzAsMTgzNjg1Nzg5OV19
 -->
