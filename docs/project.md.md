@@ -16,11 +16,15 @@ Most of the experiments can be found in the [rendering](https://colab.research.g
 ### Motivation
 -   ✓AI Graphics
 -   ✓Past works… panoramas!
-Previous works studying how we could use panoramic images for experiences 
+Previous works studying how we could use panoramic images for experiences in augmented or virtual reality.
+
 -   ✓Future perspectives on panoramas (VR | AR | XR)
--   ✓Rendering looks like a good topic to relate these areas
+Recently 
+Rendering, or more specifically diferrentiable rendering, looks like a good topic to relate these areas.
 
 ### Differentiable Rendering
+
+[] 
 
 [1] M. M. Loper and M. J. Black. Opendr: An approximate differentiable renderer. In European Conference on Computer Vision, pages 154–169. Springer, 2014.
 
@@ -42,5 +46,5 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3NzgxNTUxLDE4MzY4NTc4OTldfQ==
+eyJoaXN0b3J5IjpbLTE0NzkzNTMxMDAsMTgzNjg1Nzg5OV19
 -->
