@@ -16,6 +16,7 @@ Most of the experiments can be found in the [rendering](https://colab.research.g
 ### Motivation
 -   ✓AI Graphics
 -   ✓Past works… panoramas!
+Previous works studying how we could use panoramic images for experiences 
 -   ✓Future perspectives on panoramas (VR | AR | XR)
 -   ✓Rendering looks like a good topic to relate these areas
 
@@ -41,5 +42,5 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwMzUxMjAzLDE4MzY4NTc4OTldfQ==
+eyJoaXN0b3J5IjpbMzI3NzgxNTUxLDE4MzY4NTc4OTldfQ==
 -->
