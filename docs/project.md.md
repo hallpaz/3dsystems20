@@ -11,7 +11,7 @@ This project builds on the previous assignments of 3D modeling and scene visuali
 > Our goal is to_Render a panoramic scene using a differentiable
 > renderer and exploit the inverse rendering to augment a scene.
 
-You can find the [full source code here](https://github.com/hallpaz/3dsystems20/blob/master/Rendering%20Panoramas.ipynb).
+Most of the experiments can be found in this or this. You can check full results here.
 
 ### Motivation
 -   ✓AI Graphics
@@ -41,5 +41,5 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjg1Nzg5OV19
+eyJoaXN0b3J5IjpbLTc1NjMxMjA2MSwxODM2ODU3ODk5XX0=
 -->
