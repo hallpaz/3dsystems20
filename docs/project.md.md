@@ -15,10 +15,7 @@ Most of the experiments can be found in the [rendering](https://colab.research.g
 
 ### Motivation
 
-As a personal goal, I'm interested in understanding how to work with 3D data and artificial neural networks. We 
--   ✓AI Graphics
--   ✓Past works… panoramas!
-Previous works studying how we could use panoramic images for experiences in augmented or virtual reality.
+As a personal goal, I'm interested in understanding how to work with 3D data and artificial neural networks. I also have some experience working with panoramic images and studying how we could use  such images for experiences in augmented or virtual reality. Looking to the research scenario
 
 -   ✓Future perspectives on panoramas (VR | AR | XR)
 Recently 
@@ -56,6 +53,6 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTc2MDc5OCwtNjg5NjE4MTMyLDE4Mz
-Y4NTc4OTldfQ==
+eyJoaXN0b3J5IjpbMjY1NTEzMDY0LC02ODk2MTgxMzIsMTgzNj
+g1Nzg5OV19
 -->
