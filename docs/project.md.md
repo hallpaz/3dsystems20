@@ -8,12 +8,13 @@
 
 This project builds on the previous assignments of 3D modeling and scene visualization using PyTorch3D, one of the AI graphics platforms available for free. 
 
-> Our goal is to_Render a panoramic scene using a differentiable
+> Our goal is to render a panoramic scene using a differentiable
 > renderer and exploit the inverse rendering to augment a scene.
 
 Most of the experiments can be found in the [rendering](https://colab.research.google.com/drive/1ggdaF0OFeAm9CTC1ZXiQFUnNxdgrrRWH?usp=sharing) or [de-rendering](https://colab.research.google.com/drive/16393ggQ6bzDhjda7pMBoMOAFluPzRSL-?usp=sharing) Google Colab notebooks. You can [download full results here](https://drive.google.com/drive/folders/1IUPjgpALrnlfuBMZir779LogZt2_ZxAR?usp=sharing).
 
 ### Motivation
+
 -   ✓AI Graphics
 -   ✓Past works… panoramas!
 Previous works studying how we could use panoramic images for experiences in augmented or virtual reality.
@@ -21,7 +22,7 @@ Previous works studying how we could use panoramic images for experiences in aug
 -   ✓Future perspectives on panoramas (VR | AR | XR)
 Recently 
 [https://augmentedperception.github.io/deepviewvideo/](https://augmentedperception.github.io/deepviewvideo/)
-Rendering, or more specifically diferrentiable rendering, looks like a good topic to relate these areas.
+Rendering, or more specifically differentiable rendering, looks like a good topic to relate these areas.
 
 ### Differentiable Rendering
 
@@ -54,5 +55,6 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTYxODEzMiwxODM2ODU3ODk5XX0=
+eyJoaXN0b3J5IjpbODU4MDc2OTcxLC02ODk2MTgxMzIsMTgzNj
+g1Nzg5OV19
 -->
