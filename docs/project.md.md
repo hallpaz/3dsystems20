@@ -17,8 +17,7 @@ Most of the experiments can be found in the [rendering](https://colab.research.g
 
 As a personal goal, I'm interested in understanding how to work with 3D data and artificial neural networks. I also have some experience working with panoramic images and studying how we could use  such images for experiences in augmented or virtual reality. Rendering, or more specifically differentiable rendering, looks like a good topic to relate these areas, as we will see.
 
-From an external perspective, Looking to the research scenario we can see promising 
-
+From an external perspective, we see some very recent works on omnidirectional representations [1, 2] So it looks promising.
 -   ✓Future perspectives on panoramas (VR | AR | XR)
 Recently 
 [https://augmentedperception.github.io/deepviewvideo/](https://augmentedperception.github.io/deepviewvideo/)
@@ -55,6 +54,6 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTc0Mjg2NSwtNjg5NjE4MTMyLDE4Mz
+eyJoaXN0b3J5IjpbMTczMTA1NzQxMCwtNjg5NjE4MTMyLDE4Mz
 Y4NTc4OTldfQ==
 -->
