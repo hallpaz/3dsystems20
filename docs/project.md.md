@@ -44,7 +44,8 @@ You can find the Keynote presented at the course below.
 
 [1] Immersive Light Field Video with a Layered Mesh Representation.
 
-[2] Daniel Martin, Ana Serrano, Belen Masia; Panoramic convolutions for 360º single-image saliency prediction.
+[2] Daniel Martin, Ana Serrano, Belen Masia; Panoramic convolutions for 360º single-image saliency prediction. ```
+CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 [3] Carlos Eduardo Rocha, Diego Bretas, Hallison da Paz, Paulo Rosa, and Luiz Velho. **"Framework para Aplicações em Plataformas Móveis usando Panoramas com Camadas"**. Technical Report TR-04-2014, IME, 2014. ([Portuguese only](http://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-042014/tr-04-2014.pdf))
 
@@ -56,6 +57,6 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTc2NTg4NSwtMjEzNzkzNzg5MSwxNz
-czMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
+eyJoaXN0b3J5IjpbLTIwMzY4OTk0NjIsLTIxMzc5Mzc4OTEsMT
+c3MzIwMDg2MiwtNjg5NjE4MTMyLDE4MzY4NTc4OTldfQ==
 -->
