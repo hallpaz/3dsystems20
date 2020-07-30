@@ -76,8 +76,8 @@ We tried some other silhouettes before figuring out the problem. We were trying 
 
 This way, the correct approach should be optimize the object pose by computing an affine transform. The easiest and fastest way we could validate this idea was to optimize the camera pose, as this example was already implemented and we can see the object pose representation as the inverse transform of the camera pose representation.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5YU2w3id-nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Optimizing camera pose
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F8ttUv9-s_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+*Optimizing camera pose*
 
 Finally, we got a promising result! Optimizing the object transform is not so trivial as we have to parameterize the rotation space, but we think it could be done with a little more time and we intend to validate it in the future.
 
@@ -104,11 +104,11 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5ODEwNTg2LDIxMDQwNjI1NjgsLTY1ND
-c3NzM4MSwtMjc5NzcyMzg1LDQyOTMzNzM2MywxOTI1Mjc1MDM1
-LC01ODcxOTQ2MzcsLTc5MjgwOTgyMiw5OTI2OTU0NDgsMzU0Nz
-g0MjQwLC0xNzg2MzQ4Nzg4LDE1MTU3ODI0MDgsLTIwNTczMTg3
-NDMsLTg3MjM0NzQxMiwzNjI2OTk0MDgsLTE1Mzc3ODk4MzIsMT
-MwMjY5MDA4NiwyODg4NDE3NjQsLTIxMzc5Mzc4OTEsMTc3MzIw
-MDg2Ml19
+eyJoaXN0b3J5IjpbLTE0Mjk0NTA4MiwzMjk4MTA1ODYsMjEwND
+A2MjU2OCwtNjU0Nzc3MzgxLC0yNzk3NzIzODUsNDI5MzM3MzYz
+LDE5MjUyNzUwMzUsLTU4NzE5NDYzNywtNzkyODA5ODIyLDk5Mj
+Y5NTQ0OCwzNTQ3ODQyNDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQw
+OCwtMjA1NzMxODc0MywtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMT
+UzNzc4OTgzMiwxMzAyNjkwMDg2LDI4ODg0MTc2NCwtMjEzNzkz
+Nzg5MV19
 -->
