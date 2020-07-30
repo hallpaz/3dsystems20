@@ -35,10 +35,10 @@ We could calculate derivatives of the pixel values with respect to the forward r
 
 We could estimate object pose, calibrate camera parameters and even optimize illumination to match a target scene.
 
-![enter image description here](img/open_dr_earth.png)
+![Open DR](img/open_dr_earth.png)
 *OpenDR example of optimization*
 
-
+Both [] and [] create differentiable renderers by crafting approximations 
 
 
 ### Experiments and Analysis
@@ -69,7 +69,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3Njk2NTQsMTMwMjY5MDA4NiwyODg4ND
-E3NjQsLTIxMzc5Mzc4OTEsMTc3MzIwMDg2MiwtNjg5NjE4MTMy
-LDE4MzY4NTc4OTldfQ==
+eyJoaXN0b3J5IjpbLTc2OTk0NDgwMiwxMzAyNjkwMDg2LDI4OD
+g0MTc2NCwtMjEzNzkzNzg5MSwxNzczMjAwODYyLC02ODk2MTgx
+MzIsMTgzNjg1Nzg5OV19
 -->
