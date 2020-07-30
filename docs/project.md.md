@@ -24,7 +24,7 @@ Rendering, or more specifically differentiable rendering, looks like a good topi
 
 ### Differentiable Rendering
 
-Differentiable Rendering is not a technique but a whole field 
+Differentiable Rendering is not a technique but a whole field ... in renreding a 3D scene using a differentiable process or apporximating allowing gradients to flow from 
 
 
 
@@ -56,6 +56,6 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjExODkyNiwtMjEzNzkzNzg5MSwxNz
+eyJoaXN0b3J5IjpbMTg3MDM0MjMxNiwtMjEzNzkzNzg5MSwxNz
 czMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
 -->
