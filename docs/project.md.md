@@ -73,7 +73,7 @@ The second and most promising approach we experimented was to try to match an ar
 *Optimizing vertices positions*
 
 
-We tried some other silhouettes before figuring out the problem. We were trying to freely optimize the vertices positions, which is equivalent to a non rigid deformation of the object, but we are actually interested in applying a rigid transformation to locate objects inside the scene accordingly to an expected silhouette. 
+We tried some other silhouettes before figuring out the problem. We were trying to freely optimize the vertices positions, which produces a non rigid deformation on the object, but we are actually interested in applying a rigid transformation to locate objects inside the scene accordingly to an expected silhouette. 
 
 ![enter image description here](img/other_silhouettes.png)
 *Other silhouettes that didn't work*
@@ -108,11 +108,11 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4MzI1MjgwLDE1NDY5ODg2MiwxMDIxMz
-U4NTc5LC0xOTM3MDk2Mjk4LDMyOTgxMDU4NiwyMTA0MDYyNTY4
-LC02NTQ3NzczODEsLTI3OTc3MjM4NSw0MjkzMzczNjMsMTkyNT
-I3NTAzNSwtNTg3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4
-LDM1NDc4NDI0MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMD
-U3MzE4NzQzLC04NzIzNDc0MTIsMzYyNjk5NDA4LC0xNTM3Nzg5
-ODMyXX0=
+eyJoaXN0b3J5IjpbLTExNDQ2ODg1OTIsMTU0Njk4ODYyLDEwMj
+EzNTg1NzksLTE5MzcwOTYyOTgsMzI5ODEwNTg2LDIxMDQwNjI1
+NjgsLTY1NDc3NzM4MSwtMjc5NzcyMzg1LDQyOTMzNzM2MywxOT
+I1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgyMiw5OTI2OTU0
+NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MTU3ODI0MDgsLT
+IwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0MDgsLTE1Mzc3
+ODk4MzJdfQ==
 -->
