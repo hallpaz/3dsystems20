@@ -63,7 +63,8 @@ We observed some spurious blurred triangles in the resulting images, so we decid
 
 #### Inverse Rendering
 
-Although we weren't much confident, we decided to run an optimization test using only the texture of the scene and the euclidean distance as error. As expected, this setting is not enough to make the system converge. We believe this is not a good 
+Although we weren't much confident, we decided to run an optimization test using only the texture of the scene and the euclidean distance as error. As expected, this setting is not enough to make the system converge as we don't have any geometric clue to optimize for 
+ 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JXh1kySJtVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The second and most promising approach we experimented was to try to match an arbitrary object to a specific silhouette. We started analyzing how this could be done with a single plan, a very simple object, as this could be used to simulate the replacement of a picture inside the scene, for example.
@@ -107,11 +108,11 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI4OTUwNzYsMTAyMTM1ODU3OSwtMT
-kzNzA5NjI5OCwzMjk4MTA1ODYsMjEwNDA2MjU2OCwtNjU0Nzc3
-MzgxLC0yNzk3NzIzODUsNDI5MzM3MzYzLDE5MjUyNzUwMzUsLT
-U4NzE5NDYzNywtNzkyODA5ODIyLDk5MjY5NTQ0OCwzNTQ3ODQy
-NDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMxODc0My
-wtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMzAy
-NjkwMDg2XX0=
+eyJoaXN0b3J5IjpbMTU0Njk4ODYyLDEwMjEzNTg1NzksLTE5Mz
+cwOTYyOTgsMzI5ODEwNTg2LDIxMDQwNjI1NjgsLTY1NDc3NzM4
+MSwtMjc5NzcyMzg1LDQyOTMzNzM2MywxOTI1Mjc1MDM1LC01OD
+cxOTQ2MzcsLTc5MjgwOTgyMiw5OTI2OTU0NDgsMzU0Nzg0MjQw
+LC0xNzg2MzQ4Nzg4LDE1MTU3ODI0MDgsLTIwNTczMTg3NDMsLT
+g3MjM0NzQxMiwzNjI2OTk0MDgsLTE1Mzc3ODk4MzIsMTMwMjY5
+MDA4Nl19
 -->
