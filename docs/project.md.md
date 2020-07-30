@@ -63,7 +63,7 @@ We observed some spurious blurred triangles in the resulting images, so we decid
 
 #### Inverse Rendering
 
-Although we weren't much confident, we decided to run an optimization test using only the texture of the scene and the euclidean distance as error. As expected, this setting is not enough to make the system converge as we don't have any geometric clue to optimize for 
+Although we weren't much confident, we decided to run an optimization test using only the texture of the scene and the euclidean distance as error. As expected, this setting is not enough to make the system converge as we don't have any geometric clue to optimize for.
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JXh1kySJtVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -108,11 +108,11 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Njk4ODYyLDEwMjEzNTg1NzksLTE5Mz
-cwOTYyOTgsMzI5ODEwNTg2LDIxMDQwNjI1NjgsLTY1NDc3NzM4
-MSwtMjc5NzcyMzg1LDQyOTMzNzM2MywxOTI1Mjc1MDM1LC01OD
-cxOTQ2MzcsLTc5MjgwOTgyMiw5OTI2OTU0NDgsMzU0Nzg0MjQw
-LC0xNzg2MzQ4Nzg4LDE1MTU3ODI0MDgsLTIwNTczMTg3NDMsLT
-g3MjM0NzQxMiwzNjI2OTk0MDgsLTE1Mzc3ODk4MzIsMTMwMjY5
-MDA4Nl19
+eyJoaXN0b3J5IjpbOTc4MzI1MjgwLDE1NDY5ODg2MiwxMDIxMz
+U4NTc5LC0xOTM3MDk2Mjk4LDMyOTgxMDU4NiwyMTA0MDYyNTY4
+LC02NTQ3NzczODEsLTI3OTc3MjM4NSw0MjkzMzczNjMsMTkyNT
+I3NTAzNSwtNTg3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4
+LDM1NDc4NDI0MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMD
+U3MzE4NzQzLC04NzIzNDc0MTIsMzYyNjk5NDA4LC0xNTM3Nzg5
+ODMyXX0=
 -->
