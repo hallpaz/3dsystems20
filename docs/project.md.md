@@ -24,7 +24,7 @@ Rendering, or more specifically differentiable rendering, looks like a good topi
 
 ### Differentiable Rendering
 
-Differentiable Rendering is not a technique but a whole field focused in rendering a 3D scene using a differentiable pipeline allowing gradients to flow back and forth 3D objects and images. This is a great way to join computer graphics and computer vision problems and to train self supervised models. A good work to understand the idea behind this field is [4], which develops the idea from a forward rendering or observation function **f(Θ)** and an optimization process as stated in:
+Differentiable Rendering is not a technique but a whole field focused in rendering a 3D scene using a differentiable pipeline allowing gradients to flow back and forth 3D objects and images. This is a great way to join computer graphics and computer vision problems and to train self supervised models. A good work to understand the idea behind this field is [4], which develops the idea from a forward rendering or observation function **f(Θ)** and an optimization process as stated in [4]:
 
 > We define an observation function **f(Θ)** as the forward rendering
 > process that depends on the parameters **Θ**. The simplest
@@ -32,7 +32,7 @@ Differentiable Rendering is not a technique but a whole field focused in renderi
 > between the rendered and observed image intensities, **E(Θ) = ||f(Θ) −
 > I||^2**.
 
-We could calculate derivatives of the pixel values with respect to the forward rendering parameters and use it to estimate object pose, calibrate camera parameters or even optimize illumination to match a target scene.
+With a differentiable renderer, we could calculate derivatives of the pixel values with respect to the forward rendering parameters and use it to estimate object pose, calibrate camera parameters or even optimize illumination to match a target scene.
 
 ![Open DR](img/open_dr_earth.png)
 *OpenDR example of optimization*[4]
@@ -104,11 +104,11 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk0NTA4MiwzMjk4MTA1ODYsMjEwND
-A2MjU2OCwtNjU0Nzc3MzgxLC0yNzk3NzIzODUsNDI5MzM3MzYz
-LDE5MjUyNzUwMzUsLTU4NzE5NDYzNywtNzkyODA5ODIyLDk5Mj
-Y5NTQ0OCwzNTQ3ODQyNDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQw
-OCwtMjA1NzMxODc0MywtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMT
-UzNzc4OTgzMiwxMzAyNjkwMDg2LDI4ODg0MTc2NCwtMjEzNzkz
-Nzg5MV19
+eyJoaXN0b3J5IjpbLTE5MzcwOTYyOTgsMzI5ODEwNTg2LDIxMD
+QwNjI1NjgsLTY1NDc3NzM4MSwtMjc5NzcyMzg1LDQyOTMzNzM2
+MywxOTI1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgyMiw5OT
+I2OTU0NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MTU3ODI0
+MDgsLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0MDgsLT
+E1Mzc3ODk4MzIsMTMwMjY5MDA4NiwyODg4NDE3NjQsLTIxMzc5
+Mzc4OTFdfQ==
 -->
