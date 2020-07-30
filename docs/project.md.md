@@ -54,7 +54,9 @@ After ajusting parameters
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JXh1kySJtVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EwVNQiyL6vU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Optimizing vertices positions
 
 ### Conclusion and next steps
 
@@ -81,9 +83,9 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MT
-U3ODI0MDgsLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0
-MDgsLTE1Mzc3ODk4MzIsMTMwMjY5MDA4NiwyODg4NDE3NjQsLT
-IxMzc5Mzc4OTEsMTc3MzIwMDg2MiwtNjg5NjE4MTMyLDE4MzY4
-NTc4OTldfQ==
+eyJoaXN0b3J5IjpbOTkyNjk1NDQ4LDM1NDc4NDI0MCwtMTc4Nj
+M0ODc4OCwxNTE1NzgyNDA4LC0yMDU3MzE4NzQzLC04NzIzNDc0
+MTIsMzYyNjk5NDA4LC0xNTM3Nzg5ODMyLDEzMDI2OTAwODYsMj
+g4ODQxNzY0LC0yMTM3OTM3ODkxLDE3NzMyMDA4NjIsLTY4OTYx
+ODEzMiwxODM2ODU3ODk5XX0=
 -->
