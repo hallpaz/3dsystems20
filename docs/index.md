@@ -7,9 +7,10 @@
 
 ## Final Project 
 
-#### [When AI renders a new Perspective in Graphics](project.md) \[under construction]
+#### [When AI renders a new Perspective in Graphics](project.md) 
 
 This project builds on the previous assignments of 3D modeling and scene visualization using PyTorch3D, one of the AI graphics platforms available for free. Our goal is to_Render a panoramic scene using a differentiable renderer and exploit the inverse rendering to augment a scene.  [READ MORE...](project.md)
+
 
 ## Assignments
 
@@ -24,11 +25,11 @@ The objective of this 1st assignment is to get familiarized with the AI Graphics
 
 ![Some shapes of revolution](img/rev_shapes.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzA0MTQ5OSw2MDg2NTQ4MjEsLTE4OD
-I1NDAzNTQsLTExNzQ1OTc1NjksLTM4NjI0NTE3LDE0OTI3OTk3
-NTAsNDg0NjAzODEsLTE0NjU4MjgzMTksLTE5NTAxNzI2OTEsLT
-EyNTExOTkwNTMsOTI3MDExMjg0LC0xMjg0OTkwMzM0LDE3NDE0
-MzE4MDUsLTExNzQyMzk1MzEsLTE0MzQ0MTA2MzQsLTU0MjQ4Nj
-MxMSwtMTM4MTU3MDQzMSwxNDI2NDU2NjksLTE2MDUxNjExNDgs
-LTE5Mzg1MzAzOThdfQ==
+eyJoaXN0b3J5IjpbLTEyMjg5NzE5NTAsNjA4NjU0ODIxLC0xOD
+gyNTQwMzU0LC0xMTc0NTk3NTY5LC0zODYyNDUxNywxNDkyNzk5
+NzUwLDQ4NDYwMzgxLC0xNDY1ODI4MzE5LC0xOTUwMTcyNjkxLC
+0xMjUxMTk5MDUzLDkyNzAxMTI4NCwtMTI4NDk5MDMzNCwxNzQx
+NDMxODA1LC0xMTc0MjM5NTMxLC0xNDM0NDEwNjM0LC01NDI0OD
+YzMTEsLTEzODE1NzA0MzEsMTQyNjQ1NjY5LC0xNjA1MTYxMTQ4
+LC0xOTM4NTMwMzk4XX0=
 -->
