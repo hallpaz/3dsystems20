@@ -28,7 +28,11 @@ Differentiable Rendering is not a technique but a whole field focused in renderi
 
 f(theta) = I
 
-Where theta are the parameters of the scene 
+"We define an observation function f(Θ) as the forward rendering process
+that depends on the parameters Θ. The simplest optimization would solve for the parameters minimizing the difference between the rendered and observed image intensities, E(Θ) = ?f(Θ) − I?2."
+
+We could calculate derivatives of the pixel values with respect to the forward rendering parameters. 
+
 
 
 
@@ -60,6 +64,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4ODQxNzY0LC0yMTM3OTM3ODkxLDE3Nz
-MyMDA4NjIsLTY4OTYxODEzMiwxODM2ODU3ODk5XX0=
+eyJoaXN0b3J5IjpbMTIxNzYyMTY0LDI4ODg0MTc2NCwtMjEzNz
+kzNzg5MSwxNzczMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5
+OV19
 -->
