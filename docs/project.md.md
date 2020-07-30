@@ -40,9 +40,11 @@ We could estimate object pose, calibrate camera parameters and even optimize ill
 
 Both [] and [] create differentiable renderers by crafting approximations for the gradients of the non differentiable steps of the rendering pipeline, that is, the rasterization and Z-buffer.
 
+XXXXXX
 
 ### Experiments and Analysis
 
+The preliminar
 
 ### Conclusion and next steps
 
@@ -69,7 +71,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODMxMDQ3MjIsMTMwMjY5MDA4NiwyOD
+eyJoaXN0b3J5IjpbLTE1Mzc3ODk4MzIsMTMwMjY5MDA4NiwyOD
 g4NDE3NjQsLTIxMzc5Mzc4OTEsMTc3MzIwMDg2MiwtNjg5NjE4
 MTMyLDE4MzY4NTc4OTldfQ==
 -->
