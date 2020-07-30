@@ -46,6 +46,8 @@ You can find the Keynote presented at the course below.
 
 [2]
 
+[3] Carlos Eduardo Rocha, Diego Bretas, Hallison da Paz, Paulo Rosa, and Luiz Velho. **"Framework para Aplicações em Plataformas Móveis usando Panoramas com Camadas"**. Technical Report TR-04-2014, IME, 2014.
+
 [3] M. M. Loper and M. J. Black. Opendr: An approximate differentiable renderer. In European Conference on Computer Vision, pages 154–169. Springer, 2014.
 
 [4] H. Kato, Y. Ushiku, and T. Harada. Neural 3d mesh renderer. In Proceedings ofthe IEEE Conference on Computer Vision and Pattern Recognition, pages 3907–3916, 2018.
@@ -54,6 +56,6 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc5Mzc4OTEsMTc3MzIwMDg2MiwtNj
-g5NjE4MTMyLDE4MzY4NTc4OTldfQ==
+eyJoaXN0b3J5IjpbMTA4NjcyNjY4NSwtMjEzNzkzNzg5MSwxNz
+czMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
 -->
