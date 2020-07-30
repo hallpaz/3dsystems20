@@ -33,6 +33,7 @@ that depends on the parameters Θ. The simplest optimization would solve for the
 
 We could calculate derivatives of the pixel values with respect to the forward rendering parameters. 
 
+We could estimate object pose, calibrate camera parameters.
 
 
 
@@ -64,7 +65,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzYyMTY0LDI4ODg0MTc2NCwtMjEzNz
-kzNzg5MSwxNzczMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5
-OV19
+eyJoaXN0b3J5IjpbLTE0NzQyMjEzMjUsMjg4ODQxNzY0LC0yMT
+M3OTM3ODkxLDE3NzMyMDA4NjIsLTY4OTYxODEzMiwxODM2ODU3
+ODk5XX0=
 -->
