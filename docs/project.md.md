@@ -48,7 +48,7 @@ The first experiments conducted were described during assignment 2. As we reache
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kyR1mGCghvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+After ajusting parameters
 
 ### Conclusion and next steps
 
@@ -75,8 +75,8 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNj
-I2OTk0MDgsLTE1Mzc3ODk4MzIsMTMwMjY5MDA4NiwyODg4NDE3
-NjQsLTIxMzc5Mzc4OTEsMTc3MzIwMDg2MiwtNjg5NjE4MTMyLD
-E4MzY4NTc4OTldfQ==
+eyJoaXN0b3J5IjpbMTUxNTc4MjQwOCwtMjA1NzMxODc0MywtOD
+cyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMzAyNjkw
+MDg2LDI4ODg0MTc2NCwtMjEzNzkzNzg5MSwxNzczMjAwODYyLC
+02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
 -->
