@@ -42,7 +42,7 @@ You can find the Keynote presented at the course below.
 
 ### References
 
-[1] Michael Broxton, John Flynn, Ryan Overbeck, Daniel Erickson, Peter Hedman, Matthew DuVall, Jason Dourgarian, Jay Busch, Matt Whalen and Paul Debevec; Immersive Light Field Video with a Layered Mesh Representation.
+[1] Michael Broxton, John Flynn, Ryan Overbeck, Daniel Erickson, Peter Hedman, Matthew DuVall, Jason Dourgarian, Jay Busch, Matt Whalen and Paul Debevec; **Immersive Light Field Video with a Layered Mesh Representation**.
 
 [2] Daniel Martin, Ana Serrano and Belen Masia; Panoramic convolutions for 360º single-image saliency prediction. ```
 CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
@@ -51,12 +51,12 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 [4] M. M. Loper and M. J. Black. **Opendr: An approximate differentiable renderer**. In European Conference on Computer Vision, pages 154–169. Springer, 2014.
 
-[5] H. Kato, Y. Ushiku, and T. Harada. Neural 3d mesh renderer. In Proceedings ofthe IEEE Conference on Computer Vision and Pattern Recognition, pages 3907–3916, 2018.
+[5] H. Kato, Y. Ushiku, and T. Harada. **Neural 3d mesh renderer**. In Proceedings ofthe IEEE Conference on Computer Vision and Pattern Recognition, pages 3907–3916, 2018.
 
-[6] Liu, S., Li, T., Chen, W., Li, H.: Soft rasterizer: A differentiable renderer for image-based 3d reasoning. In: Proceedings of the IEEE International Conference on Computer Vision. pp. 7708–7717 (2019)
+[6] Liu, S., Li, T., Chen, W., Li, H.: **Soft rasterizer: A differentiable renderer for image-based 3d reasoning**. In: Proceedings of the IEEE International Conference on Computer Vision. pp. 7708–7717 (2019)
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTA5MDMzOCwtMjEzNzkzNzg5MSwxNz
+eyJoaXN0b3J5IjpbMTk1MjUxNjQ1MCwtMjEzNzkzNzg5MSwxNz
 czMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
 -->
