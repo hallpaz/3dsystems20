@@ -58,6 +58,10 @@ After ajusting parameters
 
 Optimizing vertices positions
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5YU2w3id-nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Optimizing camera pose
+
+
 ### Conclusion and next steps
 
 As the works in this area are still very recent, we are subject to unexpected bugs as the one found in Pytorch3D.  Although ... we managed to complete the rendering step of our panoramic scene using the Soft Rasterizer 
@@ -83,9 +87,9 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyNjk1NDQ4LDM1NDc4NDI0MCwtMTc4Nj
-M0ODc4OCwxNTE1NzgyNDA4LC0yMDU3MzE4NzQzLC04NzIzNDc0
-MTIsMzYyNjk5NDA4LC0xNTM3Nzg5ODMyLDEzMDI2OTAwODYsMj
-g4ODQxNzY0LC0yMTM3OTM3ODkxLDE3NzMyMDA4NjIsLTY4OTYx
-ODEzMiwxODM2ODU3ODk5XX0=
+eyJoaXN0b3J5IjpbNDI4NDU0NTQ5LDk5MjY5NTQ0OCwzNTQ3OD
+QyNDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMxODc0
+MywtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMz
+AyNjkwMDg2LDI4ODg0MTc2NCwtMjEzNzkzNzg5MSwxNzczMjAw
+ODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
 -->
