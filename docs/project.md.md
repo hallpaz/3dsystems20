@@ -42,14 +42,14 @@ You can find the Keynote presented at the course below.
 
 ### References
 
-[1] Immersive Light Field Video with a Layered Mesh Representation.
+[1] Michael Broxton, John Flynn, Ryan Overbeck, Daniel Erickson, Peter Hedman, Matthew DuVall, Jason Dourgarian, Jay Busch, Matt Whalen and Paul Debevec; Immersive Light Field Video with a Layered Mesh Representation.
 
-[2] Daniel Martin, Ana Serrano, Belen Masia; Panoramic convolutions for 360º single-image saliency prediction. ```
+[2] Daniel Martin, Ana Serrano and Belen Masia; Panoramic convolutions for 360º single-image saliency prediction. ```
 CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
-[3] Carlos Eduardo Rocha, Diego Bretas, Hallison da Paz, Paulo Rosa, and Luiz Velho. **"Framework para Aplicações em Plataformas Móveis usando Panoramas com Camadas"**. Technical Report TR-04-2014, IME, 2014. ([Portuguese only](http://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-042014/tr-04-2014.pdf))
+[3] Carlos Eduardo Rocha, Diego Bretas, Hallison da Paz, Paulo Rosa, and Luiz Velho. "Framework para Aplicações em Plataformas Móveis usando Panoramas com Camadas". Technical Report TR-04-2014, IME, 2014. ([Portuguese only](http://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-042014/tr-04-2014.pdf))
 
-[4] M. M. Loper and M. J. Black. Opendr: An approximate differentiable renderer. In European Conference on Computer Vision, pages 154–169. Springer, 2014.
+[4] M. M. Loper and M. J. Black. **Opendr: An approximate differentiable renderer**. In European Conference on Computer Vision, pages 154–169. Springer, 2014.
 
 [5] H. Kato, Y. Ushiku, and T. Harada. Neural 3d mesh renderer. In Proceedings ofthe IEEE Conference on Computer Vision and Pattern Recognition, pages 3907–3916, 2018.
 
@@ -57,6 +57,6 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY4OTk0NjIsLTIxMzc5Mzc4OTEsMT
-c3MzIwMDg2MiwtNjg5NjE4MTMyLDE4MzY4NTc4OTldfQ==
+eyJoaXN0b3J5IjpbMTkyNTA5MDMzOCwtMjEzNzkzNzg5MSwxNz
+czMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
 -->
