@@ -44,7 +44,7 @@ XXXXXX
 
 ### Experiments and Analysis
 
-The preliminar
+The first experiments we conducted were described during assignment
 
 ### Conclusion and next steps
 
@@ -71,7 +71,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc3ODk4MzIsMTMwMjY5MDA4NiwyOD
-g4NDE3NjQsLTIxMzc5Mzc4OTEsMTc3MzIwMDg2MiwtNjg5NjE4
-MTMyLDE4MzY4NTc4OTldfQ==
+eyJoaXN0b3J5IjpbLTExMDk3NjA5NDgsLTE1Mzc3ODk4MzIsMT
+MwMjY5MDA4NiwyODg4NDE3NjQsLTIxMzc5Mzc4OTEsMTc3MzIw
+MDg2MiwtNjg5NjE4MTMyLDE4MzY4NTc4OTldfQ==
 -->
