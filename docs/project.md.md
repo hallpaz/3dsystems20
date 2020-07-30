@@ -46,6 +46,8 @@ XXXXXX
 
 The first experiments conducted were described during assignment 2. As we reached a point where we couldn't advance more due to the bug found in the PyTorch3D renderer, we decided to look for alternatives. Analyzing the references which inspired PyTorch3D, we found Soft Rasterizer [], which had the code available on Github and a Paper describing the key ideas of the implementation.
 
+
+
 ### Conclusion and next steps
 
 As the works in this area are still very recent, we are subject to unexpected bugs as the one found in Pytorch3D.  Although ... we managed to complete the rendering step of our panoramic scene using the Soft Rasterizer 
@@ -71,7 +73,8 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyNjk5NDA4LC0xNTM3Nzg5ODMyLDEzMD
-I2OTAwODYsMjg4ODQxNzY0LC0yMTM3OTM3ODkxLDE3NzMyMDA4
-NjIsLTY4OTYxODEzMiwxODM2ODU3ODk5XX0=
+eyJoaXN0b3J5IjpbLTg3MjM0NzQxMiwzNjI2OTk0MDgsLTE1Mz
+c3ODk4MzIsMTMwMjY5MDA4NiwyODg4NDE3NjQsLTIxMzc5Mzc4
+OTEsMTc3MzIwMDg2MiwtNjg5NjE4MTMyLDE4MzY4NTc4OTldfQ
+==
 -->
