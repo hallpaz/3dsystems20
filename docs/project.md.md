@@ -18,13 +18,13 @@ Most of the experiments can be found in the [rendering](https://colab.research.g
 As a personal goal, after some experience with traditional computer graphics and deep learning for computer vision using still images, I'm interested in understanding how to work with 3D data and artificial neural networks. From an external perspective, we see some very recent works applying deep learning in the context of omnidirectional representations [1, 2], which could lead to better VR/AR/XR applications and a huge impact the audiovisual industry. This perspective of the future and my previous experience working with panoramic images and studying how we could use such images for experiences in augmented or virtual reality makes this theme look promising. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WsWqGsZDkzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Layered Panorama Demo Application from [3]
+*Layered Panorama Demo Application from* [3]
 
 Rendering, or more specifically differentiable rendering, looks like a good topic to relate these areas as we'll see.
 
 ### Differentiable Rendering
 
-
+Differentiable Rendering 
 
 
 
@@ -56,6 +56,6 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjk2NDE5MSwtMjEzNzkzNzg5MSwxNz
-czMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
+eyJoaXN0b3J5IjpbMzgzMzI5ODI5LC0yMTM3OTM3ODkxLDE3Nz
+MyMDA4NjIsLTY4OTYxODEzMiwxODM2ODU3ODk5XX0=
 -->
