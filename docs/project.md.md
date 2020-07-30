@@ -50,7 +50,7 @@ Rendering our scene in Soft Rasterizer, we could see multiple artifacts in the r
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kyR1mGCghvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-After adjusting reducing the value of the parameter
+After adjusting reducing the value of the parameter *sigma*, we approximated the rasterization step to the traditional 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qj5rVMbyVHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -90,7 +90,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTc4Mzc3NSwtMjc5NzcyMzg1LDQyOT
+eyJoaXN0b3J5IjpbMTg3NDc0MjA0OSwtMjc5NzcyMzg1LDQyOT
 MzNzM2MywxOTI1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgy
 Miw5OTI2OTU0NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MT
 U3ODI0MDgsLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0
