@@ -40,7 +40,8 @@ We could estimate object pose, calibrate camera parameters and even optimize ill
 
 Both [4] and [5] create differentiable renderers by crafting approximations for the gradients of the non differentiable steps of the rendering pipeline, that is, the rasterization and Z-buffer, and achieve good results. For our experiments, we used Soft Rasterizer [6] which presents a probabilistic formulation for the rasterization step and proposes the use of aggregation functions to overcome the need of sorting or Z-buffer to attribute the correct color to a pixel.
 
-Soft Rasterizer Key Idea
+![enter image description here](img/soft_rast_idea.png)
+*Soft Rasterizer Key Idea*
 
 ### Experiments and Analysis
 
@@ -54,6 +55,8 @@ Rendering our scene in Soft Rasterizer, we could see multiple artifacts in the r
 We observed some spurious blurred triangles in the resulting images, so we decided to reduce the sigma parameter. As the parameter *sigma* goes to zero, we approximate the rasterization step to the traditional rasterization. This approach produced better results and we finally were satisfied with the forward rendering step.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qj5rVMbyVHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 #### Inverse Rendering
 
@@ -101,7 +104,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjMzMjQ4MzUsLTI3OTc3MjM4NSw0Mj
+eyJoaXN0b3J5IjpbLTE5OTAwNjA2OTAsLTI3OTc3MjM4NSw0Mj
 kzMzczNjMsMTkyNTI3NTAzNSwtNTg3MTk0NjM3LC03OTI4MDk4
 MjIsOTkyNjk1NDQ4LDM1NDc4NDI0MCwtMTc4NjM0ODc4OCwxNT
 E1NzgyNDA4LC0yMDU3MzE4NzQzLC04NzIzNDc0MTIsMzYyNjk5
