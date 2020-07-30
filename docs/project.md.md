@@ -64,7 +64,8 @@ Optimizing camera pose
 
 ### Conclusion and next steps
 
-As the works in this area are still very recent, we are subject to unexpected bugs as the one found in Pytorch3D.  Although ... we managed to complete the rendering step of our panoramic scene using the Soft Rasterizer 
+We managed to complete the forward rendering step of our panoramic scene using the Soft Rasterizer. The inverse rendering experiments 
+As the works in this area are still very recent, we are subject to unexpected bugs as the one found in Pytorch3D.  Although ... we managed to complete the rendering step 
 -   ✓Parameterize rotations (quaternions?)
 -   ✓Render new objects in panoramic environment
 
@@ -87,7 +88,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTA2NjE4Niw5OTI2OTU0NDgsMzU0Nz
+eyJoaXN0b3J5IjpbLTM3OTIxODQ0NCw5OTI2OTU0NDgsMzU0Nz
 g0MjQwLC0xNzg2MzQ4Nzg4LDE1MTU3ODI0MDgsLTIwNTczMTg3
 NDMsLTg3MjM0NzQxMiwzNjI2OTk0MDgsLTE1Mzc3ODk4MzIsMT
 MwMjY5MDA4NiwyODg4NDE3NjQsLTIxMzc5Mzc4OTEsMTc3MzIw
