@@ -15,16 +15,16 @@ Most of the experiments can be found in the [rendering](https://colab.research.g
 
 ### Motivation
 
-As a personal goal, after some experience with traditional computer graphics and deep learning for computer vision using still images, I'm interested in understanding how to work with 3D data and artificial neural networks. From an external perspective, we see some very recent works applying deep learning in the context of omnidirectional representations [1, 2], which could lead to better VR/AR/XR applications and a huge impact in the audiovisual industry. This perspective of the future and my previous experience studying how we could use such images for experiences in augmented or virtual reality makes this theme look promising. 
+As a personal goal, after some experience with traditional computer graphics and deep learning for computer vision using still images, I'm interested in understanding how to work with 3D data and artificial neural networks. From an external perspective, we see some very recent works applying deep learning in the context of omnidirectional representations [1, 2], which could lead to better VR/AR/XR applications and a huge impact in the audiovisual industry. This perspective of the future and my previous experience studying how we could use panoramic images for experiences in augmented or virtual reality [3] makes this theme look promising. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WsWqGsZDkzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 *Layered Panorama Demo Application from* [3]
 
-Rendering, or more specifically differentiable rendering, looks like a good topic to relate these areas as we'll see.
+Rendering, or more specifically differentiable rendering, looks like a good topic to connect these areas as we'll see.
 
 ### Differentiable Rendering
 
-Differentiable Rendering is not a technique but a whole field focused in rendering a 3D scene using a differentiable pipeline allowing gradients to flow back and forth 3D objects and images. This is a great way to join computer graphics and computer vision problems and to train self supervised models. A good work to understand the idea behind this field is [4], which develops the idea from a forward rendering or observation function **f(Θ)** and an optimization process as stated in [4]:
+Differentiable Rendering is not a technique but a whole field focused in rendering a 3D scene using a differentiable pipeline, which allows gradients to flow back and forth 3D objects and images. This is a great way to bridge computer graphics and computer vision problems and to train self supervised models. A good work to understand the idea behind this field is [4], which develops the idea from a forward rendering or observation function **f(Θ)** and an optimization process as stated in [4]:
 
 > We define an observation function **f(Θ)** as the forward rendering
 > process that depends on the parameters **Θ**. The simplest
@@ -103,11 +103,11 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzY2ODgwOCwxMDIxMzU4NTc5LC0xOT
-M3MDk2Mjk4LDMyOTgxMDU4NiwyMTA0MDYyNTY4LC02NTQ3Nzcz
-ODEsLTI3OTc3MjM4NSw0MjkzMzczNjMsMTkyNTI3NTAzNSwtNT
-g3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4LDM1NDc4NDI0
-MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMDU3MzE4NzQzLC
-04NzIzNDc0MTIsMzYyNjk5NDA4LC0xNTM3Nzg5ODMyLDEzMDI2
-OTAwODZdfQ==
+eyJoaXN0b3J5IjpbLTE4MTE0NDkxNzgsMTAyMTM1ODU3OSwtMT
+kzNzA5NjI5OCwzMjk4MTA1ODYsMjEwNDA2MjU2OCwtNjU0Nzc3
+MzgxLC0yNzk3NzIzODUsNDI5MzM3MzYzLDE5MjUyNzUwMzUsLT
+U4NzE5NDYzNywtNzkyODA5ODIyLDk5MjY5NTQ0OCwzNTQ3ODQy
+NDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMxODc0My
+wtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMzAy
+NjkwMDg2XX0=
 -->
