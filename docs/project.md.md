@@ -38,7 +38,7 @@ We could estimate object pose, calibrate camera parameters and even optimize ill
 ![Open DR](img/open_dr_earth.png)
 *OpenDR example of optimization*
 
-Both [] and [] create differentiable renderers by crafting approximations for the gradients of the non differentiable steps of the rendering pipeline, that is, the rasterization and Z-buffer.
+Both [4] and [5] create differentiable renderers by crafting approximations for the gradients of the non differentiable steps of the rendering pipeline, that is, the rasterization and Z-buffer.
 
 XXXXXX
 
@@ -87,9 +87,9 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4NDU0NTQ5LDk5MjY5NTQ0OCwzNTQ3OD
-QyNDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMxODc0
-MywtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMz
-AyNjkwMDg2LDI4ODg0MTc2NCwtMjEzNzkzNzg5MSwxNzczMjAw
-ODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
+eyJoaXN0b3J5IjpbMTg1OTA2NjE4Niw5OTI2OTU0NDgsMzU0Nz
+g0MjQwLC0xNzg2MzQ4Nzg4LDE1MTU3ODI0MDgsLTIwNTczMTg3
+NDMsLTg3MjM0NzQxMiwzNjI2OTk0MDgsLTE1Mzc3ODk4MzIsMT
+MwMjY5MDA4NiwyODg4NDE3NjQsLTIxMzc5Mzc4OTEsMTc3MzIw
+MDg2MiwtNjg5NjE4MTMyLDE4MzY4NTc4OTldfQ==
 -->
