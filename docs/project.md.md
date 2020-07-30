@@ -58,6 +58,8 @@ After ajusting parameters
 
 Optimizing vertices positions
 
+We tried some other silhouettes before figuring out the problem. We were trying to optimize the vertices positions, which is equivalent to a non rigid deformation of the object, but we are actually interested in applying a r
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5YU2w3id-nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Optimizing camera pose
 
@@ -85,10 +87,10 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTI3NTAzNSwtNTg3MTk0NjM3LC03OT
-I4MDk4MjIsOTkyNjk1NDQ4LDM1NDc4NDI0MCwtMTc4NjM0ODc4
-OCwxNTE1NzgyNDA4LC0yMDU3MzE4NzQzLC04NzIzNDc0MTIsMz
-YyNjk5NDA4LC0xNTM3Nzg5ODMyLDEzMDI2OTAwODYsMjg4ODQx
-NzY0LC0yMTM3OTM3ODkxLDE3NzMyMDA4NjIsLTY4OTYxODEzMi
-wxODM2ODU3ODk5XX0=
+eyJoaXN0b3J5IjpbLTE4NTM2NTA1MDMsMTkyNTI3NTAzNSwtNT
+g3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4LDM1NDc4NDI0
+MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMDU3MzE4NzQzLC
+04NzIzNDc0MTIsMzYyNjk5NDA4LC0xNTM3Nzg5ODMyLDEzMDI2
+OTAwODYsMjg4ODQxNzY0LC0yMTM3OTM3ODkxLDE3NzMyMDA4Nj
+IsLTY4OTYxODEzMiwxODM2ODU3ODk5XX0=
 -->
