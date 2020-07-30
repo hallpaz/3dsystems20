@@ -46,7 +46,7 @@ XXXXXX
 
 The first experiments conducted were described during assignment 2. As we reached a point where we couldn't advance more due to the bug found in the PyTorch3D renderer, we decided to look for alternatives. Analyzing the references which inspired PyTorch3D, we found Soft Rasterizer [6], which had the code available on Github and a Paper describing the key ideas of the implementation.
 
-Rendering our scene in Soft Rasterizer, we could see multiple artifacts  in the resulting image, but 
+Rendering our scene in Soft Rasterizer, we could see multiple artifacts in the resulting image, but 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kyR1mGCghvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -90,10 +90,11 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTc3MjM4NSw0MjkzMzczNjMsMTkyNT
-I3NTAzNSwtNTg3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4
-LDM1NDc4NDI0MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMD
-U3MzE4NzQzLC04NzIzNDc0MTIsMzYyNjk5NDA4LC0xNTM3Nzg5
-ODMyLDEzMDI2OTAwODYsMjg4ODQxNzY0LC0yMTM3OTM3ODkxLD
-E3NzMyMDA4NjIsLTY4OTYxODEzMiwxODM2ODU3ODk5XX0=
+eyJoaXN0b3J5IjpbLTEzMzgzMDY0MTEsLTI3OTc3MjM4NSw0Mj
+kzMzczNjMsMTkyNTI3NTAzNSwtNTg3MTk0NjM3LC03OTI4MDk4
+MjIsOTkyNjk1NDQ4LDM1NDc4NDI0MCwtMTc4NjM0ODc4OCwxNT
+E1NzgyNDA4LC0yMDU3MzE4NzQzLC04NzIzNDc0MTIsMzYyNjk5
+NDA4LC0xNTM3Nzg5ODMyLDEzMDI2OTAwODYsMjg4ODQxNzY0LC
+0yMTM3OTM3ODkxLDE3NzMyMDA4NjIsLTY4OTYxODEzMiwxODM2
+ODU3ODk5XX0=
 -->
