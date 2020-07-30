@@ -65,13 +65,10 @@ Optimizing camera pose
 ### Conclusion and next steps
 
 We managed to complete the forward rendering step of our panoramic scene using the Soft Rasterizer. As we are working over early stages tools, we are subject to unexpected bugs as the one we found in Pytorch3D renderer. Fortunately , we could count on the original implementation of 
-The results on camera pose optimization suggest we could optimize the pose of new 3d objects inside the panoramic environment. We think that with an appropriated parameterization of affine transforms, such as using quaternions for rotation and a simple vector for trasnlatio  like to conduct The inverse rendering experiments need
-
-Although ... we managed to complete the rendering step 
--   ✓Parameterize rotations (quaternions?)
--   ✓Render new objects in panoramic environment
+The results on camera pose optimization suggest we could optimize the pose of new 3d objects inside the panoramic environment. We think that with an appropriated parameterization of affine transforms, such as using quaternions for rotation and a simple vector for translation, we could achieve promising results. This conjecture needs further investigation in a future work.
 
 You can find the Keynote presented at the course below.
+
 
 ### References
 
@@ -90,7 +87,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTkzOTM4NCwtNzkyODA5ODIyLDk5Mj
+eyJoaXN0b3J5IjpbLTU4NzE5NDYzNywtNzkyODA5ODIyLDk5Mj
 Y5NTQ0OCwzNTQ3ODQyNDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQw
 OCwtMjA1NzMxODc0MywtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMT
 UzNzc4OTgzMiwxMzAyNjkwMDg2LDI4ODg0MTc2NCwtMjEzNzkz
