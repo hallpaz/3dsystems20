@@ -42,20 +42,20 @@ You can find the Keynote presented at the course below.
 
 ### References
 
-[1] Immersive Light Field Video with a Layered Mesh Representation
+[1] Immersive Light Field Video with a Layered Mesh Representation.
 
-[2]
+[2] 
 
-[3] Carlos Eduardo Rocha, Diego Bretas, Hallison da Paz, Paulo Rosa, and Luiz Velho. **"Framework para Aplicações em Plataformas Móveis usando Panoramas com Camadas"**. Technical Report TR-04-2014, IME, 2014.
+[3] Carlos Eduardo Rocha, Diego Bretas, Hallison da Paz, Paulo Rosa, and Luiz Velho. **"Framework para Aplicações em Plataformas Móveis usando Panoramas com Camadas"**. Technical Report TR-04-2014, IME, 2014. ([Portuguese only](http://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-042014/tr-04-2014.pdf))
 
-[3] M. M. Loper and M. J. Black. Opendr: An approximate differentiable renderer. In European Conference on Computer Vision, pages 154–169. Springer, 2014.
+[4] M. M. Loper and M. J. Black. Opendr: An approximate differentiable renderer. In European Conference on Computer Vision, pages 154–169. Springer, 2014.
 
-[4] H. Kato, Y. Ushiku, and T. Harada. Neural 3d mesh renderer. In Proceedings ofthe IEEE Conference on Computer Vision and Pattern Recognition, pages 3907–3916, 2018.
+[5] H. Kato, Y. Ushiku, and T. Harada. Neural 3d mesh renderer. In Proceedings ofthe IEEE Conference on Computer Vision and Pattern Recognition, pages 3907–3916, 2018.
 
-[5] Liu, S., Li, T., Chen, W., Li, H.: Soft rasterizer: A differentiable renderer for image-based 3d reasoning. In: Proceedings of the IEEE International Conference on Computer Vision. pp. 7708–7717 (2019)
+[6] Liu, S., Li, T., Chen, W., Li, H.: Soft rasterizer: A differentiable renderer for image-based 3d reasoning. In: Proceedings of the IEEE International Conference on Computer Vision. pp. 7708–7717 (2019)
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjcyNjY4NSwtMjEzNzkzNzg5MSwxNz
+eyJoaXN0b3J5IjpbMTY0OTQ5NjYwNywtMjEzNzkzNzg5MSwxNz
 czMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
 -->
