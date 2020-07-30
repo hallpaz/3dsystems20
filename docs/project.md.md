@@ -88,9 +88,9 @@ Finally, we got a promising result! Optimizing the object transform is not so tr
 
 ### Conclusion and next steps
 
-We managed to complete the forward rendering step of our panoramic scene using the Soft Rasterizer. As we are working over early stages tools, we are subject to unexpected bugs as the one we found in PyTorch3D renderer. Fortunately , we could count on the original implementation and description of other approaches to keep our research going.
+We managed to complete the forward rendering step of our panoramic scene using the Soft Rasterizer. As we are working over early stages tools, we are subject to unexpected bugs as the one we found in PyTorch3D renderer. Fortunately, we could count on the original implementation and description of other approaches to keep our research going.
 
-The results on camera pose optimization suggest we could optimize the pose of new 3d objects inside the panoramic environment. We think that with an appropriated parameterization of affine transforms, such as using quaternions for rotation and a simple vector for translation, we could achieve promising results. This conjecture needs further investigation in a future work. This approach could be used to render new objects
+The results on camera pose optimization suggest we could optimize the pose of new 3d objects inside the panoramic environment. We think that with an appropriated parameterization of affine transforms, such as using quaternions for rotation and a simple vector for translation, we could achieve promising results. This conjecture needs further investigation in a future work.
 
 ### References
 
@@ -108,7 +108,7 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjgzODM3NzIsMTU0Njk4ODYyLDEwMj
+eyJoaXN0b3J5IjpbLTEwMjU2MDM2MjgsMTU0Njk4ODYyLDEwMj
 EzNTg1NzksLTE5MzcwOTYyOTgsMzI5ODEwNTg2LDIxMDQwNjI1
 NjgsLTY1NDc3NzM4MSwtMjc5NzcyMzg1LDQyOTMzNzM2MywxOT
 I1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgyMiw5OTI2OTU0
