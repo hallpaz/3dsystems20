@@ -49,16 +49,17 @@ Both [4] and [5] create differentiable renderers by crafting approximations for 
 The first experiments conducted were described during [assignment 2](assignment2.md). As we reached a point where we couldn't advance more due to the bug found in the PyTorch3D renderer, we decided to look for alternatives. Analyzing the references which inspired PyTorch3D, we found Soft Rasterizer [6], which had the code available on Github and a Paper describing the key ideas of the implementation.
 
 #### Forward Rendering
-Rendering our scene in Soft Rasterizer, we could see multiple artifacts in the resulting image, but the patterns rendered lead us to interpret the result as a consequence of b
+Rendering our scene in Soft Rasterizer, we could see multiple artifacts in the resulting image, but the patterns rendered lead us to interpret the result as a consequence of bad parameters choice.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kyR1mGCghvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-We observed some spurious blurred triangles in the resulting images, so we decided to reduce the sigma parameter. As the parameter *sigma* goes to zero, we approximate the rasterization step to the traditional rasterization. This approach produced better results and we finally were satisfied with the forward rendering step.
+We observed some spurious blurred triangles in the resulting images, so we decided to reduce the *sigma* parameter. As the parameter *sigma* goes to zero, we approximate the rasterization step of Soft Rasterizer to the traditional rasterization step. This approach produced better results and we finally were satisfied with the forward rendering step.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qj5rVMbyVHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![enter image description here](img/probability_maps.png)
 *Probability maps of a triangle with different sigma [6]*
+
 
 #### Inverse Rendering
 
@@ -105,11 +106,11 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Njg0OTIsMTAyMTM1ODU3OSwtMTkzNz
-A5NjI5OCwzMjk4MTA1ODYsMjEwNDA2MjU2OCwtNjU0Nzc3Mzgx
-LC0yNzk3NzIzODUsNDI5MzM3MzYzLDE5MjUyNzUwMzUsLTU4Nz
-E5NDYzNywtNzkyODA5ODIyLDk5MjY5NTQ0OCwzNTQ3ODQyNDAs
-LTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMxODc0MywtOD
-cyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMzAyNjkw
-MDg2XX0=
+eyJoaXN0b3J5IjpbMjAyODg3MTI5MCwxMDIxMzU4NTc5LC0xOT
+M3MDk2Mjk4LDMyOTgxMDU4NiwyMTA0MDYyNTY4LC02NTQ3Nzcz
+ODEsLTI3OTc3MjM4NSw0MjkzMzczNjMsMTkyNTI3NTAzNSwtNT
+g3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4LDM1NDc4NDI0
+MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMDU3MzE4NzQzLC
+04NzIzNDc0MTIsMzYyNjk5NDA4LC0xNTM3Nzg5ODMyLDEzMDI2
+OTAwODZdfQ==
 -->
