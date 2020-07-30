@@ -77,6 +77,7 @@ We tried some other silhouettes before figuring out the problem. We were trying 
 ![enter image description here](img/other_silhouettes.png)
 *Other silhouettes that didn't work*
 
+
 After these failed experiments, we concluded that the correct approach should be to optimize the object pose by computing an affine transform. The easiest and fastest way we could validate this idea was to optimize the camera pose, as this example was already implemented and we can see the object pose representation as the inverse transform of the camera pose representation.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F8ttUv9-s_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -106,11 +107,11 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODg3MTI5MCwxMDIxMzU4NTc5LC0xOT
-M3MDk2Mjk4LDMyOTgxMDU4NiwyMTA0MDYyNTY4LC02NTQ3Nzcz
-ODEsLTI3OTc3MjM4NSw0MjkzMzczNjMsMTkyNTI3NTAzNSwtNT
-g3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4LDM1NDc4NDI0
-MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMDU3MzE4NzQzLC
-04NzIzNDc0MTIsMzYyNjk5NDA4LC0xNTM3Nzg5ODMyLDEzMDI2
-OTAwODZdfQ==
+eyJoaXN0b3J5IjpbMjc2NDg3MTgwLDEwMjEzNTg1NzksLTE5Mz
+cwOTYyOTgsMzI5ODEwNTg2LDIxMDQwNjI1NjgsLTY1NDc3NzM4
+MSwtMjc5NzcyMzg1LDQyOTMzNzM2MywxOTI1Mjc1MDM1LC01OD
+cxOTQ2MzcsLTc5MjgwOTgyMiw5OTI2OTU0NDgsMzU0Nzg0MjQw
+LC0xNzg2MzQ4Nzg4LDE1MTU3ODI0MDgsLTIwNTczMTg3NDMsLT
+g3MjM0NzQxMiwzNjI2OTk0MDgsLTE1Mzc3ODk4MzIsMTMwMjY5
+MDA4Nl19
 -->
