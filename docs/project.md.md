@@ -37,10 +37,12 @@ With a differentiable renderer, we could calculate derivatives of the pixel valu
 ![Open DR](img/open_dr_earth.png)
 *OpenDR example of optimization*[4]
 
-Both [4] and [5] create differentiable renderers by crafting approximations for the gradients of the non differentiable steps of the rendering pipeline, that is, the rasterization and Z-buffer, and achieve good results. For our experiments, we used *Soft Rasterizer* [6] which presents a probabilistic formulation for the rasterization step and proposes the use of aggregation functions to overcome the need of sorting or Z-buffer to attribute the correct color to a pixel. Both [5] and [6] use neural networks to solve the forward and backward rendering problems as in [5].
+
+Both [4] and [5] create differentiable renderers by crafting approximations for the gradients of the non differentiable steps of the rendering pipeline, that is, the rasterization and Z-buffer, and achieve good results. For our experiments, we used *Soft Rasterizer* [6] which presents a probabilistic formulation for the rasterization step and proposes the use of aggregation functions to overcome the need of sorting or Z-buffer to attribute the correct color to a pixel. Both [5] and [6] use neural networks to solve the forward and backward rendering problems.
 
 ![enter image description here](img/soft_rast_idea.png)
 *Soft Rasterizer Key Idea*
+
 
 ### Experiments and Analysis
 
@@ -103,11 +105,11 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTIyOTQ2OCwxMDIxMzU4NTc5LC0xOT
-M3MDk2Mjk4LDMyOTgxMDU4NiwyMTA0MDYyNTY4LC02NTQ3Nzcz
-ODEsLTI3OTc3MjM4NSw0MjkzMzczNjMsMTkyNTI3NTAzNSwtNT
-g3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4LDM1NDc4NDI0
-MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMDU3MzE4NzQzLC
-04NzIzNDc0MTIsMzYyNjk5NDA4LC0xNTM3Nzg5ODMyLDEzMDI2
-OTAwODZdfQ==
+eyJoaXN0b3J5IjpbLTE2NTE5MjM5NDIsMTAyMTM1ODU3OSwtMT
+kzNzA5NjI5OCwzMjk4MTA1ODYsMjEwNDA2MjU2OCwtNjU0Nzc3
+MzgxLC0yNzk3NzIzODUsNDI5MzM3MzYzLDE5MjUyNzUwMzUsLT
+U4NzE5NDYzNywtNzkyODA5ODIyLDk5MjY5NTQ0OCwzNTQ3ODQy
+NDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMxODc0My
+wtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMzAy
+NjkwMDg2XX0=
 -->
