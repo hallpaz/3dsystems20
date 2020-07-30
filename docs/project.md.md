@@ -24,7 +24,7 @@ Rendering, or more specifically differentiable rendering, looks like a good topi
 
 ### Differentiable Rendering
 
-Differentiable Rendering 
+Differentiable Rendering is not a technique but a whole field 
 
 
 
@@ -56,6 +56,6 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzMzI5ODI5LC0yMTM3OTM3ODkxLDE3Nz
-MyMDA4NjIsLTY4OTYxODEzMiwxODM2ODU3ODk5XX0=
+eyJoaXN0b3J5IjpbLTY0NjExODkyNiwtMjEzNzkzNzg5MSwxNz
+czMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
 -->
