@@ -56,7 +56,8 @@ We observed some spurious blurred triangles in the resulting images, so we decid
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qj5rVMbyVHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Inverse Rendering
-Although
+
+Although we weren't much confident, we decided to run an optimization test using the texture of the scene and the euclidean distance as error .
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JXh1kySJtVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EwVNQiyL6vU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -93,11 +94,11 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2NjY5ODU4LC0yNzk3NzIzODUsNDI5Mz
-M3MzYzLDE5MjUyNzUwMzUsLTU4NzE5NDYzNywtNzkyODA5ODIy
-LDk5MjY5NTQ0OCwzNTQ3ODQyNDAsLTE3ODYzNDg3ODgsMTUxNT
-c4MjQwOCwtMjA1NzMxODc0MywtODcyMzQ3NDEyLDM2MjY5OTQw
-OCwtMTUzNzc4OTgzMiwxMzAyNjkwMDg2LDI4ODg0MTc2NCwtMj
-EzNzkzNzg5MSwxNzczMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1
-Nzg5OV19
+eyJoaXN0b3J5IjpbMTQ0NDc4OTcwMCwtMjc5NzcyMzg1LDQyOT
+MzNzM2MywxOTI1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgy
+Miw5OTI2OTU0NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MT
+U3ODI0MDgsLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0
+MDgsLTE1Mzc3ODk4MzIsMTMwMjY5MDA4NiwyODg4NDE3NjQsLT
+IxMzc5Mzc4OTEsMTc3MzIwMDg2MiwtNjg5NjE4MTMyLDE4MzY4
+NTc4OTldfQ==
 -->
