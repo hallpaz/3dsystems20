@@ -28,8 +28,7 @@ Differentiable Rendering is not a technique but a whole field focused in renderi
 
 f(theta) = I
 
-"We define an observation function f(Θ) as the forward rendering process
-that depends on the parameters Θ. The simplest optimization would solve for the parameters minimizing the difference between the rendered and observed image intensities, E(Θ) = ?f(Θ) − I?2."
+"We define an observation function f(Θ) as the forward rendering process that depends on the parameters Θ. The simplest optimization would solve for the parameters minimizing the difference between the rendered and observed image intensities, E(Θ) = ||f(Θ) − I||™£¡¢∞§¶•º–πøˆ¨¥†®œåΩ∂≈çƒ˙∆¬…≥÷……¬˚…2."
 
 We could calculate derivatives of the pixel values with respect to the forward rendering parameters and use it to estimate object pose, calibrate camera parameters or even optimize illumination to match a target scene.
 
@@ -68,7 +67,7 @@ The second and most promising approach we experimented was to try to match an ar
 *Optimizing vertices positions*
 
 
-We tried some other silhouettes before figuring out the problem. We were trying to freely optimize the vertices positions, which is equivalent to a non rigid deformation of the object, but we are actually interested in applying a rigid transformation to locate objects inside the scene accordingly to the expected silhouette. 
+We tried some other silhouettes before figuring out the problem. We were trying to freely optimize the vertices positions, which is equivalent to a non rigid deformation of the object, but we are actually interested in applying a rigid transformation to locate objects inside the scene accordingly to an expected silhouette. 
 
 ![enter image description here](img/other_silhouettes.png)
 *Other silhouettes that didn't work*
@@ -103,7 +102,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDYyNDg0NSwyMTA0MDYyNTY4LC02NT
+eyJoaXN0b3J5IjpbLTYwNjIxNzE2NSwyMTA0MDYyNTY4LC02NT
 Q3NzczODEsLTI3OTc3MjM4NSw0MjkzMzczNjMsMTkyNTI3NTAz
 NSwtNTg3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4LDM1ND
 c4NDI0MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMDU3MzE4
