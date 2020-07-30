@@ -52,6 +52,10 @@ After ajusting parameters
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qj5rVMbyVHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JXh1kySJtVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 ### Conclusion and next steps
 
 As the works in this area are still very recent, we are subject to unexpected bugs as the one found in Pytorch3D.  Although ... we managed to complete the rendering step of our panoramic scene using the Soft Rasterizer 
@@ -77,8 +81,9 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMj
-A1NzMxODc0MywtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4
-OTgzMiwxMzAyNjkwMDg2LDI4ODg0MTc2NCwtMjEzNzkzNzg5MS
-wxNzczMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
+eyJoaXN0b3J5IjpbMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MT
+U3ODI0MDgsLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0
+MDgsLTE1Mzc3ODk4MzIsMTMwMjY5MDA4NiwyODg4NDE3NjQsLT
+IxMzc5Mzc4OTEsMTc3MzIwMDg2MiwtNjg5NjE4MTMyLDE4MzY4
+NTc4OTldfQ==
 -->
