@@ -15,7 +15,7 @@ Most of the experiments can be found in the [rendering](https://colab.research.g
 
 ### Motivation
 
-As a personal goal, after some experience with traditional computer graphics and deep learning for computer vision using still images, I'm interested in understanding how to work with 3D data and artificial neural networks. I also have some experience working with panoramic images and studying how we could use such images for experiences in augmented or virtual reality. Rendering, or more specifically differentiable rendering, looks like a good topic to relate these areas, as we will see.
+As a personal goal, after some experience with traditional computer graphics and deep learning for computer vision using still images, I'm interested in understanding how to work with 3D data and artificial neural networks. On the I also have some experience working with panoramic images and studying how we could use such images for experiences in augmented or virtual reality. Rendering, or more specifically differentiable rendering, looks like a good topic to relate these areas, as we will see.
 
 
 
@@ -55,6 +55,6 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzIwMDg2MiwtNjg5NjE4MTMyLDE4Mz
-Y4NTc4OTldfQ==
+eyJoaXN0b3J5IjpbNzgwMjQ5OTQ2LDE3NzMyMDA4NjIsLTY4OT
+YxODEzMiwxODM2ODU3ODk5XX0=
 -->
