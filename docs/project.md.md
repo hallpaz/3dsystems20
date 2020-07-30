@@ -26,9 +26,11 @@ Rendering, or more specifically differentiable rendering, looks like a good topi
 
 Differentiable Rendering is not a technique but a whole field focused in rendering a 3D scene using a differentiable pipeline allowing gradients to flow back and forth 3D objects and images. This is a great way to join computer graphics and computer vision problems and to train self supervised models. A good work to understand the idea behind this field is [4], which states the rendering problem as the mapping:
 
-f(theta) = I
-
-"We define an observation function f(Θ) as the forward rendering process that depends on the parameters Θ. The simplest optimization would solve for the parameters minimizing the difference between the rendered and observed image intensities, E(Θ) = ||f(Θ) − I||™£¡¢∞§¶•º–πøˆ¨¥†®œåΩ∂≈çƒ˙∆¬…≥÷……¬˚…2."
+> We define an observation function **f(Θ)** as the forward rendering
+> process that depends on the parameters **Θ**. The simplest
+> optimization would solve for the parameters minimizing the difference
+> between the rendered and observed image intensities, **E(Θ) = ||f(Θ) −
+> I||^2**.
 
 We could calculate derivatives of the pixel values with respect to the forward rendering parameters and use it to estimate object pose, calibrate camera parameters or even optimize illumination to match a target scene.
 
@@ -102,11 +104,11 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjIxNzE2NSwyMTA0MDYyNTY4LC02NT
-Q3NzczODEsLTI3OTc3MjM4NSw0MjkzMzczNjMsMTkyNTI3NTAz
-NSwtNTg3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4LDM1ND
-c4NDI0MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMDU3MzE4
-NzQzLC04NzIzNDc0MTIsMzYyNjk5NDA4LC0xNTM3Nzg5ODMyLD
-EzMDI2OTAwODYsMjg4ODQxNzY0LC0yMTM3OTM3ODkxLDE3NzMy
-MDA4NjJdfQ==
+eyJoaXN0b3J5IjpbLTIwMDMwNzMyNDYsMjEwNDA2MjU2OCwtNj
+U0Nzc3MzgxLC0yNzk3NzIzODUsNDI5MzM3MzYzLDE5MjUyNzUw
+MzUsLTU4NzE5NDYzNywtNzkyODA5ODIyLDk5MjY5NTQ0OCwzNT
+Q3ODQyNDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMx
+ODc0MywtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMi
+wxMzAyNjkwMDg2LDI4ODg0MTc2NCwtMjEzNzkzNzg5MSwxNzcz
+MjAwODYyXX0=
 -->
