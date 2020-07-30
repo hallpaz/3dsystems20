@@ -90,7 +90,7 @@ Finally, we got a promising result! Optimizing the object transform is not so tr
 
 We managed to complete the forward rendering step of our panoramic scene using the Soft Rasterizer. As we are working over early stages tools, we are subject to unexpected bugs as the one we found in PyTorch3D renderer. Fortunately , we could count on the original implementation and description of other approaches to keep our research going.
 
-The results on camera pose optimization suggest we could optimize the pose of new 3d objects inside the panoramic environment. We think that with an appropriated parameterization of affine transforms, such as using quaternions for rotation and a simple vector for translation, we could achieve promising results. This conjecture needs further investigation in a future work.
+The results on camera pose optimization suggest we could optimize the pose of new 3d objects inside the panoramic environment. We think that with an appropriated parameterization of affine transforms, such as using quaternions for rotation and a simple vector for translation, we could achieve promising results. This conjecture needs further investigation in a future work. This approach could be used to render new objects
 
 ### References
 
@@ -108,11 +108,11 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTY4MTcyMCwxNTQ2OTg4NjIsMTAyMT
-M1ODU3OSwtMTkzNzA5NjI5OCwzMjk4MTA1ODYsMjEwNDA2MjU2
-OCwtNjU0Nzc3MzgxLC0yNzk3NzIzODUsNDI5MzM3MzYzLDE5Mj
-UyNzUwMzUsLTU4NzE5NDYzNywtNzkyODA5ODIyLDk5MjY5NTQ0
-OCwzNTQ3ODQyNDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMj
-A1NzMxODc0MywtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4
-OTgzMl19
+eyJoaXN0b3J5IjpbLTIwMjgzODM3NzIsMTU0Njk4ODYyLDEwMj
+EzNTg1NzksLTE5MzcwOTYyOTgsMzI5ODEwNTg2LDIxMDQwNjI1
+NjgsLTY1NDc3NzM4MSwtMjc5NzcyMzg1LDQyOTMzNzM2MywxOT
+I1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgyMiw5OTI2OTU0
+NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MTU3ODI0MDgsLT
+IwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0MDgsLTE1Mzc3
+ODk4MzJdfQ==
 -->
