@@ -24,7 +24,9 @@ Rendering, or more specifically differentiable rendering, looks like a good topi
 
 ### Differentiable Rendering
 
-Differentiable Rendering is not a technique but a whole field focused in rendering a 3D scene using a differentiable pipeline allowing gradients to flow back and forth 3D objects and images. This is a great way to join computer graphics and computer vision problems and to train self supervised models. A good work to understand the idea behind this field is [4], which states the rendering problem as the mapping:
+Differentiable Rendering is not a technique but a whole field focused in rendering a 3D scene using a differentiable pipeline allowing gradients to flow back and forth 3D objects and images. This is a great way to join computer graphics and computer vision problems and to train self supervised models. A good work to understand the idea behind this field is [4], which develops the idea from a forward rendering or observation function **f(Θ)**
+
+states the rendering problem as the mapping:
 
 > We define an observation function **f(Θ)** as the forward rendering
 > process that depends on the parameters **Θ**. The simplest
@@ -104,11 +106,11 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDMwNzMyNDYsMjEwNDA2MjU2OCwtNj
-U0Nzc3MzgxLC0yNzk3NzIzODUsNDI5MzM3MzYzLDE5MjUyNzUw
-MzUsLTU4NzE5NDYzNywtNzkyODA5ODIyLDk5MjY5NTQ0OCwzNT
-Q3ODQyNDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMx
-ODc0MywtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMi
-wxMzAyNjkwMDg2LDI4ODg0MTc2NCwtMjEzNzkzNzg5MSwxNzcz
-MjAwODYyXX0=
+eyJoaXN0b3J5IjpbLTQwNzY4MTg3MCwyMTA0MDYyNTY4LC02NT
+Q3NzczODEsLTI3OTc3MjM4NSw0MjkzMzczNjMsMTkyNTI3NTAz
+NSwtNTg3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4LDM1ND
+c4NDI0MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMDU3MzE4
+NzQzLC04NzIzNDc0MTIsMzYyNjk5NDA4LC0xNTM3Nzg5ODMyLD
+EzMDI2OTAwODYsMjg4ODQxNzY0LC0yMTM3OTM3ODkxLDE3NzMy
+MDA4NjJdfQ==
 -->
