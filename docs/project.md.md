@@ -49,7 +49,7 @@ Both [4] and [5] create differentiable renderers by crafting approximations for 
 The first experiments conducted were described during [assignment 2](assignment2.md). As we reached a point where we couldn't advance more due to the bug found in the PyTorch3D renderer, we decided to look for alternatives. Analyzing the references which inspired PyTorch3D, we found Soft Rasterizer [6], which had the code available on Github and a Paper describing the key ideas of the implementation.
 
 #### Forward Rendering
-Rendering our scene in Soft Rasterizer, we could see multiple artifacts in the resulting image, but 
+Rendering our scene in Soft Rasterizer, we could see multiple artifacts in the resulting image, but the patterns rendered lead us to interpret the result as a consequence of b
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kyR1mGCghvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -105,11 +105,11 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTE5MjM5NDIsMTAyMTM1ODU3OSwtMT
-kzNzA5NjI5OCwzMjk4MTA1ODYsMjEwNDA2MjU2OCwtNjU0Nzc3
-MzgxLC0yNzk3NzIzODUsNDI5MzM3MzYzLDE5MjUyNzUwMzUsLT
-U4NzE5NDYzNywtNzkyODA5ODIyLDk5MjY5NTQ0OCwzNTQ3ODQy
-NDAsLTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMxODc0My
-wtODcyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMzAy
-NjkwMDg2XX0=
+eyJoaXN0b3J5IjpbLTg3Njg0OTIsMTAyMTM1ODU3OSwtMTkzNz
+A5NjI5OCwzMjk4MTA1ODYsMjEwNDA2MjU2OCwtNjU0Nzc3Mzgx
+LC0yNzk3NzIzODUsNDI5MzM3MzYzLDE5MjUyNzUwMzUsLTU4Nz
+E5NDYzNywtNzkyODA5ODIyLDk5MjY5NTQ0OCwzNTQ3ODQyNDAs
+LTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMxODc0MywtOD
+cyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMzAyNjkw
+MDg2XX0=
 -->
