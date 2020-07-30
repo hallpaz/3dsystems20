@@ -91,8 +91,7 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 [1] Michael Broxton, John Flynn, Ryan Overbeck, Daniel Erickson, Peter Hedman, Matthew DuVall, Jason Dourgarian, Jay Busch, Matt Whalen and Paul Debevec; **Immersive Light Field Video with a Layered Mesh Representation**. ACM Trans. Graph. 39, 4, Article 1 (July 2020).
 
-[2] Daniel Martin, Ana Serrano and Belen Masia; Panoramic convolutions for 360º single-image saliency prediction. ```
-CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
+[2] Daniel Martin, Ana Serrano and Belen Masia; Panoramic convolutions for 360º single-image saliency prediction. CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 [3] Carlos Eduardo Rocha, Diego Bretas, Hallison da Paz, Paulo Rosa, and Luiz Velho. "Framework para Aplicações em Plataformas Móveis usando Panoramas com Camadas". Technical Report TR-04-2014, IME, 2014. ([Portuguese only](http://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-042014/tr-04-2014.pdf))
 
@@ -104,11 +103,11 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzcwOTYyOTgsMzI5ODEwNTg2LDIxMD
-QwNjI1NjgsLTY1NDc3NzM4MSwtMjc5NzcyMzg1LDQyOTMzNzM2
-MywxOTI1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgyMiw5OT
-I2OTU0NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MTU3ODI0
-MDgsLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0MDgsLT
-E1Mzc3ODk4MzIsMTMwMjY5MDA4NiwyODg4NDE3NjQsLTIxMzc5
-Mzc4OTFdfQ==
+eyJoaXN0b3J5IjpbMTI3NzU4NzQzOCwtMTkzNzA5NjI5OCwzMj
+k4MTA1ODYsMjEwNDA2MjU2OCwtNjU0Nzc3MzgxLC0yNzk3NzIz
+ODUsNDI5MzM3MzYzLDE5MjUyNzUwMzUsLTU4NzE5NDYzNywtNz
+kyODA5ODIyLDk5MjY5NTQ0OCwzNTQ3ODQyNDAsLTE3ODYzNDg3
+ODgsMTUxNTc4MjQwOCwtMjA1NzMxODc0MywtODcyMzQ3NDEyLD
+M2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMzAyNjkwMDg2LDI4ODg0
+MTc2NF19
 -->
