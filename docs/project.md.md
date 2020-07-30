@@ -63,10 +63,8 @@ Although we weren't much confident, we decided to run an optimization test using
 The second and most promising approach we experimented was to try to match an arbitrary object to a specific silhouette. We started analyzing how this could be done with a single plan, a very simple object, as this could be used to simulate the replacement of a picture inside the scene, for example.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EwVNQiyL6vU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+*Optimizing vertices positions*
 
-
-
-Optimizing vertices positions
 
 We tried some other silhouettes before figuring out the problem. We were trying to optimize the vertices positions, which is equivalent to a non rigid deformation of the object, but we are actually interested in applying a rigid transformation to locate objects inside the scene accordingly to the expected silhouette. 
 
@@ -103,11 +101,11 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjY1MjUwLC0yNzk3NzIzODUsNDI5Mz
-M3MzYzLDE5MjUyNzUwMzUsLTU4NzE5NDYzNywtNzkyODA5ODIy
-LDk5MjY5NTQ0OCwzNTQ3ODQyNDAsLTE3ODYzNDg3ODgsMTUxNT
-c4MjQwOCwtMjA1NzMxODc0MywtODcyMzQ3NDEyLDM2MjY5OTQw
-OCwtMTUzNzc4OTgzMiwxMzAyNjkwMDg2LDI4ODg0MTc2NCwtMj
-EzNzkzNzg5MSwxNzczMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1
-Nzg5OV19
+eyJoaXN0b3J5IjpbLTE4OTc0MjA2MTYsLTI3OTc3MjM4NSw0Mj
+kzMzczNjMsMTkyNTI3NTAzNSwtNTg3MTk0NjM3LC03OTI4MDk4
+MjIsOTkyNjk1NDQ4LDM1NDc4NDI0MCwtMTc4NjM0ODc4OCwxNT
+E1NzgyNDA4LC0yMDU3MzE4NzQzLC04NzIzNDc0MTIsMzYyNjk5
+NDA4LC0xNTM3Nzg5ODMyLDEzMDI2OTAwODYsMjg4ODQxNzY0LC
+0yMTM3OTM3ODkxLDE3NzMyMDA4NjIsLTY4OTYxODEzMiwxODM2
+ODU3ODk5XX0=
 -->
