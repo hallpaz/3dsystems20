@@ -63,8 +63,7 @@ We tried some other silhouettes before figuring out the problem. We were trying 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5YU2w3id-nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Optimizing camera pose
 
-Finally, we got a promising result! Optimizing 
-
+Finally, we got a promising result! Optimizing the object transform is not so trivial as we have to parameterize the rotation space, but we think it could be done with a little more time and we intend to validate it in the future.
 
 ### Conclusion and next steps
 
@@ -89,10 +88,10 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjY5MDM5LDE5MjUyNzUwMzUsLTU4Nz
-E5NDYzNywtNzkyODA5ODIyLDk5MjY5NTQ0OCwzNTQ3ODQyNDAs
-LTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMxODc0MywtOD
-cyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMzAyNjkw
-MDg2LDI4ODg0MTc2NCwtMjEzNzkzNzg5MSwxNzczMjAwODYyLC
-02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
+eyJoaXN0b3J5IjpbLTE4ODQ0MjEwNjUsMTkyNTI3NTAzNSwtNT
+g3MTk0NjM3LC03OTI4MDk4MjIsOTkyNjk1NDQ4LDM1NDc4NDI0
+MCwtMTc4NjM0ODc4OCwxNTE1NzgyNDA4LC0yMDU3MzE4NzQzLC
+04NzIzNDc0MTIsMzYyNjk5NDA4LC0xNTM3Nzg5ODMyLDEzMDI2
+OTAwODYsMjg4ODQxNzY0LC0yMTM3OTM3ODkxLDE3NzMyMDA4Nj
+IsLTY4OTYxODEzMiwxODM2ODU3ODk5XX0=
 -->
