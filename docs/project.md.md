@@ -96,9 +96,9 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 [1] Michael Broxton, John Flynn, Ryan Overbeck, Daniel Erickson, Peter Hedman, Matthew DuVall, Jason Dourgarian, Jay Busch, Matt Whalen and Paul Debevec; **Immersive Light Field Video with a Layered Mesh Representation**. ACM Trans. Graph. 39, 4, Article 1 (July 2020).
 
-[2] Daniel Martin, Ana Serrano and Belen Masia; Panoramic convolutions for 360º single-image saliency prediction. CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
+[2] Daniel Martin, Ana Serrano and Belen Masia; **Panoramic convolutions for 360º single-image saliency prediction**. CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
-[3] Carlos Eduardo Rocha, Diego Bretas, Hallison da Paz, Paulo Rosa, and Luiz Velho. "Framework para Aplicações em Plataformas Móveis usando Panoramas com Camadas". Technical Report TR-04-2014, IME, 2014. ([Portuguese only](http://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-042014/tr-04-2014.pdf))
+[3] Carlos Eduardo Rocha, Diego Bretas, Hallison da Paz, Paulo Rosa, and Luiz Velho. **Framework para Aplicações em Plataformas Móveis usando Panoramas com Camadas**. Technical Report TR-04-2014, IME, 2014. ([Portuguese only](http://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-042014/tr-04-2014.pdf))
 
 [4] M. M. Loper and M. J. Black. **Opendr: An approximate differentiable renderer**. In European Conference on Computer Vision, pages 154–169. Springer, 2014.
 
@@ -108,11 +108,11 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjU2MDM2MjgsMTU0Njk4ODYyLDEwMj
-EzNTg1NzksLTE5MzcwOTYyOTgsMzI5ODEwNTg2LDIxMDQwNjI1
-NjgsLTY1NDc3NzM4MSwtMjc5NzcyMzg1LDQyOTMzNzM2MywxOT
-I1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgyMiw5OTI2OTU0
-NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MTU3ODI0MDgsLT
-IwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0MDgsLTE1Mzc3
-ODk4MzJdfQ==
+eyJoaXN0b3J5IjpbLTIxMjQyNDcyMjQsLTEwMjU2MDM2MjgsMT
+U0Njk4ODYyLDEwMjEzNTg1NzksLTE5MzcwOTYyOTgsMzI5ODEw
+NTg2LDIxMDQwNjI1NjgsLTY1NDc3NzM4MSwtMjc5NzcyMzg1LD
+QyOTMzNzM2MywxOTI1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5Mjgw
+OTgyMiw5OTI2OTU0NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LD
+E1MTU3ODI0MDgsLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2
+OTk0MDhdfQ==
 -->
