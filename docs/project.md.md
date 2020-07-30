@@ -58,10 +58,12 @@ After ajusting parameters
 
 Optimizing vertices positions
 
-We tried some other silhouettes before figuring out the problem. We were trying to optimize the vertices positions, which is equivalent to a non rigid deformation of the object, but we are actually interested in applying a rigid transformation to locate objects inside the scene accordingly to the expected silhouette. This way, the correct approach should be optimize the object pose by computing an affine transform. The easiest and fastest way we could validate this idea was to optimize the camera pose, as this example was already implemented and we can see 
+We tried some other silhouettes before figuring out the problem. We were trying to optimize the vertices positions, which is equivalent to a non rigid deformation of the object, but we are actually interested in applying a rigid transformation to locate objects inside the scene accordingly to the expected silhouette. This way, the correct approach should be optimize the object pose by computing an affine transform. The easiest and fastest way we could validate this idea was to optimize the camera pose, as this example was already implemented and we can see the object pose representation as the inverse transform of the camera pose representation.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5YU2w3id-nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Optimizing camera pose
+
+Finally, we got a promising result! Optimizing 
 
 
 ### Conclusion and next steps
@@ -87,7 +89,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwMjAyMzQ5LDE5MjUyNzUwMzUsLTU4Nz
+eyJoaXN0b3J5IjpbMTUyNjY5MDM5LDE5MjUyNzUwMzUsLTU4Nz
 E5NDYzNywtNzkyODA5ODIyLDk5MjY5NTQ0OCwzNTQ3ODQyNDAs
 LTE3ODYzNDg3ODgsMTUxNTc4MjQwOCwtMjA1NzMxODc0MywtOD
 cyMzQ3NDEyLDM2MjY5OTQwOCwtMTUzNzc4OTgzMiwxMzAyNjkw
