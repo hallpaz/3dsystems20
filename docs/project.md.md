@@ -44,7 +44,7 @@ Both [4] and [5] create differentiable renderers by crafting approximations for 
 
 ### Experiments and Analysis
 
-The first experiments conducted were described during assignment 2. As we reached a point where we couldn't advance more due to the bug found in the PyTorch3D renderer, we decided to look for alternatives. Analyzing the references which inspired PyTorch3D, we found Soft Rasterizer [6], which had the code available on Github and a Paper describing the key ideas of the implementation.
+The first experiments conducted were described during [assignment 2](assignment2.md). As we reached a point where we couldn't advance more due to the bug found in the PyTorch3D renderer, we decided to look for alternatives. Analyzing the references which inspired PyTorch3D, we found Soft Rasterizer [6], which had the code available on Github and a Paper describing the key ideas of the implementation.
 
 #### Forward Rendering
 Rendering our scene in Soft Rasterizer, we could see multiple artifacts in the resulting image, but 
@@ -83,7 +83,7 @@ Finally, we got a promising result! Optimizing the object transform is not so tr
 
 ### Conclusion and next steps
 
-We managed to complete the forward rendering step of our panoramic scene using the Soft Rasterizer. As we are working over early stages tools, we are subject to unexpected bugs as the one we found in Pytorch3D renderer. Fortunately , we could count on the original implementation and description of other approaches to keep our research going.
+We managed to complete the forward rendering step of our panoramic scene using the Soft Rasterizer. As we are working over early stages tools, we are subject to unexpected bugs as the one we found in PyTorch3D renderer. Fortunately , we could count on the original implementation and description of other approaches to keep our research going.
 
 The results on camera pose optimization suggest we could optimize the pose of new 3d objects inside the panoramic environment. We think that with an appropriated parameterization of affine transforms, such as using quaternions for rotation and a simple vector for translation, we could achieve promising results. This conjecture needs further investigation in a future work.
 
@@ -103,7 +103,7 @@ The results on camera pose optimization suggest we could optimize the pose of ne
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzU4NzQzOCwtMTkzNzA5NjI5OCwzMj
+eyJoaXN0b3J5IjpbMTAyMTM1ODU3OSwtMTkzNzA5NjI5OCwzMj
 k4MTA1ODYsMjEwNDA2MjU2OCwtNjU0Nzc3MzgxLC0yNzk3NzIz
 ODUsNDI5MzM3MzYzLDE5MjUyNzUwMzUsLTU4NzE5NDYzNywtNz
 kyODA5ODIyLDk5MjY5NTQ0OCwzNTQ3ODQyNDAsLTE3ODYzNDg3
