@@ -60,8 +60,11 @@ We observed some spurious blurred triangles in the resulting images, so we decid
 Although we weren't much confident, we decided to run an optimization test using the texture of the scene and the euclidean distance as error s. We believe this is not a good 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JXh1kySJtVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The second and most promising approach we experimented was to try to match an arbitrary object to a specific silhouette. We started analyzing 
+The second and most promising approach we experimented was to try to match an arbitrary object to a specific silhouette. We started analyzing how this could be done with a single plan, a very simple object, as this could be used to simulate the replacement of a picture inside the scene, for example.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EwVNQiyL6vU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 Optimizing vertices positions
 
@@ -100,11 +103,11 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjU2Njc5NSwtMjc5NzcyMzg1LDQyOT
-MzNzM2MywxOTI1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgy
-Miw5OTI2OTU0NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MT
-U3ODI0MDgsLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0
-MDgsLTE1Mzc3ODk4MzIsMTMwMjY5MDA4NiwyODg4NDE3NjQsLT
-IxMzc5Mzc4OTEsMTc3MzIwMDg2MiwtNjg5NjE4MTMyLDE4MzY4
-NTc4OTldfQ==
+eyJoaXN0b3J5IjpbMTI2MjY1MjUwLC0yNzk3NzIzODUsNDI5Mz
+M3MzYzLDE5MjUyNzUwMzUsLTU4NzE5NDYzNywtNzkyODA5ODIy
+LDk5MjY5NTQ0OCwzNTQ3ODQyNDAsLTE3ODYzNDg3ODgsMTUxNT
+c4MjQwOCwtMjA1NzMxODc0MywtODcyMzQ3NDEyLDM2MjY5OTQw
+OCwtMTUzNzc4OTgzMiwxMzAyNjkwMDg2LDI4ODg0MTc2NCwtMj
+EzNzkzNzg5MSwxNzczMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1
+Nzg5OV19
 -->
