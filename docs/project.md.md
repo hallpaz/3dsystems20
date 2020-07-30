@@ -44,7 +44,7 @@ XXXXXX
 
 ### Experiments and Analysis
 
-The first experiments we conducted were described during assignment 2. As we reached a point where we couldn't advance more 
+The first experiments conducted were described during assignment 2. As we reached a point where we couldn't advance more due to the bug found in the PyTorch3D renderer, we decided to look for alternatives. Analyzing the references whic inspired PyTorch3D, we found Soft Rasterizer []
 
 ### Conclusion and next steps
 
@@ -71,7 +71,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzOTM1NjExLC0xNTM3Nzg5ODMyLDEzMD
+eyJoaXN0b3J5IjpbMjMxNDUxOTA3LC0xNTM3Nzg5ODMyLDEzMD
 I2OTAwODYsMjg4ODQxNzY0LC0yMTM3OTM3ODkxLDE3NzMyMDA4
 NjIsLTY4OTYxODEzMiwxODM2ODU3ODk5XX0=
 -->
