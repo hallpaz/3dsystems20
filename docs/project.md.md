@@ -15,13 +15,12 @@ Most of the experiments can be found in the [rendering](https://colab.research.g
 
 ### Motivation
 
-As a personal goal, after some experience with traditional computer graphics and deep learning for computer vision using still images, I'm interested in understanding how to work with 3D data and artificial neural networks. From an external perspective, we see some very recent works applying deep learning in the context of omnidirectional representations [1, 2], which could lead to better VR/AR/XR applications and a huge impact the audiovisual industry. This perspective of the future and my previous experience working with panoramic images and  studying how we could use such images for experiences in augmented or virtual reality. Rendering, or more specifically differentiable rendering, looks like a good topic to relate these areas, as we will see.
-
+As a personal goal, after some experience with traditional computer graphics and deep learning for computer vision using still images, I'm interested in understanding how to work with 3D data and artificial neural networks. From an external perspective, we see some very recent works applying deep learning in the context of omnidirectional representations [1, 2], which could lead to better VR/AR/XR applications and a huge impact the audiovisual industry. This perspective of the future and my previous experience working with panoramic images and studying how we could use such images for experiences in augmented or virtual reality makes this theme look promising. 
 
 
 
 [https://augmentedperception.github.io/deepviewvideo/](https://augmentedperception.github.io/deepviewvideo/)
-Rendering, or more specifically differentiable rendering, looks like a good topic to relate these areas.
+Rendering, or more specifically differentiable rendering, looks like a good topic to relate these areas as we'll see.
 
 ### Differentiable Rendering
 
@@ -54,6 +53,6 @@ You can find the Keynote presented at the course below.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTU1ODc3NywxNzczMjAwODYyLC02OD
+eyJoaXN0b3J5IjpbMTMwMDE4MzA4MiwxNzczMjAwODYyLC02OD
 k2MTgxMzIsMTgzNjg1Nzg5OV19
 -->
