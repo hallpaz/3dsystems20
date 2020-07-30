@@ -42,7 +42,7 @@ You can find the Keynote presented at the course below.
 
 ### References
 
-[1] Michael Broxton, John Flynn, Ryan Overbeck, Daniel Erickson, Peter Hedman, Matthew DuVall, Jason Dourgarian, Jay Busch, Matt Whalen and Paul Debevec; **Immersive Light Field Video with a Layered Mesh Representation**.
+[1] Michael Broxton, John Flynn, Ryan Overbeck, Daniel Erickson, Peter Hedman, Matthew DuVall, Jason Dourgarian, Jay Busch, Matt Whalen and Paul Debevec; **Immersive Light Field Video with a Layered Mesh Representation**. ACM Trans. Graph. 39, 4, Article 1 (July 2020).
 
 [2] Daniel Martin, Ana Serrano and Belen Masia; Panoramic convolutions for 360º single-image saliency prediction. ```
 CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
@@ -57,6 +57,6 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjUxNjQ1MCwtMjEzNzkzNzg5MSwxNz
+eyJoaXN0b3J5IjpbMTY3NjYxNzMzMywtMjEzNzkzNzg5MSwxNz
 czMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1Nzg5OV19
 -->
