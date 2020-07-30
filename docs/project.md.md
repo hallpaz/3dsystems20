@@ -57,14 +57,19 @@ We observed some spurious blurred triangles in the resulting images, so we decid
 
 #### Inverse Rendering
 
-Although we weren't much confident, we decided to run an optimization test using the texture of the scene and the euclidean distance as error .
+Although we weren't much confident, we decided to run an optimization test using the texture of the scene and the euclidean distance as error s.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JXh1kySJtVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EwVNQiyL6vU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Optimizing vertices positions
 
-We tried some other silhouettes before figuring out the problem. We were trying to optimize the vertices positions, which is equivalent to a non rigid deformation of the object, but we are actually interested in applying a rigid transformation to locate objects inside the scene accordingly to the expected silhouette. This way, the correct approach should be optimize the object pose by computing an affine transform. The easiest and fastest way we could validate this idea was to optimize the camera pose, as this example was already implemented and we can see the object pose representation as the inverse transform of the camera pose representation.
+We tried some other silhouettes before figuring out the problem. We were trying to optimize the vertices positions, which is equivalent to a non rigid deformation of the object, but we are actually interested in applying a rigid transformation to locate objects inside the scene accordingly to the expected silhouette. 
+
+![enter image description here](img/other_silhouettes.png)
+*Other silhouettes that didn't work*
+
+This way, the correct approach should be optimize the object pose by computing an affine transform. The easiest and fastest way we could validate this idea was to optimize the camera pose, as this example was already implemented and we can see the object pose representation as the inverse transform of the camera pose representation.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5YU2w3id-nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Optimizing camera pose
@@ -94,7 +99,7 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDc4OTcwMCwtMjc5NzcyMzg1LDQyOT
+eyJoaXN0b3J5IjpbLTM5MzcwNTgzMiwtMjc5NzcyMzg1LDQyOT
 MzNzM2MywxOTI1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgy
 Miw5OTI2OTU0NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MT
 U3ODI0MDgsLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0
