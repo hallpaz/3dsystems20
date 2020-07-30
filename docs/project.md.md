@@ -46,14 +46,17 @@ XXXXXX
 
 The first experiments conducted were described during assignment 2. As we reached a point where we couldn't advance more due to the bug found in the PyTorch3D renderer, we decided to look for alternatives. Analyzing the references which inspired PyTorch3D, we found Soft Rasterizer [6], which had the code available on Github and a Paper describing the key ideas of the implementation.
 
+#### Forward Rendering
 Rendering our scene in Soft Rasterizer, we could see multiple artifacts in the resulting image, but 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kyR1mGCghvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-We observed some spurious blurred triangles in the resulting images, so we decided to reduce the sigma parameterAs the parameter *sigma* goes to zero, we approximate the rasterization step to the traditional rasterization. 
+We observed some spurious blurred triangles in the resulting images, so we decided to reduce the sigma parameter. As the parameter *sigma* goes to zero, we approximate the rasterization step to the traditional rasterization. This approach produced better results and we finally were satisfied with the forward rendering step.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qj5rVMbyVHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+#### Inverse Rendering
+Although
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JXh1kySJtVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EwVNQiyL6vU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -90,11 +93,11 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNDQ3MzkzMiwtMjc5NzcyMzg1LDQyOT
-MzNzM2MywxOTI1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgy
-Miw5OTI2OTU0NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MT
-U3ODI0MDgsLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0
-MDgsLTE1Mzc3ODk4MzIsMTMwMjY5MDA4NiwyODg4NDE3NjQsLT
-IxMzc5Mzc4OTEsMTc3MzIwMDg2MiwtNjg5NjE4MTMyLDE4MzY4
-NTc4OTldfQ==
+eyJoaXN0b3J5IjpbNzQ2NjY5ODU4LC0yNzk3NzIzODUsNDI5Mz
+M3MzYzLDE5MjUyNzUwMzUsLTU4NzE5NDYzNywtNzkyODA5ODIy
+LDk5MjY5NTQ0OCwzNTQ3ODQyNDAsLTE3ODYzNDg3ODgsMTUxNT
+c4MjQwOCwtMjA1NzMxODc0MywtODcyMzQ3NDEyLDM2MjY5OTQw
+OCwtMTUzNzc4OTgzMiwxMzAyNjkwMDg2LDI4ODg0MTc2NCwtMj
+EzNzkzNzg5MSwxNzczMjAwODYyLC02ODk2MTgxMzIsMTgzNjg1
+Nzg5OV19
 -->
