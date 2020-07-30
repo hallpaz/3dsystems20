@@ -50,7 +50,7 @@ Rendering our scene in Soft Rasterizer, we could see multiple artifacts in the r
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kyR1mGCghvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-After ajusting parameters
+After adjusting reducing the value of the parameter
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qj5rVMbyVHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -90,11 +90,11 @@ CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.
 
 ###### You may contact me at hallpaz@impa.br
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzgzMDY0MTEsLTI3OTc3MjM4NSw0Mj
-kzMzczNjMsMTkyNTI3NTAzNSwtNTg3MTk0NjM3LC03OTI4MDk4
-MjIsOTkyNjk1NDQ4LDM1NDc4NDI0MCwtMTc4NjM0ODc4OCwxNT
-E1NzgyNDA4LC0yMDU3MzE4NzQzLC04NzIzNDc0MTIsMzYyNjk5
-NDA4LC0xNTM3Nzg5ODMyLDEzMDI2OTAwODYsMjg4ODQxNzY0LC
-0yMTM3OTM3ODkxLDE3NzMyMDA4NjIsLTY4OTYxODEzMiwxODM2
-ODU3ODk5XX0=
+eyJoaXN0b3J5IjpbMTM2MTc4Mzc3NSwtMjc5NzcyMzg1LDQyOT
+MzNzM2MywxOTI1Mjc1MDM1LC01ODcxOTQ2MzcsLTc5MjgwOTgy
+Miw5OTI2OTU0NDgsMzU0Nzg0MjQwLC0xNzg2MzQ4Nzg4LDE1MT
+U3ODI0MDgsLTIwNTczMTg3NDMsLTg3MjM0NzQxMiwzNjI2OTk0
+MDgsLTE1Mzc3ODk4MzIsMTMwMjY5MDA4NiwyODg4NDE3NjQsLT
+IxMzc5Mzc4OTEsMTc3MzIwMDg2MiwtNjg5NjE4MTMyLDE4MzY4
+NTc4OTldfQ==
 -->
