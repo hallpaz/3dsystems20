@@ -4,6 +4,10 @@
 #### Hallison Paz, 1st year PhD student
 ---------
 
+<head>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+ </head>
+
 ## When AI renders a new Perspective in Graphics
 
 This project builds on the previous assignments of 3D modeling and scene visualization using PyTorch3D, one of the AI graphics platforms available for free. 
