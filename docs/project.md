@@ -24,13 +24,12 @@ Rendering, or more specifically differentiable rendering, looks like a good topi
 
 ### Differentiable Rendering
 
-Differentiable Rendering is not a technique but a whole field focused in rendering a 3D scene using a differentiable pipeline, which allows gradients to flow back and forth 3D objects and images. This is a great way to bridge computer graphics and computer vision problems and to train self supervised models. A good work to understand the idea behind this field is [4], which starts developing the idea from a very basic forward rendering or observation function **f(Θ)** and an optimization process as stated in [4]:
+Differentiable Rendering is not a technique but a whole field focused in rendering a 3D scene using a differentiable pipeline, which allows gradients to flow back and forth 3D objects and images. This is a great way to bridge computer graphics and computer vision problems and to train self supervised models. A good work to understand the idea behind this field is [4], which starts developing the idea from a very basic forward rendering or observation function $f(\theta)$ and an optimization process as stated in [4]:
 
 > We define an observation function **f(Θ)** as the forward rendering
 > process that depends on the parameters **Θ**. The simplest
 > optimization would solve for the parameters minimizing the difference
-> between the rendered and observed image intensities, **E(Θ) = ||f(Θ) −
-> I||^2**.
+> between the rendered and observed image intensities, $E(Θ) = ||f(\theta) − I||^2$.
 
 With a differentiable renderer, we could calculate derivatives of the pixel values with respect to the forward rendering parameters and use it to estimate object pose, calibrate camera parameters or even optimize illumination to match a target scene. These examples ara not exhaustive.
 
